@@ -1,7 +1,7 @@
 package com.alipay.aiml.loaders;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+//import org.slf4j.Logger;
+//import org.slf4j.LoggerFactory;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.xml.sax.SAXException;
@@ -22,7 +22,7 @@ import java.util.Map;
  * @author mujian
  */
 public class XmlLoader implements FileLoader<Element> {
-    private static final Logger LOG = LoggerFactory.getLogger(XmlLoader.class);
+//    private static final Logger LOG = LoggerFactory.getLogger(XmlLoader.class);
 
     @Override
     public Element load(File file) {
@@ -43,13 +43,13 @@ public class XmlLoader implements FileLoader<Element> {
         }
         if (doc == null) 
         {
-        	LOG.debug("返回为空");
+//        	LOG.debug("返回为空");
         	return null;
         }
 
         Element rootElement = doc.getDocumentElement();
         rootElement.normalize();//合并相邻的文本节点为一个文本节点
-        LOG.debug("root Element:"+rootElement);
+//        LOG.debug("root Element:"+rootElement);
         return rootElement;
     }
 
@@ -58,7 +58,7 @@ public class XmlLoader implements FileLoader<Element> {
         Map<String, Element> data = new HashMap<String, Element>();
         for (File file : files)
             data.put(file.getName(), load(file));
-        LOG.info("Loaded {} files", data.size());
+//        LOG.info("Loaded {} files", data.size());
         return data;
     }
 }

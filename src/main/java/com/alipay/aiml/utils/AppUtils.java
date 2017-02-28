@@ -16,8 +16,8 @@ import java.net.URLEncoder;
 import java.util.List;
 import java.util.Random;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+//import org.slf4j.Logger;
+//import org.slf4j.LoggerFactory;
 
 import com.alipay.aiml.App;
 
@@ -29,7 +29,7 @@ import com.alipay.aiml.App;
 public class AppUtils {
     private static Random random = new Random();
     
-    private static final Logger LOG = LoggerFactory.getLogger(AppUtils.class);
+//    private static final Logger LOG = LoggerFactory.getLogger(AppUtils.class);
     
     public static <E> E getRandom(List<E> collection) {
         return collection.get(random.nextInt(collection.size()));
@@ -51,7 +51,7 @@ public class AppUtils {
             System.out.println("nodeToString Transformer Exception");
         }
         
-        LOG.debug("transform dom to xml:"+sw);
+//        LOG.debug("transform dom to xml:"+sw);
         //去除xml文本的标签
         return sw.toString().replaceAll("(\r\n|\n\r|\r|\n)", " ").replaceAll("> ", ">")
                 .replaceFirst("<" + nodeName + ">", "").replaceFirst("</" + nodeName + ">", "");

@@ -2,8 +2,8 @@ package com.alipay.aiml.consts;
 
 import java.io.File;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+//import org.slf4j.Logger;
+//import org.slf4j.LoggerFactory;
 
 import com.alipay.aiml.App;
 
@@ -14,7 +14,7 @@ import com.alipay.aiml.App;
  */
 public class AimlConst {
 	
-	private static final Logger LOG = LoggerFactory.getLogger(AimlConst.class);
+//	private static final Logger LOG = LoggerFactory.getLogger(AimlConst.class);
 	
 
     private static String root_path = System.getProperty("user.dir") + File.separator + "bots";
@@ -29,8 +29,8 @@ public class AimlConst {
     public static boolean debug = false;
 
     public static String getRootPath() {
-    	LOG.debug("load aiml file info:");
-    	LOG.debug("root dir:"+System.getProperty("user.dir"));
+//    	LOG.debug("load aiml file info:");
+//    	LOG.debug("root dir:"+System.getProperty("user.dir"));
         return root_path;
     }
 

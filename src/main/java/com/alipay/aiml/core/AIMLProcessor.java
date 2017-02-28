@@ -18,8 +18,8 @@ import java.util.regex.MatchResult;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+//import org.slf4j.Logger;
+//import org.slf4j.LoggerFactory;
 
 /**
  * The core AIML parser and interpreter.
@@ -36,7 +36,7 @@ import org.slf4j.LoggerFactory;
  */
 public class AIMLProcessor {
 	
-	private static final Logger LOG = LoggerFactory.getLogger(AIMLProcessor.class);
+//	private static final Logger LOG = LoggerFactory.getLogger(AIMLProcessor.class);
 	
     private final List<AimlCategory> categories;
     private final Map<String, Map<String, AimlCategory>> topics;
@@ -75,7 +75,7 @@ public class AIMLProcessor {
     	this.curTopic = topic;
     	this.curThat = that;
     	this.curInput = request;
-    	LOG.debug("Topic:{} that:{} input:{}",topic, that, request);
+//    	LOG.debug("Topic:{} that:{} input:{}",topic, that, request);
         Set<String> patterns = patterns(topic);
         for (String pattern : patterns) {
         	TemplateMatchResult<Boolean,List<String>> mr = isMatching(request, pattern);
@@ -83,8 +83,8 @@ public class AIMLProcessor {
             {
             	//找到匹配的模式，尝试进行that 匹配
             	AimlCategory cate = category(topic, pattern);
-            	LOG.debug("Pattern匹配成功,进行That匹配: curThat"
-            			+ "{} vs template that:{}",that,cate.getThat());
+//            	LOG.debug("Pattern匹配成功,进行That匹配: curThat"
+//            			+ "{} vs template that:{}",that,cate.getThat());
             	//Category 的that 不为 default,则必须要求that也匹配
             	if (cate.getThat().equals(AimlConst.default_that)||
             			cate.getThat().equals(that))
@@ -108,8 +108,8 @@ public class AIMLProcessor {
             	if (cate.getThat().equals(AimlConst.default_that)||
             			cate.getThat().equals(that))
             	{
-	            	LOG.debug("Pattern匹配成功,That匹配成功: curThat"
-	            			+ "{} vs template that:{}",that,cate.getThat() );
+//	            	LOG.debug("Pattern匹配成功,That匹配成功: curThat"
+//	            			+ "{} vs template that:{}",that,cate.getThat() );
 	            	
 	            	//找到匹配的模式，设置当前的匹配内容
 	            	this.regxMatchContent = mr.matchCnt;
@@ -133,8 +133,8 @@ public class AIMLProcessor {
             category = category(AimlConst.default_topic, WildCard.OneMore.get());
         if (category == null)
         	return AimlConst.default_bot_response;
-        LOG.debug(String.format("find matched Pattern:%s",
-        		category.getPattern()));
+//        LOG.debug(String.format("find matched Pattern:%s",
+//        		category.getPattern()));
         //如果找到对应的category，根据实体识别的结果选择不同类型的模板进行返回
         Node template = category.getTemplate();//default的template
         TemplateType type = TemplateType.DEFAULT;//进行实体识别
@@ -144,7 +144,7 @@ public class AIMLProcessor {
             	type = TemplateType.valueOf(entities.get(i).toUpperCase(Locale.ENGLISH));
                 if(category.hasTemplateType(type.getName()))//根据实体识别的结果切换模板
                 {
-                	LOG.debug(String.format("实体识别切换模板类型：%s",type));
+//                	LOG.debug(String.format("实体识别切换模板类型：%s",type));
                 	template = category.getTemplate(type.getName());
                 	return getTemplateValue(template);
                 }
@@ -186,7 +186,7 @@ public class AIMLProcessor {
 
     //在这里获取匹配的内容
     private TemplateMatchResult<Boolean,List<String>> isMatching(String input, String pattern) {
-    	LOG.debug("-------------1-------------------");
+//    	LOG.debug("-------------1-------------------");
         input = input.trim();
         String regex_pattern = pattern.trim();
         //计算pattern里面有多少匹配内容(*和+)
@@ -205,8 +205,8 @@ public class AIMLProcessor {
         
         TemplateMatchResult<Boolean,List<String>> ret;
         
-        LOG.debug("regex_pattern:"+regex_pattern);
-        LOG.debug("input:"+input);
+//        LOG.debug("regex_pattern:"+regex_pattern);
+//        LOG.debug("input:"+input);
         
         if(!Pattern.matches(regex_pattern, input))
         	return new TemplateMatchResult<Boolean, List<String>>(Boolean.valueOf(false),matchCont);
@@ -218,11 +218,11 @@ public class AIMLProcessor {
         {//匹配后，开始获取匹配内容
         	for(int i=1;i<=cnt;i++)
         	{
-            	LOG.debug("pattern Match content:"+m.group(i));
+//            	LOG.debug("pattern Match content:"+m.group(i));
             	matchCont.add(m.group(i));	
         	}
         }
-        LOG.debug("-------------2-------------------");
+//        LOG.debug("-------------2-------------------");
         return new TemplateMatchResult<Boolean, List<String>>(Boolean.valueOf(true),matchCont);
     }
     
@@ -293,7 +293,7 @@ public class AIMLProcessor {
         	//只有当li标签的predicates中name属性对应的值和value值相等时，此
         	//li标签才返回值：<li name="city" value="北京"></li>
         	NamedNodeMap attrs = node.getAttributes();
-        	LOG.debug("<li> TAG attrs length:{}",attrs.getLength());
+//        	LOG.debug("<li> TAG attrs length:{}",attrs.getLength());
         	if(attrs.getLength()==0){//没有name和value属性，表明是默认返回的li
         		//default <li></li>for condition
         		return getTemplateValue(node);
@@ -303,8 +303,8 @@ public class AIMLProcessor {
                  Node value = attrs.getNamedItem("value");
                  if(name!=null&&value!=null){
                 	 String attr = predicates.get(name.getNodeValue());
-                	 LOG.debug("Tag <li> Attrs: name:{} predicate value:{}  value:{}",name.getNodeValue(),
-                			 attr, value.getNodeValue() );
+//                	 LOG.debug("Tag <li> Attrs: name:{} predicate value:{}  value:{}",name.getNodeValue(),
+//                			 attr, value.getNodeValue() );
                 	 if((attr==null && value.getNodeValue().isEmpty())||
                 	    (attr!=null&&attr.equals(value.getNodeValue()))){
                 		 return getTemplateValue(node);
@@ -383,7 +383,7 @@ public class AIMLProcessor {
             Node node1 = attributes.getNamedItem("name");
             String key = node1.getNodeValue();//属性
             String value = getTemplateValue(node);//值
-            LOG.debug("setParse save predicate:{}->{}",key,value);
+//            LOG.debug("setParse save predicate:{}->{}",key,value);
             predicates.put(key, value);
         }
     }
@@ -394,7 +394,7 @@ public class AIMLProcessor {
             Node node1 = attributes.getNamedItem("name");
             String key = node1.getNodeValue();
             String val = predicates.get(key);
-            LOG.debug("getParse predicate key:{} get value:{}",key,val);
+//            LOG.debug("getParse predicate key:{} get value:{}",key,val);
             return val!=null?val:"";
         }
         return "";
@@ -406,8 +406,8 @@ public class AIMLProcessor {
     	//update current topic if topic changes before srai
     	String updatedTopic = predicates.get("topic");
     	this.curTopic = updatedTopic != null?updatedTopic:curTopic;
-    	LOG.debug(String.format("重定向到pattern:%s topic：%s that:%s",
-    			val, this.curTopic, this.curThat));
+//    	LOG.debug(String.format("重定向到pattern:%s topic：%s that:%s",
+//    			val, this.curTopic, this.curThat));
     	
     	//将srai里面的内容重新进行匹配，获取对应的pattern
     	String pattern = this.match(val,this.curTopic, this.curThat);

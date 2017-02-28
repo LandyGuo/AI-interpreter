@@ -13,8 +13,8 @@ import com.alipay.aiml.consts.AimlConst;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+//import org.slf4j.Logger;
+//import org.slf4j.LoggerFactory;
 /**
  * Created by mujian on 22/06/15.
  *
@@ -22,7 +22,7 @@ import org.slf4j.LoggerFactory;
  */
 public class BotTest extends Assert {
     private AimlCharter charter;
-    private static final Logger LOG = LoggerFactory.getLogger(BotTest.class);
+//    private static final Logger LOG = LoggerFactory.getLogger(BotTest.class);
 
     @Before
     public void setUp() throws Exception {

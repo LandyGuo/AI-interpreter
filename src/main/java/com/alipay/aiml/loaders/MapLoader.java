@@ -2,8 +2,8 @@ package com.alipay.aiml.loaders;
 
 import com.alipay.aiml.entity.AimlMap;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+//import org.slf4j.Logger;
+//import org.slf4j.LoggerFactory;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -20,23 +20,23 @@ import java.util.Map;
  * @author mujian
  */
 public class MapLoader<T extends AimlMap> implements FileLoader<T> {
-    private static final Logger LOG = LoggerFactory.getLogger(MapLoader.class);
+//    private static final Logger LOG = LoggerFactory.getLogger(MapLoader.class);
 
     @Override
     public T load(File file) {
 
         if (file == null) {
-            LOG.error("File is null");
+//            LOG.error("File is null");
             return null;
         }
         if (!file.exists()) {
-            LOG.error("File {} is not exist", file.getAbsolutePath());
+//            LOG.error("File {} is not exist", file.getAbsolutePath());
             return null;
         }
 
         final AimlMap data = new AimlMap(file.getName(), loadFile(file));
 
-        LOG.info("Loaded {} records from {}", data.size(), file.getName());
+//        LOG.info("Loaded {} records from {}", data.size(), file.getName());
         return (T) data;
     }
 
@@ -45,7 +45,7 @@ public class MapLoader<T extends AimlMap> implements FileLoader<T> {
         Map<String, T> data = new HashMap<String, T>();
         for (File file : files)
             data.put(file.getName(), load(file));
-        LOG.info("Loaded {} files", data.size());
+//        LOG.info("Loaded {} files", data.size());
         return data;
     }
 

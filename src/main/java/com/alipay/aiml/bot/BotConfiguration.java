@@ -1,7 +1,7 @@
 package com.alipay.aiml.bot;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+//import org.slf4j.Logger;
+//import org.slf4j.LoggerFactory;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -14,7 +14,7 @@ import java.util.Properties;
  * @author mujian
  */
 public class BotConfiguration implements BotInfo {
-    private static final Logger LOG = LoggerFactory.getLogger(Bot.class);
+//    private static final Logger LOG = LoggerFactory.getLogger(Bot.class);
 
     private static final String PROPERTIES = "bot.properties";
 
@@ -98,7 +98,7 @@ public class BotConfiguration implements BotInfo {
 
     //��ȡbot.properties�ļ�����Ϊ��ֵ�Դ洢
     private Properties loadBotInfo(String path) {
-        LOG.debug("Load system config: " + path);
+//        LOG.debug("Load system config: " + path);
         Properties prop = new Properties();
         FileInputStream in = null;
         try{

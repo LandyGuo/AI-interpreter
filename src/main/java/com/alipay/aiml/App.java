@@ -17,14 +17,14 @@ import com.alipay.aiml.providers.Provider;
 import com.alipay.aiml.chat.AimlCharter;
 import com.alipay.aiml.input.Entity;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+//import org.slf4j.Logger;
+//import org.slf4j.LoggerFactory;
 
 /**
  * @author mujian*/
 public class App {
 	
-	private static final Logger LOG = LoggerFactory.getLogger(App.class);
+//	private static final Logger LOG = LoggerFactory.getLogger(App.class);
 	
     public static void main(String[] args) {
     	startChatClient();
@@ -62,9 +62,9 @@ public class App {
     	ChatState cs2 = manager.getState("lucy");
     	cs2.setTopic("abc");
     	ChatState lily = manager.getState("lucy");
-    	LOG.debug("ChatState Topic:{}",lily.topic());
+//    	LOG.debug("ChatState Topic:{}",lily.topic());
     	ChatState lucy = manager.getState("lily");
-    	LOG.debug("ChatState Topic:{}",lucy.topic());
+//    	LOG.debug("ChatState Topic:{}",lucy.topic());
     	
     }
        
