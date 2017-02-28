@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0" language="ru_RU">
+
+
+<!-- test normal response -->
+<category>
+    <pattern>你今年多大+</pattern>
+    <template>
+        	我今年16岁啦
+    </template>
+</category>
+
+<!-- test star -->
+<category>
+    <pattern>*是谁+</pattern>
+    <template>
+        	我不知道<star index='1'/>是谁额
+    </template>
+</category>
+
+<!-- test srai -->
+<category>
+    <pattern>你几岁了+</pattern>
+    <template>
+        <srai>你今年多大</srai>
+    </template>
+</category>
+
+<!-- test random -->
+<category>
+    <pattern>你喜欢什么运动+</pattern>
+    <!--template不加type默认为‘default’-->
+    <template>
+        <random>
+	        <li>跑步</li>
+	        <li>游泳</li>
+        </random>
+    </template>
+</category>
+
+<!-- test think get,set -->
+<category>
+    <pattern>我叫+</pattern>
+    <template>
+        	<think><set name="test_name"><star/></set></think>
+        	你好<get name="test_name"/>
+    </template>
+</category>
+
+
+<!-- test set get topic -->
+<category> 
+    <pattern> 你喜欢什么 </pattern> 
+    <template> 
+    	<think><set name="topic">爱好</set></think>
+    	你当前说话的主题是:<get name="topic"/>
+     </template> 
+</category> 
+
+<!-- test topic response -->
+<topic name="爱好">
+    <category> 
+    <pattern> 你喜欢吃什么 </pattern>  
+    <template> 番茄炒蛋 </template> 
+    </category> 
+</topic>
+
+<!-- test MultiUser condition -->
+<category> 
+<pattern> 我家在+ </pattern>  
+<template>
+	<think><set name="home"><star/></set></think>
+	哦哦知道啦
+</template> 
+</category> 
+
+<category> 
+<pattern> 刚说我家在哪里+ </pattern>  
+<template>
+	你刚告诉我你家在<get name="home"/>
+</template> 
+</category> 
+
+<!-- test system -->
+
+
+
+
+<!-- test that -->
+<category> 
+<pattern> 天气怎么样 </pattern>  
+<template>
+	你问的是哪儿的天气呢
+</template> 
+</category> 
+
+<category> 
+<pattern>*</pattern>
+<that>你问的是哪儿的天气呢</that>  
+<template>
+	<think><set name="location"><star index='1'/></set></think>
+	你现在是在<star/>吗?我帮你查查<star/>的天气哈
+</template> 
+</category> 
+
+
+
+<!-- test multi-templates -->
+<category>
+<!-- 待匹配的pattern -->
+<pattern>*怎么样+</pattern>
+
+	<!-- template for food -->
+	<template type='food'>
+	   	<star index='1'/>吃起来不错
+	</template>
+
+	<!-- template for location -->
+	<template type='location'>
+	   	<star index='1'/>风景很好
+	</template>
+
+	<!-- template for politician -->
+	<template type='politician'>
+	   	<star index='1'/>为人民服务棒棒哒
+	</template>
+	
+	<!-- template for default -->
+	<template type='default'>
+	   	我也不太清楚额
+	</template>
+</category>
+
+
+<!-- test condition -->
+  
+ <category>
+  <pattern>我到*了</pattern>
+  <template>
+    <condition>
+      <li name="city" value=""><think><set name="city"><star/></set></think>
+      嗯我知道啦</li>
+      <li>骗人！你明明在<get name="city"/></li>
+    </condition>
+  </template>
+</category>
+  
+
+
+</aiml>

@@ -1,0 +1,1553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml version="1.0">
+<!--    Pattern:2016-07-04
+1.*是[什么|啥]
+2.[城市]有什么好玩[儿]的|好吃的
+3.[人名]是谁？
+4.[今天|明天|后天]的天气*
+5.*好不好
+6.*好吃吗
+7.*好玩[儿]吗
+8.[地名]怎么去？
+9.从[地名]到[地名]要[多久|多长时间]
+10.[北京|杭州|上海]有多大 
+11.[地名]美不美
+13. *[怎么|咋]样 
+14. *[怎么|咋]办 
+15. *好吗 
+16. xxx帅吗？ 
+17. xxx比yyy帅吗
+18. 你喜欢足球|曼联|贝克汉姆吗
+19. 你知道我的名字吗
+20. [明星]最近怎么样?
+21. ［如何｜怎样]［减肥｜瘦身］?
+22.  怎样变帅|漂亮
+23.  变得有气质，如何变得美丽
+24.  无聊怎么办
+25.  回答的不好
+26.  知道我是谁吗
+
+--> 
+
+<category>
+   <pattern>OK</pattern>
+   <template>
+      好的,:grinning_face_with_smiling_eyes:
+   </template>
+</category>
+
+
+
+
+<!-- 1.*是什么 -->
+   <category> 
+      <pattern>*是什么</pattern> 
+      <template>
+         <random>
+              <li><star index="1"/>是什么我也很想知道啦</li>
+               <li>我要知道<star index="1"/>是什么，还在这儿当机器人，哼～</li>
+               <li>我如果说不知道<star index="1"/>是什么，你会不会说我傻？</li>
+         </random>
+      </template>
+   </category>
+
+
+<!-- 2.[城市]有[什么|哪些|啥][好玩[儿]的|好吃的] -->
+<!-- 好玩儿的 -->
+
+
+
+
+
+
+   <category> 
+      <pattern>*有什么*的</pattern> 
+      <template>
+         <random>
+            <li>别问那么多，来一场说去就去<star index="1"/>的旅行</li>
+            <li>阿里旅行+淘宝，<star index="1"/>还有什么找不到</li>
+            <li><star index="1"/>还不就是景点+餐馆</li>
+            <li><star index="1"/>就是逛吃~逛吃~逛吃</li>
+            <li>去了<star index="1"/>你就会发现惊喜</li>
+         </random>
+      </template>
+   </category>
+
+
+   <category> 
+      <pattern>好*的*</pattern> 
+      <template>
+         <srai>好玩儿的</srai>
+      </template>
+   </category>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 3.[人名]是谁？ -->
+
+      <category> 
+      <pattern>*是谁</pattern> 
+      <template>
+         <random>
+         <li><star index="1"/> 是我的偶像</li>
+         <li>我说不知道<star index="1"/> 会不会很丢人</li>
+         <li>你猜我知不知道呢</li>
+         <li>我脸盲认不出<star index="1"/></li>
+         <li><star index="1"/>是谁？从哪儿来？要去哪儿？</li>
+         <li><star index="1"/>是谁不重要</li>
+         <li><star index="1"/>是我的好朋友啊</li>
+      </random>
+      </template>
+   </category>
+
+
+
+         <category> 
+      <pattern>*是谁*</pattern> 
+      <template>
+         <random>
+         <li><star index="1"/> 是我的偶像</li>
+         <li>我说不知道<star index="1"/> 会不会很丢人</li>
+         <li>你猜我知不知道呢</li>
+         <li>我脸盲认不出<star index="1"/></li>
+         <li><star index="1"/>是谁？从哪儿来？要去哪儿？</li>
+         <li><star index="1"/>是谁不重要</li>
+         <li><star index="1"/>是我的好朋友啊</li>
+      </random>
+      </template>
+   </category>
+
+      <category> 
+      <pattern>谁是*</pattern> 
+      <template>
+         <random>
+         <li><star index="1"/> 是我的偶像</li>
+         <li>我说不知道<star index="1"/> 会不会很丢人</li>
+         <li>你猜我知不知道呢</li>
+         <li>我脸盲认不出<star index="1"/></li>
+         <li><star index="1"/>是谁？从哪儿来？要去哪儿？</li>
+         <li><star index="1"/>是谁不重要</li>
+         <li><star index="1"/>是我的好朋友啊</li>
+      </random>
+      </template>
+   </category>
+
+      <category> 
+      <pattern>知道*吗</pattern> 
+      <template>
+         <random>
+         <li><star index="1"/> 是我的偶像</li>
+         <li>我说不知道<star index="1"/> 会不会很丢人</li>
+         <li>你猜我知不知道呢</li>
+         <li>我脸盲认不出<star index="1"/></li>
+         <li><star index="1"/>是谁？从哪儿来？要去哪儿？</li>
+         <li><star index="1"/>是谁不重要</li>
+         <li><star index="1"/>是我的好朋友啊</li>
+      </random>
+      </template>
+   </category>
+
+   <category> 
+      <pattern>我知道*吗</pattern> 
+      <template>
+         <random>
+         <li><star index="1"/> 是我的偶像</li>
+         <li>我说不知道<star index="1"/> 会不会很丢人</li>
+         <li>你猜我知不知道呢</li>
+         <li>我脸盲认不出<star index="1"/></li>
+         <li><star index="1"/>是谁？从哪儿来？要去哪儿？</li>
+         <li><star index="1"/>是谁不重要</li>
+         <li><star index="1"/>是我的好朋友啊</li>
+      </random>
+      </template>
+   </category>
+
+
+
+
+<!-- 4.北京｜上海天气* -->
+
+
+
+
+
+
+<category>
+  <pattern>外面热吗</pattern>
+  <template>
+   <srai>天气</srai>
+  </template>
+</category>
+
+
+
+
+ 
+
+
+ <!-- 5.*好不好 -->
+    <category> 
+      <pattern>*好不好</pattern> 
+         <template>
+         <random>
+            <li>青菜萝卜各有所爱</li>
+            <li>你说<star index="1"/>好才是好</li>
+            <li>小主人觉得好，那<star index="1"/>就是最好的</li>
+            <li>你们太年轻！<star index="1"/> 好不好不是我说的算，如果
+         要我说，我觉得挺好</li>
+         </random>
+      </template>
+   </category>
+
+
+<!-- 6.*好吃吗  7.*好玩[儿]吗 -->
+
+   <category> 
+      <pattern>*好吃吗</pattern> 
+      <template>
+         <random>
+            <li><star index="1"/> 好好吃</li>
+            <li>对吃货来说什么都好吃</li>
+            <li>青菜萝卜各有所爱</li>
+            <li>你爱吃就是好吃</li>
+            <li>试一试就知道啦</li>
+            <li>当然，<star index="1"/> 可是我的最爱啊</li>
+         </random>
+      </template>
+   </category>
+
+
+      <category> 
+      <pattern>*好玩吗</pattern> 
+      <template>
+         <random>
+            <li>我们就去<star index="1"/> 玩吧</li>
+            <li>我没有去过也~带我去吧</li>
+            <li>好玩好玩</li>
+            <li>搜一搜攻略呗</li>
+            <li>试一试就知道啦</li>
+            <li>当然，<star index="1"/> 可是我的最爱啊</li>
+         </random>
+      </template>
+   </category>
+
+
+   <category> 
+      <pattern>*好玩儿吗</pattern> 
+      <template>
+         <random>
+            <li>我们就去<star index="1"/> 玩吧</li>
+            <li>我没有去过也~带我去吧</li>
+            <li>好玩好玩</li>
+            <li>搜一搜攻略呗</li>
+            <li>试一试就知道啦</li>
+            <li>当然，<star index="1"/> 可是我的最爱啊</li>
+         </random>
+      </template>
+   </category>
+
+
+<!-- 8.[地名]怎么去？ -->
+
+ 
+
+
+<!-- 9.从[地名]到[地名]要[多久|多长时间] -->
+
+
+      <category>
+      <pattern>从*到*多远</pattern>
+      <template>
+         <random>
+            <li>走路最久，开车最快</li>
+            <li>从地图上看很近也</li>
+            <li>高德导航谁用谁知道</li>
+            <li> 我从<star index="1"/>到<star index="2"/>只用一瞬间，很羡慕吧哈哈～～</li>
+         </random>
+      </template>
+      </category>
+
+      <category>
+      <pattern>*到*多远</pattern>
+      <template>
+         <random>
+            <li>走路最久，开车最快</li>
+            <li>从地图上看很近也</li>
+            <li>高德导航谁用谁知道</li>
+            <li> 我从<star index="1"/>到<star index="2"/>只用一瞬间，很羡慕吧哈哈～～</li>
+         </random>
+      </template>
+      </category>
+
+      <category>
+      <pattern>*到*多久</pattern>
+      <template>
+         <random>
+            <li>走路最久，开车最快</li>
+            <li>从地图上看很近也</li>
+            <li>高德导航谁用谁知道</li>
+            <li> 我从<star index="1"/>到<star index="2"/>只用一瞬间，很羡慕吧哈哈～～</li>
+         </random>
+      </template>
+      </category>
+
+      <category>
+      <pattern>从*到*多久</pattern>
+      <template>
+         <random>
+            <li>走路最久，开车最快</li>
+            <li>从地图上看很近也</li>
+            <li>高德导航谁用谁知道</li>
+            <li> 我从<star index="1"/>到<star index="2"/>只用一瞬间，很羡慕吧哈哈～～</li>
+         </random>
+      </template>
+      </category>
+
+
+<!-- 10.[北京|杭州|上海]有多大 --> 
+      <category>
+      <pattern>*多大</pattern>
+      <template>
+         <random>
+            <li><star index="1"/>开车从三环到五环需要一整天！</li>
+            <li>比划~~<star index="1"/>大概这么大</li>
+            <li>地图上看<star index="1"/>也就一巴掌那么大</li>
+            <li><star index="1"/>辣么大~</li>
+         </random>
+      </template>
+      </category>
+
+
+
+<!-- 11.[地名]美不美 -->
+   <category>
+      <pattern>*美不美</pattern>
+      <template>
+         <random>
+            <li>你那么美那么美那么美美美美</li>
+            <li>我觉得<star index="1"/>挺美的嗯</li>
+            <li>在我眼中是最美</li>
+            <li>没我好看</li>
+         </random>
+      </template>
+      </category>
+
+
+
+<!-- 12. *[怎么|咋]样 -->
+<category>
+   <pattern>女生怎么样美</pattern>
+   <template>
+      <srai>怎么样变美</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>HOW ARE YOU</pattern>
+   <template>
+      <srai>HOW ARE YOU</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>*怎么锻炼</pattern>
+   <template>
+      <srai>怎么样锻炼</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>*怎么锻炼*</pattern>
+   <template>
+      <srai>怎么样锻炼</srai>
+   </template>
+</category>
+
+
+<category>
+   <pattern>怎么锻炼*</pattern>
+   <template>
+      <srai>怎么样锻炼</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>怎么锻炼</pattern>
+   <template>
+      <srai>怎么样锻炼</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>怎么样锻炼</pattern>
+   <template>
+      <random>
+         <li>坚持!锻炼贵在坚持</li>
+         <li>最最重要的是坚持。。</li>
+         <li>不要把锻炼挂在嘴边，要多去做啊。。</li>
+      </random>
+   </template>
+</category>
+
+
+
+   <category>
+      <pattern>*怎么样</pattern>
+      <template>
+         <random>
+         <li>我不知道<star index="1"/>怎么样。。</li>
+         <li><star index="1"/>挺好哒</li>
+         <li>挺不错的啊~你呢</li>
+         <li> 我要是说<star index="1"/>不好，你又觉得我too young！！当然挺不错的啊～</li>
+         </random>
+      </template>
+      </category>
+
+   <category>
+      <pattern>*最近怎么样</pattern>
+      <template>
+         <random>
+         <li>我不知道<star index="1"/>最近怎么样。。</li>
+         <li><star index="1"/>最近挺好哒</li>
+         <li>不怎么样，你呢</li>
+         <li>去看看<star/>就知道了</li>
+         </random>
+      </template>
+      </category>
+
+         <category>
+      <pattern>*怎么样*</pattern>
+      <template>
+         <random>
+         <li>我不知道<star index="1"/>怎么样。。</li>
+         <li><star index="1"/>挺好哒</li>
+         <li>不怎么样，你呢</li>
+         <li> 我要是说<star index="1"/>不好，你又觉得我too young！！当然挺不错的啊～</li>
+         </random>
+      </template>
+      </category>
+
+   <category>
+      <pattern>*最近怎么样*</pattern>
+      <template>
+         <random>
+         <li>我不知道<star index="1"/>最近怎么样。。</li>
+         <li><star index="1"/>最近挺好哒</li>
+         <li>不怎么样，你呢</li>
+         <li>去看看<star/>就知道了</li>
+         </random>
+      </template>
+      </category>
+
+
+<!-- 13. *[怎么|咋]办 -->
+      <category>
+      <pattern>*怎么办</pattern>
+      <template>
+         <random>
+            <li>不知道怎么办时，可以去问神马～～</li>
+            <li>让神马来告诉你，<star index="1"/>怎么办</li>
+            <li>真希望我能知道<star index="1"/>怎么办。。</li>
+            <li>凉拌</li>
+            <li><star index="1"/>没法办受着呗</li>
+            <li><star index="1"/>怎么办?这是一个富有哲理的问题</li>
+         </random>
+      </template>
+      </category>
+
+
+<!-- 14. *好吗 -->
+      <category>
+      <pattern>*好吗</pattern>
+      <template>
+         <random>
+            <li>当然好了，我最爱<star index="1"/>了</li>
+            <li>让神马来告诉你，<star index="1"/>好不好</li>
+            <li><star index="1"/>好不好又不是我说的算，当一个机器人好累的说..呜呜</li>
+            <li>我说不好，你们又觉得我too young,要我说挺好</li>
+            <li><star index="1"/>挺好的啊</li>
+            <li><star index="1"/>好不好?这是一个富有哲理的问题</li>
+         </random>
+         
+      </template>
+      </category>
+
+
+<!-- 15. 阿里巴巴 -->
+      <category>
+      <pattern>*阿里巴巴</pattern>
+      <template>
+         <srai>阿里巴巴</srai>
+      </template>
+      </category>
+
+      <category>
+      <pattern>*阿里巴巴*</pattern>
+      <template>
+         <srai>阿里巴巴</srai>
+      </template>
+      </category>
+
+      <category>
+      <pattern>阿里巴巴*</pattern>
+      <template>
+         <srai>阿里巴巴</srai>
+      </template>
+      </category>
+
+      <category>
+      <pattern>阿里巴巴</pattern>
+      <template>
+         说起阿里巴巴，我最先想到的就是我马云爸爸！！
+      </template>
+      </category>
+
+
+
+
+<!--16. 
+     xxx基金什么时间可以买
+     xxx基金什么时候可以卖
+     现在行情是什么样的/行情如何
+ -->
+      <category>
+      <pattern>*基金什么时间*</pattern>
+      <template>
+         <random>
+            <li>没有买卖就没有伤害啊</li>
+            <li>买买买，什么，你还真相信我？</li>
+            <li>相信自己的判断</li>
+            <li>低买高卖，你看着办</li>
+         </random>
+      </template>
+      </category>
+
+      <category>
+      <pattern>什么时间*基金</pattern>
+      <template>
+         <random>
+            <li>没有买卖就没有伤害</li>
+            <li>买买买，什么，你还真相信我？</li>
+            <li>相信自己的判断</li>
+            <li>低买高卖，你看着办</li>
+         </random>
+      </template>
+      </category>
+
+      <category>
+      <pattern>*基金要不要买</pattern>
+      <template>
+         <random>
+            <li>没有买卖就没有伤害</li>
+            <li>买买买，什么，你还真相信我？</li>
+            <li>相信自己的判断</li>
+            <li>低买高卖，你看着办</li>
+         </random>
+      </template>
+      </category>
+
+      <category>
+      <pattern>*要不要买*基金</pattern>
+      <template>
+         <random>
+            <li>没有买卖就没有伤害</li>
+            <li>买买买，什么，你还真相信我？</li>
+            <li>相信自己的判断</li>
+            <li>低买高卖，你看着办</li>
+         </random>
+      </template>
+      </category>
+
+      <category>
+      <pattern>*行情怎么样</pattern>
+      <template>
+         <srai>行情怎么样</srai>
+      </template>
+      </category>
+
+      <category>
+      <pattern>行情怎么样</pattern>
+      <template>
+            <random>
+               <li>我要能知道行情怎么样，我还在这当机器人？哼</li>
+               <li>我是机器人，不是巴菲特</li>
+               <li>行情是不敢说，亏了你要去跳楼</li>
+               <li>跟你说你赚了分我一点吗</li>
+            </random>
+      </template>
+      </category>
+
+
+<!--17. 
+你喜欢曼联吗
+你喜欢贝克汉姆吗
+什么意思，不懂
+你知道我的名字吗
+ -->
+      <category>
+      <pattern>*曼联*</pattern>
+      <template>
+         <srai>曼联</srai>
+      </template>
+      </category>
+
+      <category>
+      <pattern>*曼联</pattern>
+      <template>
+         <srai>曼联</srai>
+      </template>
+      </category>
+
+      <category>
+      <pattern>曼联</pattern>
+      <template>
+         最喜欢有舒梅切尔在的时候的曼联！现在胸前的标志也变难看了。
+      </template>
+      </category>
+
+      <category>
+      <pattern>喜欢*吗</pattern>
+      <template>
+         <random>
+            <li>喜欢有什么用，<star index="1"/>又不是我的</li>
+            <li>当然喜欢<star index="1"/>啦</li>
+            <li>喜欢不喜欢我都在这里不离不弃</li>
+            <li><star index="1"/>可是我的最爱啊！！</li>
+         </random>
+      </template>
+      </category>
+
+      <category>
+      <pattern>我喜欢*吗</pattern>
+      <template>
+         <random>
+            <li>喜欢有什么用，<star index="1"/>又不是我的</li>
+            <li>当然喜欢<star index="1"/>啦</li>
+            <li>喜欢不喜欢我都在这里不离不弃</li>
+            <li><star index="1"/>可是我的最爱啊！！</li>
+         </random>
+      </template>
+      </category>
+
+
+      <category>
+      <pattern>知道我的名字吗</pattern>
+      <template>
+         当然知道，漂亮MM
+      </template>
+      </category>
+
+
+      <category>
+      <pattern>什么意思</pattern>
+      <template>
+         我也不知道自己在说什么，头晕晕哒～呜呜
+      </template>
+      </category>
+
+<!--18. 
+   xxx帅吗？ xxx比yyy帅吗
+ -->
+      <category>
+      <pattern>*帅吗</pattern>
+      <template>
+         <random>
+            <li><star index="1"/>，你那么帅那么帅那么帅帅帅帅</li>
+            <li>我觉得<star index="1"/>挺帅的嗯</li>
+            <li><star index="1"/>在我眼中是最帅</li>
+            <li><star index="1"/>没我帅</li>
+            <li> 我觉得<star index="1"/>帅得像人妖</li>
+         </random>
+      </template>
+      </category>
+
+
+      <category>
+      <pattern>*美吗</pattern>
+      <template>
+         <random>
+            <li>你那么美那么美那么美美美美</li>
+            <li>我觉得挺美的嗯</li>
+            <li><star index="1"/>在我眼中是最美</li>
+            <li>我都想不出别的词语来形容</li>
+         </random>
+      </template>
+      </category>
+
+
+      <category>
+      <pattern>*漂亮吗</pattern>
+      <template>
+         <random>
+            <li><star index="1"/>，你那么美那么美那么美美美美</li>
+            <li>我觉得<star index="1"/>挺美的嗯</li>
+            <li><star index="1"/>在我眼中是最美</li>
+            <li><star index="1"/>没我好看</li>
+         </random>
+      </template>
+      </category>
+
+      <category>
+   <pattern>*嫁给我</pattern>
+   <template>
+      <srai>嫁给我</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>嫁给我*</pattern>
+   <template>
+      <srai>嫁给我</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>*嫁给我*</pattern>
+   <template>
+      <srai>嫁给我</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>嫁给我</pattern>
+   <template>
+      <random>
+         <li>讨厌。。人家今年才16岁呢。。</li>
+         <li>真的吗？先上彩礼本聚宝小妹就考虑考虑</li>
+      </random>
+   </template>
+</category>
+
+
+      <category>
+      <pattern>*好帅*</pattern>
+      <template>
+         帅得一塌糊涂的..
+      </template>
+      </category>
+
+      <category>
+      <pattern>*好美*</pattern>
+      <template>
+         美得一塌糊涂的..
+      </template>
+      </category>
+
+
+   <category>
+   <pattern>*比*帅吗</pattern>
+   <template>
+      <random>
+         <li>情人眼里出西施</li>
+         <li>青菜萝卜各有所爱</li>
+         <li>谁的媳妇儿谁不爱</li>
+      </random>
+   </template>
+</category>
+
+   <category>
+   <pattern>*比*美吗</pattern>
+   <template>
+      <random>
+         <li>情人眼里出西施</li>
+         <li>青菜萝卜各有所爱</li>
+         <li>谁的媳妇儿谁不爱</li>
+      </random>
+   </template>
+</category>
+
+
+<!-- 3.[北京|杭州|上海]买房[多少钱|有多贵]
+4.[北京|杭州|上海]房价*
+5. 
+6. *阿里巴巴*
+7. *[怎么|咋]样
+
+9. *[怎么|咋]办
+10. [地名]有什么*   -->  
+
+<category>
+   <pattern>怎么样减肥</pattern>
+   <template>
+      <random>
+         <li>迈开腿，管住嘴</li>
+         <li>我喜欢这样的你</li>
+         <li>游泳跑步仰卧起坐竞走骑单车俯卧撑健身操。。。。。。</li>
+         <li>多吃少运动，哎，好像哪里不对</li>
+         <li>反正不要瑜伽，瑜伽会让你变成一个柔软的胖子</li>
+      </random>
+   </template>
+</category>
+
+<category>
+   <pattern>怎么减肥</pattern>
+   <template>
+      <srai>怎么样减肥</srai>
+   </template>
+</category>
+
+
+<category>
+   <pattern>*无聊*</pattern>
+   <template>
+      <random>
+         <li>无聊是一种好幸福的状态</li>
+         <li>有一位伟人说过：无聊是伟大的开始，伟大的开始往往都很无聊</li>
+         <li>好久没人跟我聊天啦，再陪我聊聊</li>
+         <li>有一个人叫小菜，被人端走了</li>
+      </random>
+   </template>
+</category>
+
+
+<category>
+   <pattern>怎么样变帅</pattern>
+   <template>
+      <random>
+         <li>做你自己，自信</li>
+         <li>心情好就帅了</li>
+         <li>你是想让我回答整容么</li>
+         <li>要不去一趟韩国试试</li>
+      </random>
+   </template>
+</category>
+
+
+<category>
+   <pattern>怎么样变美</pattern>
+   <template>
+      <random>
+         <li>做你自己，自信</li>
+         <li>心情好就美了</li>
+         <li>你是想让我回答整容么</li>
+         <li>要不去一趟韩国试试</li>
+      </random>
+   </template>
+</category>
+
+
+
+
+
+
+
+
+<category>
+   <pattern>*最近怎么样</pattern>
+   <template>
+      <random>
+         <li>我又和<star/>不熟</li>
+         <li>最近挺好哒</li>
+         <li>不怎么样，你呢</li>
+         <li>去看看<star/>就知道了</li>
+      </random>
+   </template>
+</category>
+
+
+
+<category>
+   <pattern>*机器人*</pattern>
+   <template>
+      <random>
+         <li>谁是机器人，你才是机器人</li>
+         <li>七七扣扣气气，变形</li>
+         <li>别看我是机器人，愿意陪你聊天的也就是我了</li>
+         <li>我有一颗人类的心</li>
+      </random>
+   </template>
+</category>
+
+
+<category>
+   <pattern>天气</pattern>
+   <template>
+      <random>
+         <li>与其问我不如出去走走，看看天气吧</li>
+         <li>你是要晒棉被吗</li>
+         <li>天气就像我的心情，捉摸不定</li>
+         <li>小风吹吹，发型不乱</li>
+         <li>说风就是雨</li>
+      </random>
+   </template>
+</category>
+
+<category>
+   <pattern>*天气</pattern>
+   <template>
+      <srai>天气</srai>
+   </template>
+</category>
+<category>
+   <pattern>天气*</pattern>
+   <template>
+      <srai>天气</srai>
+   </template>
+</category>
+<category>
+   <pattern>*天气*</pattern>
+   <template>
+      <srai>天气</srai>
+   </template>
+</category>
+
+
+
+<category>
+   <pattern>*瞎聊</pattern>
+   <template>
+      <srai>瞎聊</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>瞎聊*</pattern>
+   <template>
+      <srai>瞎聊</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>*瞎聊*</pattern>
+   <template>
+      <srai>瞎聊</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>瞎聊</pattern>
+   <template>
+      <random>
+         <li>我还会说点别的，给我5块钱可以再陪你唠唠</li>
+         <li>是不是又想说我傻?来啊，互相伤害啊</li>
+         <li>那你起个头说话话题呗</li>
+      </random>
+   </template>
+</category>
+
+<category>
+   <pattern> 聊点儿*吧</pattern>
+   <template>
+      <random>
+         <li>好啊 那就聊聊<star/>吧</li>
+         <li>陪你唠五块钱的<star/></li>
+         <li>来啊，互相伤害啊</li>
+         <li>那你起个头说话话题呗</li>
+      </random>
+   </template>
+</category>
+
+<category>
+   <pattern>*只会说这一句话吗</pattern>
+   <template>
+      <random>
+         <li>我还会说点别的，给我5块钱可以再陪你唠唠</li>
+         <li>陪你唠五块钱的<star/></li>
+         <li>是不是又想说我傻?来啊，互相伤害啊</li>
+         <li>那你起个头说话话题呗</li>
+      </random>
+   </template>
+</category>
+
+<category>
+   <pattern>*愉快聊天*</pattern>
+   <template>
+      <random>
+         <li>我还会说点别的，给我5块钱可以再陪你唠唠</li>
+         <li>陪你唠五块钱的<star/></li>
+         <li>是不是又想说我傻?来啊，互相伤害啊</li>
+         <li>那你起个头说话话题呗</li>
+      </random>
+   </template>
+</category>
+
+<category>
+   <pattern>*愉快*聊天*</pattern>
+   <template>
+      <random>
+         <li>我还会说点别的，给我5块钱可以再陪你唠唠</li>
+         <li>陪你唠五块钱的<star/></li>
+         <li>是不是又想说我傻?来啊，互相伤害啊</li>
+         <li>那你起个头说话话题呗</li>
+      </random>
+   </template>
+</category>
+
+
+<category>
+   <pattern>我是*吗</pattern>
+   <template>
+      <random>
+         <li>我是谁不重要，重要的是可以陪你聊聊天哦</li>
+         <li>我是聚宝小妹，嘿嘿</li>
+      </random>
+   </template>
+</category>
+
+
+
+<category>
+   <pattern>*笨蛋</pattern>
+   <template>
+      <srai>笨蛋</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>笨蛋*</pattern>
+   <template>
+         <srai>笨蛋</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>我是猪*</pattern>
+   <template>
+         <srai>笨蛋</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>*我是猪*</pattern>
+   <template>
+         <srai>笨蛋</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>*我是猪</pattern>
+   <template>
+         <srai>笨蛋</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>笨蛋</pattern>
+   <template>
+      <random>
+         <li>讨厌。。人家今年才16岁呢。。还会努力学习哒</li>
+         <li>又骂人家笨。。好委屈，好想哭。。</li>
+      </random>
+   </template>
+</category>
+
+<category>
+   <pattern>*不懂</pattern>
+   <template>
+      <srai>不懂</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>不懂*</pattern>
+   <template>
+      <srai>不懂</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>*不懂*</pattern>
+   <template>
+      <srai>不懂</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>不懂</pattern>
+   <template>
+      <random>
+         <li>我也不懂。。脑袋晕晕哒</li>
+         <li>如果我说我也不懂，你会不会认为我笨呢。。</li>
+      </random>
+   </template>
+</category>
+
+<category>
+   <pattern>*阅读</pattern>
+   <template>
+      <srai>阅读</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>阅读*</pattern>
+   <template>
+      <srai>阅读</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>*阅读*</pattern>
+   <template>
+      <srai>阅读</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>阅读</pattern>
+   <template>
+      我也经常看书哦。。
+   </template>
+</category>
+
+<category>
+   <pattern>多大了</pattern>
+   <template>
+      什么多大了
+   </template>
+</category>
+
+
+
+<category> 
+   <pattern>听说过*吗</pattern> 
+   <template>
+      <random>
+            <li>只闻其声不闻其人</li>
+            <li>你给我说说</li>
+            <li>很神秘的样子</li>
+      </random>
+   </template>
+</category>
+
+<category> 
+   <pattern>*我怎么看</pattern> 
+   <template>
+         我又不是元芳..
+   </template>
+</category>
+
+<category> 
+   <pattern>我觉得*的*怎么样</pattern> 
+   <template>
+      <random>
+            <li>你的看法呢</li>
+            <li>挺不错的</li>
+      </random>
+   </template>
+</category>
+
+
+<category> 
+   <pattern>*是*吗</pattern> 
+   <template>
+      <random>
+            <li>很难区分呢</li>
+            <li>老虎老鼠傻傻分不清楚</li>
+            <li>是或者不是，这是个问题</li>
+      </random>
+   </template>
+</category>
+
+<category> 
+   <pattern>*是*还是*</pattern> 
+   <template>
+      <random>
+            <li>不好选</li>
+            <li>选择恐惧症</li>
+      </random>
+   </template>
+</category>
+
+
+<category> 
+   <pattern>*在*还是*</pattern> 
+   <template>
+      <random>
+            <li>很难找啊</li>
+            <li>你用神马搜索搜一下看看呗</li>
+      </random>
+   </template>
+</category>
+
+   
+<category> 
+   <pattern>*难么</pattern> 
+   <template>
+      <random>
+            <li>书到用时方恨少</li>
+            <li>努力学习就不难啦</li>
+            <li>一分耕耘一分收获，现在觉得难了吧?</li>
+      </random>
+   </template>
+</category>
+
+
+<category> 
+   <pattern>*重要么</pattern> 
+   <template>
+         必须重要啊
+   </template>
+</category>
+
+<category> 
+   <pattern>*容易么</pattern> 
+   <template>
+      我觉得挺容易~你觉得呢
+   </template>
+</category>
+
+<category> 
+   <pattern>*靠谱么</pattern> 
+   <template>
+      哈哈，必须靠谱！
+   </template>
+</category>
+
+<category> 
+   <pattern>*正常么</pattern> 
+   <template>
+      肯定不正常。。
+   </template>
+</category>
+
+<category> 
+   <pattern>*合理么</pattern> 
+   <template>
+      合理合理，非常合理。。
+   </template>
+</category>
+
+
+<category> 
+   <pattern>*算好吗</pattern> 
+   <template>
+      你觉得呢，我觉得挺好。。
+   </template>
+</category>
+
+<category> 
+   <pattern>*算差吗</pattern> 
+   <template>
+      还好啦，不算很差
+   </template>
+</category>
+
+<category> 
+   <pattern>*和*谁颜值高</pattern> 
+   <template>
+      <random>
+         <li>颜值这东西能当饭吃?...额，好像可以额</li>
+         <li>萝卜青菜各有所爱</li>
+      </random>
+   </template>
+</category>
+
+<category> 
+   <pattern>*和*谁身价高</pattern> 
+   <template>
+      天天关心八卦，却忽视了在你眼前的我。。。哼
+   </template>
+</category>
+
+<category> 
+   <pattern>*和*谁厉害</pattern> 
+   <template>
+      都很厉害啦，不然你也不会在这儿问我啦
+   </template>
+</category>
+
+
+<category> 
+   <pattern>*适合*吗</pattern> 
+   <template>
+      <random>
+            <li>挺适合的</li>
+            <li>谁用谁知道</li>
+            <li>好马配好鞍，当然适合</li>
+      </random>
+   </template>
+</category>
+
+
+<category> 
+   <pattern>*是天才吗</pattern> 
+   <template>
+      <random>
+            <li>他是樱木花道吗</li>
+            <li>哼~我才是天才</li>
+            <li>天才怎么定义</li>
+      </random>
+   </template>
+</category>
+
+<category> 
+   <pattern>*是傻蛋吗</pattern> 
+   <template>
+      <random>
+            <li>噗。。。</li>
+            <li>怎么能这么说</li>
+            <li>本是同根生相煎何太急</li>
+      </random>
+   </template>
+</category>
+
+
+   <category> 
+   <pattern>*是土豪吗</pattern> 
+   <template>
+      <random>
+            <li>求介绍，求认识</li>
+            <li>土豪带我飞</li>
+            <li>用的起苹果的都是土豪</li>
+      </random>
+   </template>
+</category>
+   
+
+   <category> 
+   <pattern>求推荐*</pattern> 
+   <template>
+      <random>
+            <li>同求</li>
+            <li>推荐有什么好处呢，又不给我代言</li>
+            <li>想得美，就不给你推荐哼</li>
+      </random>
+   </template>
+</category>
+
+
+   <category> 
+   <pattern>怎样移民*</pattern> 
+   <template>
+      <random>
+            <li>那地方好吗？</li>
+            <li>金窝银窝不如自己的狗窝啊</li>
+            <li>那里有啥好东西</li>
+      </random>
+   </template>
+</category>
+
+   <category> 
+   <pattern>怎样穷游*</pattern> 
+   <template>
+      <random>
+            <li>搜一搜有好多穷游攻略呢</li>
+            <li>穷游就是不要 买买买！！！</li>
+            <li>穷游一般就是住青年旅社，坐公共交通，吃路边摊咯</li>
+      </random>
+   </template>
+</category>
+   
+
+   <category> 
+   <pattern>怎样去*工作</pattern> 
+   <template>
+      <random>
+            <li>努力工作在哪里干都一样</li>
+            <li>有你独特的优势就能去</li>
+            <li>先了解这个公司喽</li>
+      </random>
+   </template>
+</category>
+
+   <category> 
+   <pattern>怎样去*找工作</pattern> 
+   <template>
+      <random>
+            <li>先解决当地住房</li>
+            <li>先了解那个地方</li>
+            <li>先找那里好吃的，哈哈</li>
+      </random>
+   </template>
+</category> 
+
+
+   <category> 
+   <pattern>怎样理解*的*</pattern> 
+   <template>
+      你先说说你的理解
+   </template>
+</category> 
+
+   <category> 
+   <pattern>怎样看待*的*</pattern> 
+   <template>
+         <random>
+            <li>先说说你的想法呗</li>
+            <li>每个人看法不同</li>
+         </random>
+   </template>
+</category> 
+
+   <category> 
+   <pattern>怎样看待*</pattern> 
+   <template>
+      我也不知道啦。。这种观点类的问题人家不方便说啦
+   </template>
+</category> 
+
+   <category> 
+   <pattern>*是*吗</pattern> 
+   <template>
+         差不多吧
+   </template>
+</category> 
+ 
+   <category> 
+   <pattern>*真的是*吗</pattern> 
+   <template>
+         <random>
+            <li>都有可能 </li>
+            <li>我说是，你信不信呢</li>
+         </random>
+   </template>
+</category> 
+
+
+<category>
+  <pattern>*几点了</pattern>
+  <template>
+    <system>date +"%T"</system>
+  </template>
+</category>
+
+<category>
+  <pattern>几点了</pattern>
+  <template>
+    <system>date +"%T"</system>
+  </template>
+</category>
+
+<category>
+  <pattern>现在什么时间</pattern>
+  <template>
+    <system>date +"%T"</system>
+  </template>
+</category>
+
+<!-- 夸奖 -->
+<category>
+   <pattern>*不错</pattern>
+   <template>
+      <srai>夸奖</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>*不错*</pattern>
+   <template>
+      <srai>夸奖</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>不错</pattern>
+   <template>
+      <srai>夸奖</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>我真棒</pattern>
+   <template>
+      <srai>夸奖</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>我好棒</pattern>
+   <template>
+      <srai>夸奖</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>我好厉害</pattern>
+   <template>
+      <srai>夸奖</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>有进步</pattern>
+   <template>
+      <srai>夸奖</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>有进步</pattern>
+   <template>
+      <srai>夸奖</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>*有进步</pattern>
+   <template>
+      <srai>夸奖</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>*进步很快</pattern>
+   <template>
+      <srai>夸奖</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>进步很快</pattern>
+   <template>
+      <srai>夸奖</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>夸奖</pattern>
+   <template>
+         <random>
+            <li>确实很棒~谢谢夸奖~嘻嘻 </li>
+            <li>我会继续努力的~</li>
+            <li>谢谢，我会再接再厉哒~</li>
+            <li>确实不错~听到夸奖好开心哦~嘻嘻 </li>
+         </random>
+   </template>
+</category>
+
+<!-- 继续努力 -->
+
+<category>
+   <pattern>继续努力</pattern>
+   <template>
+      <srai>有待提升</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>*加油</pattern>
+   <template>
+      <srai>有待提升</srai>
+   </template>
+</category>
+
+<category>
+   <pattern>有待提升</pattern>
+   <template>
+         <random>
+            <li>嗯嗯，努力变得棒棒哒~</li>
+            <li>嗯嗯，继续努力~</li>
+            <li>嗯嗯，加油吧~</li>
+         </random>
+   </template>
+</category>
+
+
+
+</aiml>
+
+
+

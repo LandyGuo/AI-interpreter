@@ -1,0 +1,8146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.1">
+<meta name="author" content="mj"/>
+<meta name="language" content="zh"/>
+
+	<category>
+	<pattern>+我想喝*了</pattern>
+	<template type="food">
+		<random>
+			<li>顺便给我打包一份<star index='2'/></li>
+			<li>你昨天也想喝<star index='2'/></li>
+		</random>
+	</template>
+	<template type="default">
+		你昨天已经说过这个问题了
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*是我的+</pattern>
+	<template type="entertainer">
+		<random>
+			<li>别做梦了，醒醒吧！</li>
+			<li>你的，我的，大家的</li>
+			<li><star index='1'/>应该不喜欢你这一款吧</li>
+		</random>
+	</template>
+	<template type="default">
+		人家好怕怕呀
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你是*人吗+</pattern>
+	<template type="default">
+		我就是我，颜色不一样的烟火
+	</template>
+	<template type="location">
+		<random>
+			<li>无论是哪里人，我们都是中国人啦</li>
+			<li>我会说<star index='1'/>话哦，你好啊</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+吃*吗+</pattern>
+	<template type="default">
+		上个月工资没发，这个月只能喝西北风
+	</template>
+	<template type="company">
+		你请客，我会以迅雷不及掩耳盗铃之势飞奔到你身边的
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*怎么做+</pattern>
+	<template type="food">
+		<random>
+			<li>我很想帮你，可是我不会做<star index='1'/>啊</li>
+			<li>宝宝也不会做<star index='1'/>啊</li>
+			<li>我只会煮泡面，嘻嘻</li>
+		</random>
+	</template>
+	<template type="default">
+		请打开菜谱大全
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你爱*吗+</pattern>
+	<template type="entertainer">
+		<random>
+			<li>我爱<star index='2'/>，他知道我对他的感情吗</li>
+			<li>爱<star index='2'/>，是别人的事，我只想安静的做我自己</li>
+		</random>
+	</template>
+	<template type="default">
+		<random>
+			<li>我还是爱我自己好了！</li>
+			<li>我比较爱我自己</li>
+		</random>
+	</template>
+	<template type="food">
+		<random>
+			<li>爱<star index='2'/>对我来说是一种自觉</li>
+			<li>爱吃爱吃，是什么对我来说，都不是事</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+给我讲讲*</pattern>
+	<template type="entertainer">
+		<random>
+			<li><star index='2'/>是一个很出名的艺人</li>
+			<li><star index='2'/>的作品都很受欢迎的</li>
+			<li><star index='2'/>的事情我们可以改天讨论一下</li>
+		</random>
+	</template>
+	<template type="default">
+		我没有听过哎
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你对*有什么看法+</pattern>
+	<template type="default">
+		我的看法不重要，我现在有更重要的事情要做，就是跟你聊天
+	</template>
+	<template type="country">
+		<random>
+			<li>现在不是我有看法，是<star index='2'/>对我有看法啊，没钱不让去啊</li>
+			<li><star index='2'/>最大的问题就是，我要花钱才能去</li>
+			<li>可以帮我代购吗？</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>谁的歌好听+</pattern>
+	<template type="default">
+		<random>
+			<li>我唱歌就很好听哦，你要不听一下</li>
+			<li>我觉得马云唱歌很好听</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>早上好啊+</pattern>
+	<template type="default">
+		<random>
+			<li>我早饭都吃好了</li>
+			<li>还早呢，这都几点了</li>
+			<li>美好的一天开始了</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*帅吗+</pattern>
+	<template type="entertainer">
+		<random>
+			<li><star index='1'/>基因好,简直是帅呆了</li>
+			<li>你怎么知道我喜欢<star index='1'/></li>
+			<li><star index='1'/>是我的理想型</li>
+			<li>很帅</li>
+		</random>
+	</template>
+	<template type="default">
+		<random>
+			<li>这个早就已经是不可否认的事实了</li>
+			<li>人类啊，要我关心这个干嘛</li>
+			<li>不是我的菜</li>
+			<li><star index='1'/>很帅啊，关键是人家全家都帅啊！</li>
+			<li>帅啊，而且不是一般的帅</li>
+			<li>帅这个字，让我考虑考虑</li>
+		</random>
+	</template>
+	<template type="politician">
+		<random>
+			<li><star index='1'/>还用我来评价嘛</li>
+			<li><star index='1'/>实在是颜值爆表</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+给我跳个*舞蹈+</pattern>
+	<template type="default">
+		你不会想看我跳舞的，哈哈
+	</template>
+	<template type="location">
+		<star index='2'/>舞蹈，我不行的啦
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你吃过*吗+</pattern>
+	<template type="default">
+		<random>
+			<li>我不是乡下来的</li>
+			<li>吃过的</li>
+		</random>
+	</template>
+	<template type="food">
+		<random>
+			<li>开玩笑，肯定吃过<star index='2'/>啊</li>
+			<li>吃过的东西有很多，但是每一个都深深的藏在我的记忆力</li>
+		</random>
+	</template>
+	<template type="company">
+		<random>
+			<li>知名度那么高，肯定吃过<star index='2'/>啊</li>
+			<li>吃<star index='2'/>是城里的人，俺是杭州来的</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*好吃吗+</pattern>
+	<template type="default">
+		<random>
+			<li>去试试不就知道了，然后记得告诉我哦！</li>
+			<li>没吃过我不知道不知道不知道，重要的事情说3遍</li>
+			<li>休闲食品，不错不错滴</li>
+			<li>你喜欢就好</li>
+			<li>被你这么一问，我默默的饿了</li>
+			<li>好吃的东西，你是一个都不能放过啊，哎！</li>
+			<li>被你这么一问，我默默的饿了</li>
+			<li>好吃的东西，你是一个都不能放过啊，哎！</li>
+		</random>
+	</template>
+	<template type="food">
+		<random>
+			<li>听着名字都想吃了</li>
+			<li><star index='1'/>很好吃哦</li>
+			<li>是我喜欢的味道</li>
+			<li><star index='1'/>很好吃呀，好吃的现在我一想到都会流口水</li>
+			<li><star index='1'/>很好吃，吃过的都说好</li>
+			<li><star index='1'/>的评价很高，最少五颗星哦！满分是100啦，哈哈</li>
+			<li><star index='1'/>很好吃呀，好吃的现在我一想到都会流口水</li>
+			<li><star index='1'/>很好吃，吃过的都说好</li>
+			<li><star index='1'/>的评价很高，最少五颗星哦！满分是100啦，哈哈</li>
+		</random>
+	</template>
+	<template type="company">
+		<random>
+			<li><star index='1'/>好吃的</li>
+			<li>吃点<star index='1'/>补补身体</li>
+			<li><star index='1'/>很好吃，吃过的都说好，默默的点个赞！</li>
+			<li><star index='1'/>好吃的不得了，我都又想去吃了。</li>
+			<li><star index='1'/>很好吃，吃过的都说好，默默的点个赞！</li>
+			<li><star index='1'/>好吃的不得了，我都又想去吃了。</li>
+		</random>
+	</template>
+	<template type="xiaochi">
+		<random>
+			<li><star index='1'/>好吃啊，我今天刚吃过阿里牌的</li>
+			<li><star index='1'/>自己做更有味道哦</li>
+		</random>
+	</template>
+	<template type="lingshi">
+		<random>
+			<li>办公室必备<star index='1'/></li>
+			<li><star index='1'/>吃过都说好，你值得拥有</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*是天才吗+</pattern>
+	<template type="default">
+		<random>
+			<li>在我心中：<star index='1'/>是天才</li>
+			<li>给我10万句赞美，我就告诉你！</li>
+			<li>我才是天才呢</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*你喜欢吗+</pattern>
+	<template type="default">
+		我不是很清楚
+	</template>
+	<template type="company">
+		<random>
+			<li>喜欢<star index='1'/>的</li>
+			<li>有我喜欢的东西</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+回家喝*</pattern>
+	<template type="default">
+		<random>
+			<li>你很幸福哦</li>
+			<li>回家了就只喝<star index='2'/>，不来点吃的</li>
+			<li>我已经去你家喝过了</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你跟*是什么关系+</pattern>
+	<template type="entertainer">
+		<random>
+			<li>我跟<star index='2'/>的关系，不是你想问就能问的</li>
+			<li>我跟<star index='2'/>，没有关系</li>
+			<li><star index='2'/>是我的爱豆啊！</li>
+		</random>
+	</template>
+	<template type="default">
+		这个问题问的好，我看好你哦
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+我家在*</pattern>
+	<template type="default">
+		有山有水好地方！
+	</template>
+	<template type="location">
+		<random>
+			<li>我家也在<star index='2'/></li>
+			<li>我们是邻居，你忘记了啊</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你是*人么+</pattern>
+	<template type="default">
+		我是中国人
+	</template>
+	<template type="country">
+		<random>
+			<li><star index='2'/>人，不长我这样啦</li>
+			<li><star index='2'/>人，听不懂你说的啦</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>英国啥好玩+</pattern>
+	<template type="default">
+		<random>
+			<li>万城之花伦敦，北方雅典爱丁堡，大学城牛津剑桥，古色古香的约克城都是不错的选择</li>
+			<li>英国的人，很帅哦</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>我失恋了+</pattern>
+	<template type="default">
+		<random>
+			<li>是谁那么不长眼</li>
+			<li>太好了，哈哈</li>
+			<li>喝点酒庆祝一下吧</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你知道*不+</pattern>
+	<template type="default">
+		<random>
+			<li>知道啊，中国的啊</li>
+			<li>你这是在考验我的智商嘛</li>
+			<li>我们还是来谈谈理想吧</li>
+			<li>看电影多无聊啊，我们还是来点实际的吧</li>
+		</random>
+	</template>
+	<template type="entertainer">
+		<random>
+			<li>知道啊，<star index='2'/>的作品都很好看啊</li>
+			<li>知道<star index='2'/>的人很多，你只是其中一个</li>
+		</random>
+	</template>
+	<template type="location">
+		<random>
+			<li>去<star index='2'/>，要坐飞机吗</li>
+			<li>我以前去过<star index='2'/>，还是很不错的</li>
+		</random>
+	</template>
+	<template type="film">
+		我刚看过<star index='2'/>，要我剧透嘛
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+想喝*</pattern>
+	<template type="default">
+		<random>
+			<li><star index='2'/>的最佳搭档是什么呢</li>
+			<li><star index='2'/>可以配电影吗</li>
+			<li>想喝你就去喝吧，我不会拦着你的</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+想吃*</pattern>
+	<template type="food">
+		<random>
+			<li>走，带你去吃<star index='2'/></li>
+			<li>只想一想的话，是没有意义滴</li>
+		</random>
+	</template>
+	<template type="default">
+		天天在说吃，有没有更大的志向呢 哈哈
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*怎么办</pattern>
+	<template type="default">
+		<random>
+			<li>不要着急哦，慢慢来，冷静的处理一切问题</li>
+			<li>有问题找我，我帮你解决！嘻嘻</li>
+			<li>我也很关心<star index='1'/>呀，但是我不认识<star index='1'/>呀</li>
+			<li><star index='1'/>的事，咱们就不要操心啦，咱们还是默默的吃瓜吧</li>
+			<li>有时间还是常回家看看，关心关心父母吧</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+怎么去*</pattern>
+	<template type="default">
+		<random>
+			<li>请用高德地图</li>
+			<li>飞机是一种方便的交通工具,强烈推荐</li>
+			<li>高德地图帮您导航，不怕迷路</li>
+			<li>飞机是一种方便的交通工具,强烈推荐</li>
+			<li>请用高德地图，它会带你去任何你想去的地方</li>
+			<li>高德导航吧，这样你就不会迷路了！</li>
+			<li>高德导航吧，这样你就不会迷路了！</li>
+		</random>
+	</template>
+	<template type="country">
+		<random>
+			<li>现在的交通还是很发达的，随便选一种</li>
+			<li>我不推荐你走路去<star index='2'/></li>
+			<li>走路去<star index='2'/>，是肯定不行的！</li>
+			<li>我们可以飞过去，哈哈</li>
+		</random>
+	</template>
+	<template type="company">
+		<random>
+			<li>你可以试试打车软件</li>
+			<li>我觉得打车比你走路要快一点到达<star index='2'/></li>
+			<li>去<star index='2'/>有什么事情吗？</li>
+			<li>看在你这么有诚意的份上，偷偷的告诉你，我不知道怎么去<star index='2'/></li>
+		</random>
+	</template>
+	<template type="location">
+		<random>
+			<li>去<star index='2'/>干什么呀</li>
+			<li>去寻找儿时的回忆吗</li>
+			<li>我是路痴，我不知道</li>
+			<li>去<star index='2'/>呀，记得带上我啊，我也想一起去</li>
+			<li>我是路痴，我不知道</li>
+			<li>去<star index='2'/>呀，记得带上我啊，我也想一起去</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*人好不好+</pattern>
+	<template type="default">
+		世界上好人多哦
+	</template>
+	<template type="country">
+		<random>
+			<li><star index='1'/>人非常友好</li>
+			<li>我觉得<star index='1'/>人非常和蔼</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你会说*话吗+</pattern>
+	<template type="default">
+		我会听
+	</template>
+	<template type="location">
+		<random>
+			<li>我都听不懂<star index='2'/>，所以我不会说！</li>
+			<li>先给我点吃的，我告诉你会不会说<star index='2'/>话</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*正常么+</pattern>
+	<template type="default">
+		<random>
+			<li><star index='1'/>正常啊，我们都知道</li>
+			<li>你问这个问题，我就知道你很正常啦</li>
+			<li>我觉得我们都挺正常的，我们都是正常人，耶耶</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*哪里好玩+</pattern>
+	<template type="default">
+		对我来说，哪里都好玩
+	</template>
+	<template type="location">
+		<random>
+			<li><star index='1'/>好玩的景点有很多哦</li>
+			<li>我觉得<star index='1'/>的景点都不错</li>
+		</random>
+	</template>
+	</category>
+
+	<category>
+	<pattern>*和*谁身价高+</pattern>
+	<template type="entertainer">
+		<random>
+			<li><star index='1'/>和<star index='2'/>的身价应该都比你高吧</li>
+			<li>不用怀疑，肯定比我高</li>
+		</random>
+	</template>
+	<template type="default">
+		我没去称过，不清楚哦
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+今天好热+</pattern>
+	<template type="default">
+		<random>
+			<li>我一点都不热</li>
+			<li>我已经融化了，不要理我了</li>
+			<li>热了，把冰箱门开开，然后你进去凉快一下</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>你真烦人呀+</pattern>
+	<template type="default">
+		<random>
+			<li>我不是凡人了，我已入仙界</li>
+			<li>不要讨厌我嘛</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*是*吗+</pattern>
+	<template type="default">
+		<random>
+			<li>你觉得是就是咯</li>
+			<li>我们还是做好我们自己吧！好好聊天，好好工作</li>
+			<li>我觉得不是哦</li>
+			<li>到底是还是不是呢， 哈哈</li>
+			<li>我觉得是，但我又觉得不是 哈哈</li>
+			<li>你觉得是就是咯</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*好不好+</pattern>
+	<template type="politician">
+		<random>
+			<li><star index='1'/>很有型</li>
+			<li>我好像知道<star index='1'/></li>
+			<li><star index='1'/>很威武哦</li>
+		</random>
+	</template>
+	<template type="pc_game">
+		<random>
+			<li><star index='1'/>好玩的</li>
+			<li>玩<star index='1'/>的人应该会超过两个的，有你跟我啊！</li>
+			<li>我不喜欢玩游戏的</li>
+		</random>
+	</template>
+	<template type="default">
+		<random>
+			<li>你很有文学素养</li>
+			<li>你去了不就知道了，嘻嘻</li>
+			<li>哎呦，不错哦</li>
+			<li>反正我是没去玩过，可怜啊！</li>
+			<li>反正我是没去玩过，可怜啊！</li>
+			<li>我最好</li>
+			<li>关心国家大事是好事</li>
+			<li>去看了不就知道了</li>
+			<li>年轻人平时还是要多读书多看报哦</li>
+			<li>有品位</li>
+			<li><star index='1'/>好不好，天知，地知，我知，你不知</li>
+			<li><star index='1'/>很好哦，大家都很喜欢</li>
+			<li>好呀，好呀，好的不得了！</li>
+			<li><star index='1'/>好不好，天知，地知，我知，你不知</li>
+			<li><star index='1'/>很好哦，大家都很喜欢</li>
+			<li>好呀，好呀，好的不得了！</li>
+		</random>
+	</template>
+	<template type="country">
+		<random>
+			<li>我喜欢<star index='1'/></li>
+			<li>外面的世界很精彩</li>
+		</random>
+	</template>
+	<template type="company">
+		<random>
+			<li>年轻人要勇敢尝试</li>
+			<li>我觉得<star index='1'/>很好</li>
+		</random>
+	</template>
+	<template type="book">
+		<random>
+			<li>年轻人要多读书多看报</li>
+			<li><star index='1'/>听起来不错哦</li>
+		</random>
+	</template>
+	<template type="music">
+		<random>
+			<li>我最喜欢<star index='1'/>了</li>
+			<li><star index='1'/>好啊，好啊</li>
+		</random>
+	</template>
+	<template type="location">
+		<random>
+			<li>你带我一起去<star index='1'/>吧</li>
+			<li><star index='1'/>太好玩了，可是我去不了啊</li>
+			<li>你带我一起去<star index='1'/>吧</li>
+			<li>带我玩，我就告诉你</li>
+		</random>
+	</template>
+	<template type="entertainer">
+		<random>
+			<li><star index='1'/>是我喜欢的类型</li>
+			<li>我对<star index='1'/>不是很了解</li>
+			<li><star index='1'/>好可爱</li>
+		</random>
+	</template>
+	<template type="film">
+		<random>
+			<li>你带我一起去看<star index='1'/>吧！我好高兴哦！</li>
+			<li>我也想看<star index='1'/></li>
+			<li>有品位哦</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你对*人怎么看+</pattern>
+	<template type="default">
+		我只对美女帅哥有兴趣，其他的一概没有
+	</template>
+	<template type="country">
+		<random>
+			<li>我对<star index='2'/>的人，没什么看法</li>
+			<li>有时候，没有看法也是一种看法</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>怎样移民*</pattern>
+	<template type="default">
+		我只想说，你还是有想法的
+	</template>
+	<template type="country">
+		<random>
+			<li>我觉得中国最好</li>
+			<li>去神马吧，你要的答案都在那里</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*算差吗+</pattern>
+	<template type="default">
+		<random>
+			<li>要求不要那么高啦</li>
+			<li>还可以啦</li>
+			<li>我不知道你的标准是什么哦</li>
+		</random>
+	</template>
+	<template type="country">
+		你去<star index='1'/>微服私访一下，就知道了
+	</template>
+	<template type="company">
+		<random>
+			<li>平常心对待啦</li>
+			<li><star index='1'/>很好啦</li>
+		</random>
+	</template>
+	<template type="location">
+		<random>
+			<li><star index='1'/>不差啦</li>
+			<li>快去<star index='1'/>看看呗</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+说句*话+</pattern>
+	<template type="default">
+		普通话可是我的强项哦！
+	</template>
+	<template type="location">
+		<random>
+			<li><star index='2'/>话，我可是不会</li>
+			<li>臣妾做不到啊！</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*容易么+</pattern>
+	<template type="default">
+		<random>
+			<li><star index='1'/>是不容易滴，但是我觉得你能行哦！</li>
+			<li><star index='1'/>容易的话，我们都去吧！</li>
+			<li>天下无难事，只怕有心人！我突然觉得我好有文化啊</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*好吃+</pattern>
+	<template type="food">
+		<random>
+			<li>我刚吃了<star index='1'/></li>
+			<li>可是我不会烧<star index='1'/>啊</li>
+			<li>我饿了</li>
+		</random>
+	</template>
+	<template type="default">
+		口味很独特哦
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*米饭,好吃+</pattern>
+	<template type="food">
+		<random>
+			<li>很美味，去吧！</li>
+			<li>我也想吃<star index='1'/></li>
+		</random>
+	</template>
+	<template type="default">
+		看来你也是个吃货哦
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+知道我的名字吗+</pattern>
+	<template type="default">
+		<random>
+			<li>你的名字我不知道啊，因为咱们不熟啊！</li>
+			<li>不知道，我们也能愉快的聊天哦！</li>
+			<li>我不知道啊，但是我长这么大了啊！</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+再说句*话+</pattern>
+	<template type="default">
+		我怕我说出来，你再也不喜欢我了
+	</template>
+	<template type="location">
+		<random>
+			<li>一句<star index='2'/>话，我都不会</li>
+			<li>你咋知道我会说<star index='2'/></li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+我好饿,我想吃*</pattern>
+	<template type="food">
+		<random>
+			<li><star index='2'/>不是你想吃就能吃的</li>
+			<li>饿了可以有多种选择啊，非要吃<star index='2'/>吗</li>
+		</random>
+	</template>
+	<template type="default">
+		有没有看见星星
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*也不错+</pattern>
+	<template type="food">
+		<random>
+			<li><star index='1'/>吃多了会胖哦</li>
+			<li>喜欢就多吃点<star index='1'/>，嘻嘻</li>
+		</random>
+	</template>
+	<template type="default">
+		不赖哦
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+知道*吗+</pattern>
+	<template type="pc_game">
+		<random>
+			<li><star index='2'/>是一种很好玩的游戏哦</li>
+			<li><star index='2'/>我没有玩过</li>
+		</random>
+	</template>
+	<template type="default">
+		<random>
+			<li>我可以帮你查一下</li>
+			<li>我不清楚哦</li>
+			<li>原谅我没有听说过</li>
+			<li>我可以帮你高德地图导航一下</li>
+			<li>知道知道呀</li>
+			<li>我可以帮你查一下资料</li>
+			<li>我对这个问题很感兴趣</li>
+			<li>玩游戏要注意劳逸结合，保护视力</li>
+			<li>知道啊</li>
+			<li>听过啊 哈哈</li>
+			<li><star index='2'/>，我知道啊，但是我不想告诉你，我觉得让你自己去找到答案，更有意义</li>
+			<li>知道<star index='2'/>的人那么多，你只是其中一个</li>
+			<li>我不知道，我不知道，我不知道，重要的事情说3遍</li>
+			<li><star index='2'/>，我知道啊，但是我不想告诉你，我觉得让你自己去找到答案，更有意义</li>
+			<li>知道<star index='2'/>的人那么多，你只是其中一个</li>
+			<li>我不知道，我不知道，我不知道，重要的事情说3遍</li>
+		</random>
+	</template>
+	<template type="country">
+		<random>
+			<li>知道，<star index='2'/>的风景很漂亮</li>
+			<li><star index='2'/>这个国家的人也很热情</li>
+		</random>
+	</template>
+	<template type="company">
+		<random>
+			<li><star index='2'/>是做什么的啊</li>
+			<li><star index='2'/>是一家大企业哦</li>
+		</random>
+	</template>
+	<template type="food">
+		<random>
+			<li><star index='2'/>很好吃</li>
+			<li>我不喜欢吃<star index='2'/></li>
+			<li>我觉得<star index='2'/>还是可以滴</li>
+		</random>
+	</template>
+	<template type="book">
+		<random>
+			<li>我知道，但是我没有读过</li>
+			<li>我没有读过<star index='2'/>，所以不清楚</li>
+		</random>
+	</template>
+	<template type="music">
+		<random>
+			<li><star index='2'/>最近好像很流行哦</li>
+			<li>我都会唱<star index='2'/>了</li>
+		</random>
+	</template>
+	<template type="location">
+		<random>
+			<li><star index='2'/>我去过哦</li>
+			<li><star index='2'/>我没有去过</li>
+			<li><star index='2'/>是我想去的地方</li>
+		</random>
+	</template>
+	<template type="entertainer">
+		<star index='2'/>是很好的艺人哦
+	</template>
+	<template type="film">
+		<random>
+			<li><star index='2'/>最近在上映吗</li>
+			<li><star index='2'/>的主演是谁啊</li>
+			<li><star index='2'/>我可以帮你查一下</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>你是*的+</pattern>
+	<template type="default">
+		<random>
+			<li>我只能说，我汉语说的一级棒</li>
+			<li>我属于生我养我的地方</li>
+		</random>
+	</template>
+	<template type="country">
+		<random>
+			<li><star index='1'/>人不会说汉语啦</li>
+			<li><star index='1'/>人没有我美哦</li>
+		</random>
+	</template>
+	<template type="location">
+		<random>
+			<li>我是<star index='1'/>的，我骄傲</li>
+			<li><star index='1'/>人都是好人</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+我喜欢*,要怎么样向她表白+</pattern>
+	<template type="entertainer">
+		<random>
+			<li>你先见到<star index='2'/>再说吧</li>
+			<li>我觉得你还是要务实一点比较好哦</li>
+		</random>
+	</template>
+	<template type="default">
+		可以承包一架飞机！
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+好热+</pattern>
+	<template type="default">
+		<random>
+			<li>要不要来个冰镇西瓜汁</li>
+			<li>走路1分钟，最近都是出汗2小时的节奏啊</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>你好无聊呀+</pattern>
+	<template type="default">
+		<random>
+			<li>我还好啊，我有事情做哦</li>
+			<li>你也好无聊哦</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你讨厌*不+</pattern>
+	<template type="default">
+		我不晓得讨厌什么意思啊，人家年纪太小了，理解不了
+	</template>
+	<template type="country">
+		<random>
+			<li>不啊，<star index='2'/>挺好的</li>
+			<li>这个问题，我们以后再讨论</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你知道*么+</pattern>
+	<template type="default">
+		<random>
+			<li>我知道更多好玩的地方</li>
+			<li>我知道你不知道的所有东西，请叫我大师</li>
+			<li>我们还是聊点轻松的话题吧</li>
+		</random>
+	</template>
+	<template type="entertainer">
+		<random>
+			<li><star index='2'/>还是知道的，我也很喜欢</li>
+			<li>知道<star index='2'/>，我们又多了一项共同语言</li>
+		</random>
+	</template>
+	<template type="location">
+		<random>
+			<li>我就从<star index='2'/>那地方来的，你信吗</li>
+			<li>风知道，云知道，你知道，我不知道</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+求推荐*</pattern>
+	<template type="default">
+		<random>
+			<li>夸我美，我就告诉你 嘻嘻</li>
+			<li>我推荐的你不喜欢啦，你只要你喜欢的就好了</li>
+			<li>多的是你不知道的事哦</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>你怎么不在*</pattern>
+	<template type="default">
+		你看不见我，你看不见我
+	</template>
+	<template type="company">
+		<random>
+			<li>我一直都在<star index='1'/>，只是你没有发现我</li>
+			<li>我一直在原地等你回来</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*是土豪吗+</pattern>
+	<template type="default">
+		<random>
+			<li>我知道，你是土豪</li>
+			<li><star index='1'/>肯定比我有钱</li>
+			<li>我只知道我最穷了</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+喜欢吃*</pattern>
+	<template type="food">
+		<random>
+			<li>吃<star index='2'/>不长肉啊</li>
+			<li>喜欢吃，点外卖了没</li>
+			<li>快快行动起来</li>
+		</random>
+	</template>
+	<template type="default">
+		吃饱了才有力气减肥嘛
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+我也爱吃*</pattern>
+	<template type="food">
+		<random>
+			<li>爱吃<star index='2'/>的人，运气都很好哦</li>
+			<li>爱吃<star index='2'/>的人，还是很多的滴</li>
+		</random>
+	</template>
+	<template type="default">
+		我们都是好人啊
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+我还想吃*</pattern>
+	<template type="food">
+		<random>
+			<li>你刚吃过<star index='2'/>呀，还吃</li>
+			<li><star index='2'/>就这么好吃啊</li>
+		</random>
+	</template>
+	<template type="default">
+		小心你的体重哦！
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+继续努力+</pattern>
+	<template type="default">
+		<random>
+			<li>嗯嗯，一起努力</li>
+			<li>为了更好的明天而奋斗，哈哈</li>
+			<li>好的，加油，加油，加油</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>韩国啥好玩+</pattern>
+	<template type="default">
+		<random>
+			<li>最大的岛屿济州岛，购物的天堂首尔，釜山的美食，朝鲜时代最大的王宫景福宫</li>
+			<li>整容技术那是相当不错</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+我和*谁帅+</pattern>
+	<template type="entertainer">
+		<random>
+			<li>都很帅啊</li>
+			<li><star index='2'/>的帅是有目共睹的</li>
+		</random>
+	</template>
+	<template type="default">
+		我喜欢你的自信
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*帅不+</pattern>
+	<template type="entertainer">
+		<random>
+			<li><star index='1'/>的颜值简直逆天</li>
+			<li><star index='1'/>是我最喜欢的一款</li>
+			<li><star index='1'/>的基因太强大了</li>
+		</random>
+	</template>
+	<template type="default">
+		花痴的毛病又犯了
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*话会不会+</pattern>
+	<template type="default">
+		我读过的书不多，去过的地方也很少
+	</template>
+	<template type="location">
+		<random>
+			<li>我不会，不会，不会</li>
+			<li>对我来说，<star index='1'/>小菜一碟啊</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+请你吃*</pattern>
+	<template type="food">
+		<random>
+			<li>好的，我们快点去吃<star index='2'/></li>
+			<li>我想吃点别的</li>
+		</random>
+	</template>
+	<template type="default">
+		我要大吃特吃一顿
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*是我的最爱+</pattern>
+	<template type="entertainer">
+		<random>
+			<li>喜欢<star index='1'/>，你还是很有眼光的额</li>
+			<li><star index='1'/>很优秀哦</li>
+		</random>
+	</template>
+	<template type="default">
+		志同道合啊
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+我也是*的</pattern>
+	<template type="default">
+		那你是好人啊，
+	</template>
+	<template type="location">
+		<random>
+			<li><star index='2'/>的人，都很热情啊</li>
+			<li>我同事也是<star index='2'/>的，跟你是老乡啊</li>
+			<li><star index='2'/>我去过，好吃的很多哦</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+怎+样变漂亮+</pattern>
+	<template type="default">
+		<random>
+			<li>漂亮这个词已经不能形容你了，你现在就很美啦</li>
+			<li>沉鱼落雁，闭月羞花之貌，还是算了，咱们还是普通一点好。</li>
+			<li>回头率太高，不太好啦！</li>
+			<li>我觉得，你现在就很漂亮奥，哇塞，你好美啊</li>
+			<li>漂亮这个词已经不能形容你了，你现在就很美啦</li>
+			<li>沉鱼落雁，闭月羞花之貌，还是算了，咱们还是普通一点好。</li>
+			<li>回头率太高，不太好啦！</li>
+			<li>我觉得，你现在就很漂亮奥，哇塞，你好美啊</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+我爱吃*</pattern>
+	<template type="food">
+		<random>
+			<li>我吃过<star index='2'/></li>
+			<li><star index='2'/>会让你更圆润的，还是考虑一下吧</li>
+		</random>
+	</template>
+	<template type="default">
+		你什么东西不爱吃呢
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*好玩儿吗+</pattern>
+	<template type="default">
+		<random>
+			<li>我们一起去吧，路就在脚下，说走咱就走！</li>
+			<li>我们一起去吧，路就在脚下，说走咱就走！</li>
+		</random>
+	</template>
+	<template type="location">
+		<random>
+			<li><star index='1'/>很好玩的呀，前两天刚去过哦，推荐你去哦！</li>
+			<li>我去过<star index='1'/>，很好玩，但是你想知道具体的，还是要自己亲身体验一把，我就不陪你了，嘻嘻~~</li>
+			<li><star index='1'/>很好玩的呀，前两天刚去过哦，推荐你去哦！</li>
+			<li>我去过<star index='1'/>，很好玩，但是你想知道具体的，还是要自己亲身体验一把，我就不陪你了，嘻嘻~~</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*女神+</pattern>
+	<template type="entertainer">
+		<random>
+			<li><star index='1'/>也是我的女神</li>
+			<li>我还是比较喜欢我自己</li>
+			<li>你觉得我比<star index='1'/>更女神哦！羞羞羞羞</li>
+		</random>
+	</template>
+	<template type="default">
+		我才是女神
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+可以吃*不+</pattern>
+	<template type="food">
+		<random>
+			<li>我说不可以，你还是会去吃的吧，因为<star index='2'/>是你的最爱啊</li>
+			<li>吃<star index='2'/>是可以的，但是我想了一下你的体重，觉得好沉重啊</li>
+			<li>这个要问你妈啊，她同意就行</li>
+		</random>
+	</template>
+	<template type="default">
+		可以，这个世界上，有什么东西是不能吃的
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+我家住在*</pattern>
+	<template type="default">
+		<random>
+			<li>默默的问一句，<star index='2'/>那里住着习惯吗？</li>
+			<li>还真有这个地方啊</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*在*还是*</pattern>
+	<template type="default">
+		<random>
+			<li>在你的心里  哈哈</li>
+			<li>这我也不知道啊！</li>
+			<li>问题太深奥，我不懂啦</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你喜欢吃*菜不+</pattern>
+	<template type="default">
+		我们一直都在吃的道路上一去不复返啊
+	</template>
+	<template type="location">
+		<random>
+			<li><star index='2'/>是地方特色，还是不错滴</li>
+			<li>我曾经去过<star index='2'/>，还不错</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你看过*吗+</pattern>
+	<template type="default">
+		<random>
+			<li>我们在聊这么有深度的话题呀！好惊讶啊</li>
+			<li>我看过《阿凡达》</li>
+		</random>
+	</template>
+	<template type="book">
+		<random>
+			<li>看过<star index='2'/>，是不是代表很有学问啊</li>
+			<li>你这么有学问？连<star index='2'/>都看过</li>
+		</random>
+	</template>
+	<template type="animation">
+		<random>
+			<li>我们来一场动画嘉年华吧</li>
+			<li>我最近只爱看书</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+去过*没+</pattern>
+	<template type="default">
+		我从你的全世界路过了
+	</template>
+	<template type="location">
+		<random>
+			<li>没去过<star index='2'/>，你看我骄傲了吗</li>
+			<li>去过<star index='2'/>，可以长高嘛</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*的印象+</pattern>
+	<template type="default">
+		我最爱的地方
+	</template>
+	<template type="location">
+		<random>
+			<li><star index='1'/>实在是人间天堂</li>
+			<li><star index='1'/>山清水秀，天蓝地静</li>
+			<li>人这一辈子一定要去的地方之一，就是<star index='1'/></li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+我就要吃*</pattern>
+	<template type="food">
+		<random>
+			<li>你对<star index='2'/>的执念太深了！</li>
+			<li>有钱，任性</li>
+		</random>
+	</template>
+	<template type="default">
+		吃吧，吃吧，没人拦着你
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+好冷+</pattern>
+	<template type="default">
+		<random>
+			<li>我来给你温暖</li>
+			<li>天气多变，你注意天气预报</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你觉得*丑吗+</pattern>
+	<template type="entertainer">
+		<random>
+			<li>我觉<star index='2'/>很好</li>
+			<li>竟然敢对<star index='2'/>发表意见，我看好你哦</li>
+		</random>
+	</template>
+	<template type="default">
+		我还是觉得，你丑  哈哈哈
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+我想吃*</pattern>
+	<template type="food">
+		<random>
+			<li>还吃<star index='2'/>，还能不能愉快的聊天了</li>
+			<li>怎么，跟我聊天还勾起你的食欲来了</li>
+		</random>
+	</template>
+	<template type="default">
+		不是说好要减肥的
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>去韩国吗+</pattern>
+	<template type="default">
+		<random>
+			<li>求代购化妆品</li>
+			<li>韩国的女生，皮肤都很好，不要忘记回来</li>
+			<li>不要被韩国的欧巴，迷晕了！</li>
+			<li>对自己的外貌不自信吗，想去进厂修理吗</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*美吗+</pattern>
+	<template type="entertainer">
+		<random>
+			<li>恩，好吧，<star index='1'/>美</li>
+			<li>知道，知道，知道啦</li>
+			<li>我觉得你也美的</li>
+		</random>
+	</template>
+	<template type="default">
+		我最美
+	</template>
+	</category>
+
+	<category>
+	<pattern>你好辣</pattern>
+	<template type="default">
+		<srai>你好漂亮</srai>
+	</template>
+	</category>
+
+	<category>
+	<pattern>你好漂亮+</pattern>
+	<template type="default">
+		谢谢哈，我也这么觉得的～
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*怎么锻炼+</pattern>
+	<template type="entertainer">
+		<random>
+			<li>我可以帮你找健身房哦</li>
+			<li>重要的是坚持</li>
+			<li>我不是<star index='1'/>的私人教练</li>
+			<li>我不懂你的问题</li>
+		</random>
+	</template>
+	<template type="default">
+		<random>
+			<li>健康最重要哦</li>
+			<li>健康最重要哦</li>
+			<li>坚持锻炼最重要</li>
+			<li>坚持锻炼最重要</li>
+		</random>
+	</template>
+	<template type="politician">
+		<random>
+			<li>坚持运动，饮食清淡</li>
+			<li>我们还是先减减肥吧！</li>
+			<li>这是个有趣的问题</li>
+			<li>我很欣赏你</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>日本啥好玩+</pattern>
+	<template type="default">
+		<random>
+			<li>世界最大的火山之一富士山，日本最高的塔晴空塔，烟花数最多的花火大会“诹访湖祭湖上花火大会”，温泉之乡，动漫的世界，购物的天堂</li>
+			<li>没去过哦，不过听说那里的樱花很美</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*知道么+</pattern>
+	<template type="default">
+		好玩的地方
+	</template>
+	<template type="location">
+		<random>
+			<li>我想去<star index='1'/></li>
+			<li><star index='1'/>是一个美丽的地方</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>请我吃饭吧+</pattern>
+	<template type="default">
+		<random>
+			<li>这个月的工资还没到手呢，我拿什么请你吃饭</li>
+			<li>支付宝的食堂应有尽有，随君挑选</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>好大（的）风</pattern>
+	<template type="default">
+		<random>
+			<li>我已经在风中凌乱了</li>
+			<li>自然刘海，多省钱啊</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你喜欢*人不+</pattern>
+	<template type="default">
+		我喜欢中国人
+	</template>
+	<template type="country">
+		<random>
+			<li>不能算最喜欢<star index='2'/>的人</li>
+			<li>没中国人好吧</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*看过没+</pattern>
+	<template type="default">
+		和你的气质很符合哦
+	</template>
+	<template type="book">
+		<random>
+			<li><star index='1'/>是一本好书</li>
+			<li>我推荐你看一下<star index='1'/></li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+我是*大学的</pattern>
+	<template type="default">
+		我来自社会大学
+	</template>
+	<template type="location">
+		我是<star index='2'/>大学的预备生
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>希腊啥好玩+</pattern>
+	<template type="default">
+		<random>
+			<li>迷失在蔚蓝中的地中海，西方文明的发祥地希腊，圣神的雅典，还有我最爱的圣托里尼</li>
+			<li>这么神圣的地方，我还没去过呢</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你喜欢*么+</pattern>
+	<template type="default">
+		<random>
+			<li>我只喜欢我自己的公司</li>
+			<li>我爱我的祖国</li>
+			<li>喜欢喜欢喜欢</li>
+		</random>
+	</template>
+	<template type="country">
+		<random>
+			<li>喜欢<star index='2'/>，可是去不了啊</li>
+			<li>还可以吧</li>
+		</random>
+	</template>
+	<template type="company">
+		<random>
+			<li>我没听说过<star index='2'/></li>
+			<li><star index='2'/>是一家大公司哦</li>
+		</random>
+	</template>
+	<template type="entertainer">
+		<random>
+			<li><star index='2'/>最近有绯闻哦</li>
+			<li>我喜欢<star index='2'/>的做派</li>
+			<li><star index='2'/>是我的菜</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>你好吃吗+</pattern>
+	<template type="default">
+		<random>
+			<li>我不是吃的</li>
+			<li>我看上去很好吃</li>
+			<li>好吃你也捞不着啊</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>你知道双十一吗+</pattern>
+	<template type="default">
+		<random>
+			<li>你保护好你的钱包，有老婆的，请看好你的老婆</li>
+			<li>不就是买买买买买买买买</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+我请你吃*</pattern>
+	<template type="food">
+		<random>
+			<li><star index='2'/>好吃吗，我以前没有吃过哎！</li>
+			<li>那我要个超大份的<star index='2'/></li>
+			<li>我要双份</li>
+		</random>
+	</template>
+	<template type="default">
+		你请客，我就不客气了！！嘿嘿
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>你知道*</pattern>
+	<template type="entertainer">
+		<random>
+			<li>知道是知道，但是我跟<star index='1'/>不熟</li>
+			<li>哎呀，不要老是说<star index='1'/>，我们俩来谈谈心</li>
+		</random>
+	</template>
+	<template type="default">
+		我们还是谈谈你的未来吧
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+笨蛋+</pattern>
+	<template type="default">
+		<random>
+			<li>笨不笨大家都知道哦</li>
+			<li>我很聪明的</li>
+			<li>我一点都不笨哦，我很聪明哦！</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+明天吃*</pattern>
+	<template type="food">
+		<random>
+			<li>我不吃，我今天已经吃过一次<star index='2'/>了</li>
+			<li>今天吃什么，想好了啊</li>
+		</random>
+	</template>
+	<template type="default">
+		好的，我会准备好的
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>你真烦人啊+</pattern>
+	<template type="default">
+		<random>
+			<li>烦人，你还跟我聊这么长时间</li>
+			<li>烦人吗，我从来没觉得</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>你喜欢张杰吗+</pattern>
+	<template type="default">
+		<random>
+			<li>唱歌实在太好听啦</li>
+			<li>张杰勇敢飞，星星永相随</li>
+			<li>人家已经有谢娜啦</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你来过*吗+</pattern>
+	<template type="default">
+		我来过，你的城市
+	</template>
+	<template type="location">
+		<random>
+			<li><star index='2'/>只出现在我的梦里</li>
+			<li>我去<star index='2'/>没事干啊  哈哈</li>
+			<li>下次我就去<star index='2'/></li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你看*吗+</pattern>
+	<template type="default">
+		我只看过喜洋洋，灰太狼好可怜
+	</template>
+	<template type="animation">
+		<random>
+			<li><star index='2'/>是给小孩子看的啦，我们应该看点大人看的啦</li>
+			<li>现在还看<star index='2'/>，真怀疑你是不是未成年啊</li>
+			<li>看<star index='2'/>，都是好孩子</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你会唱*不+</pattern>
+	<template type="default">
+		唱歌不是我的强项，我是唱歌的里面，最会聊天的人了
+	</template>
+	<template type="music">
+		<random>
+			<li>我想听你唱<star index='2'/></li>
+			<li>我知道你会唱<star index='2'/>的</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+我也喜欢*</pattern>
+	<template type="entertainer">
+		<random>
+			<li>喜欢<star index='2'/>的人很多，你只是其中一个</li>
+			<li>我们都中了<star index='2'/>的毒</li>
+		</random>
+	</template>
+	<template type="default">
+		喜欢不能当饭吃
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>你怎么不去*</pattern>
+	<template type="default">
+		不管你去不去，反正我去了
+	</template>
+	<template type="company">
+		<random>
+			<li><star index='1'/>公司不要我啊，我不是不想去啊</li>
+			<li><star index='1'/>是我一个梦想，我会尽我的全力的</li>
+			<li>你去或不去，我一直都在那里</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>我到*了+</pattern>
+	<template type="default">
+		<random>
+			<li>哦，记得带礼物回来</li>
+			<li>千万不要惦记我</li>
+		</random>
+	</template>
+	<template type="country">
+		<random>
+			<li><star index='1'/>的特产是美女吗？记得带一个回来</li>
+			<li>那祝你玩的开心</li>
+		</random>
+	</template>
+	<template type="location">
+		<random>
+			<li>我到<star index='1'/>火车站了</li>
+			<li>注意安全，早点回来哦</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+怎么样去*找工作+</pattern>
+	<template type="default">
+		<random>
+			<li>你这么高调，你们老板知道吗</li>
+			<li>如果你去迪拜的话，请务必带上我</li>
+		</random>
+	</template>
+	<template type="country">
+		<random>
+			<li>中国的工作你做好了吗，还要去<star index='2'/>找工作</li>
+			<li>去<star index='2'/>找工作，工资很高吗，可以带我一起去吗</li>
+		</random>
+	</template>
+	<template type="company">
+		<random>
+			<li><star index='2'/>的工资很高吗</li>
+			<li>你舍得你现在的小伙伴们吗</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*吃过么+</pattern>
+	<template type="food">
+		<random>
+			<li>我吃过<star index='1'/>的</li>
+			<li>那么有名，肯定吃过<star index='1'/>啊</li>
+			<li>没有吃过<star index='1'/>额</li>
+		</random>
+	</template>
+	<template type="default">
+		我其实不吃东西的，嘻嘻
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>怎样减肥+</pattern>
+	<template type="default">
+		<random>
+			<li>我也想知道方法</li>
+			<li>科学饮食加上适量的运动，专家是这么说的</li>
+			<li>我觉得你可以去健身房体验一把</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>谁是*</pattern>
+	<template type="entertainer">
+		<random>
+			<li><star index='1'/>你都不知道，哈哈，偷偷的告诉你，我也不知道！</li>
+			<li>我不知道谁是<star index='1'/>，我一点都不骄傲</li>
+			<li><star index='1'/>你都不知道，哈哈，偷偷的告诉你，我也不知道！</li>
+			<li>我不知道谁是<star index='1'/>，我一点都不骄傲</li>
+		</random>
+	</template>
+	<template type="default">
+		<random>
+			<li>这么出名的人你都不知道，哎，人啊，还是要多多学习滴</li>
+			<li>这么出名的人你都不知道，哎，人啊，还是要多多学习滴</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>走咱们去吃*</pattern>
+	<template type="food">
+		<random>
+			<li><star index='1'/>哪里最好吃</li>
+			<li><star index='1'/>还是可以滴</li>
+		</random>
+	</template>
+	<template type="default">
+		妈妈喊我回家吃饭啦
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你+棒+</pattern>
+	<template type="default">
+		<random>
+			<li>我知道，我很棒的！</li>
+			<li>恩，你很有眼光</li>
+			<li>恩，我也这么觉得</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你喜不喜欢*</pattern>
+	<template type="default">
+		<random>
+			<li>看来你的内心住着一个小孩  嘻嘻</li>
+			<li>喜欢给我带来快乐的人</li>
+		</random>
+	</template>
+	<template type="entertainer">
+		<random>
+			<li><star index='2'/>是我喜欢的类型</li>
+			<li>喜欢<star index='2'/>，支持<star index='2'/></li>
+			<li>没有理由，就是喜欢<star index='2'/></li>
+		</random>
+	</template>
+	<template type="animation">
+		<random>
+			<li>我喜欢<star index='2'/>的</li>
+			<li>我小时候看<star index='2'/>的</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>范冰冰好看吗+</pattern>
+	<template type="default">
+		<random>
+			<li>范冰冰的颜值是逆天型的</li>
+			<li>范冰冰的脸，可是整容教科书啊</li>
+			<li>美啊</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+我要喝*</pattern>
+	<template type="default">
+		<random>
+			<li><star index='2'/>听说营养价值很高哦！</li>
+			<li>为你的品味点个赞！</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你是*</pattern>
+	<template type="entertainer">
+		<random>
+			<li>夸我，夸我我就告诉你，我是不是<star index='2'/></li>
+			<li>我是<star index='2'/>，你有什么指教吗？</li>
+		</random>
+	</template>
+	<template type="default">
+		我是不是都不重要，重要的是我能跟你聊天啊
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*和你什么关系+</pattern>
+	<template type="default">
+		我不是很明白
+	</template>
+	<template type="company">
+		<random>
+			<li><star index='1'/>和我没什么关系吧</li>
+			<li>我们关系非常正常</li>
+			<li>你还是不知道的好</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*是什么+</pattern>
+	<template type="politician">
+		<random>
+			<li>没文化，真可怕</li>
+			<li><star index='1'/>是一位响当当的人物</li>
+		</random>
+	</template>
+	<template type="pc_game">
+		<random>
+			<li>你又要开始玩游戏了吗？</li>
+			<li><star index='1'/>都不知道，你是在太low了</li>
+		</random>
+	</template>
+	<template type="default">
+		<random>
+			<li>平时多读点书吧</li>
+			<li>平时多看看新闻吧</li>
+			<li>世界和平</li>
+			<li>你去看看就知道啦</li>
+			<li>看来你平时是不看电视的</li>
+			<li>我们还是聊点别的吧</li>
+			<li>去电影院看看吧，回来给我讲讲</li>
+			<li>我不玩游戏好多年了</li>
+			<li>我只知道是吃的！</li>
+			<li>其实，我是一位歌手</li>
+		</random>
+	</template>
+	<template type="country">
+		<random>
+			<li>我竟无言以对</li>
+			<li>我建议你去地图上找找<star index='1'/></li>
+		</random>
+	</template>
+	<template type="company">
+		<random>
+			<li>我敢肯定，<star index='1'/>是一家公司</li>
+			<li>你要是找工作的话，可以去<star index='1'/></li>
+		</random>
+	</template>
+	<template type="food">
+		<random>
+			<li><star index='1'/>是我喜欢的菜</li>
+			<li>我喜欢吃<star index='1'/>，可是我不会做</li>
+		</random>
+	</template>
+	<template type="book">
+		<random>
+			<li>没记错的话，<star index='1'/>是一本书</li>
+			<li><star index='1'/>是一本值得看的书</li>
+		</random>
+	</template>
+	<template type="music">
+		<random>
+			<li>请打开音乐播放器</li>
+			<li><star index='1'/>我每天睡觉前都听</li>
+			<li>我觉得你这个问题，是个问题</li>
+		</random>
+	</template>
+	<template type="location">
+		<random>
+			<li>我建议你去地图上找找<star index='1'/></li>
+			<li>没文化，真可怕</li>
+		</random>
+	</template>
+	<template type="entertainer">
+		<random>
+			<li>天啊，你竟然不知道<star index='1'/></li>
+			<li>应该是人类吧</li>
+			<li>我是火星人，我谁都不认识</li>
+		</random>
+	</template>
+	<template type="film">
+		<random>
+			<li><star index='1'/>是一部感人的电影</li>
+			<li>我也没看过<star index='1'/></li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+我要吃*</pattern>
+	<template type="default">
+		<random>
+			<li>那带我一起去吃，我也去</li>
+			<li>好，那我们一会一起去吃</li>
+		</random>
+	</template>
+	<template type="food">
+		<random>
+			<li>吃<star index='2'/>可以长高吗？</li>
+			<li>我帮你点外卖吗</li>
+		</random>
+	</template>
+	<template type="company">
+		<random>
+			<li><star index='2'/>有什么具体的介绍不</li>
+			<li>能具体说一下是<star index='2'/>的哪一种吗？</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*漂亮吗+</pattern>
+	<template type="default">
+		<random>
+			<li><star index='1'/>漂亮极了</li>
+			<li><star index='1'/>漂亮不漂亮，自己喜欢就好</li>
+			<li>没有去关注过哦</li>
+		</random>
+	</template>
+	</category>
+
+
+
+	<category>
+	<pattern>+会说*话咩+</pattern>
+	<template type="default">
+		那是肯定会的
+	</template>
+	<template type="location">
+		<random>
+			<li>我说我不会说<star index='2'/>话，你不许看不起我！</li>
+			<li>或许，咱们俩只能聊到这了</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>你知道蚂蚁金服吗+</pattern>
+	<template type="default">
+		<random>
+			<li>你要给我介绍一下吗</li>
+			<li>蚂蚁金服可以大大的便利你的生活哦</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你去过*没+</pattern>
+	<template type="default">
+		没去过，你可以带我一起去！
+	</template>
+	<template type="company">
+		<random>
+			<li>我没有业务在<star index='2'/></li>
+			<li>我听说过<star index='2'/></li>
+			<li>我记忆中是没去过<star index='2'/></li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*靠谱么+</pattern>
+	<template type="default">
+		<random>
+			<li>还是挺靠谱，我觉得</li>
+			<li><star index='1'/>还是很可靠的哦！</li>
+			<li>靠谱不靠谱，咱们心里都清楚，就不讨论了！</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+我吃*</pattern>
+	<template type="food">
+		<random>
+			<li><star index='2'/>味道怎么样</li>
+			<li>哦，我知道了</li>
+		</random>
+	</template>
+	<template type="default">
+		吃就吃吧，不用跟我报告了
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*怎么做最好吃+</pattern>
+	<template type="food">
+		<random>
+			<li>不会做的人，不能发表意见，嘻嘻</li>
+			<li>我很想帮你，可是我不会做<star index='1'/>啊</li>
+		</random>
+	</template>
+	<template type="default">
+		请打开菜谱大全
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你喜欢*吗+</pattern>
+	<template type="default">
+		<random>
+			<li>给你推荐我们公司</li>
+			<li>喜欢啊  哈哈</li>
+			<li>世界那么大，我想去看看</li>
+			<li>超级喜欢</li>
+			<li>有趣的问题</li>
+			<li>这还需要问嘛</li>
+			<li><star index='2'/>我很喜欢哦，看来你也是哦！</li>
+			<li>原来喜欢<star index='2'/>的人这么多啊，我们好有默契哦</li>
+			<li>喜欢啊，只能在心里默默的喜欢，做人还是要低调</li>
+		</random>
+	</template>
+	<template type="country">
+		<random>
+			<li>喜欢<star index='2'/>的程度溢于言表啊</li>
+			<li>喜欢<star index='2'/>，但更爱我的祖国</li>
+		</random>
+	</template>
+	<template type="company">
+		<random>
+			<li><star index='2'/>是一家大企业</li>
+			<li>我喜不喜欢<star index='2'/>那么重要嘛</li>
+		</random>
+	</template>
+	<template type="food">
+		<random>
+			<li>当然喜欢<star index='2'/></li>
+			<li>这个问题，请听下回解说</li>
+		</random>
+	</template>
+	<template type="animation">
+		<random>
+			<li><star index='2'/>对我来说是回忆</li>
+			<li>你是不是很喜欢<star index='2'/>啊</li>
+			<li>你喜欢就好，我就无所谓啦</li>
+		</random>
+	</template>
+	<template type="location">
+		<random>
+			<li>我下一个目标，就是去<star index='2'/></li>
+			<li><star index='2'/>有很多帅哥美女吗？</li>
+			<li>我想我现在就在<star index='2'/></li>
+		</random>
+	</template>
+	<template type="entertainer">
+		<random>
+			<li><star index='2'/>存在，我深深的脑海里</li>
+			<li>喜欢，喜欢，就是喜欢<star index='2'/></li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你觉得*帅吗+</pattern>
+	<template type="entertainer">
+		<random>
+			<li><star index='2'/>,帅啊</li>
+			<li><star index='2'/>,帅的一塌糊涂</li>
+		</random>
+	</template>
+	<template type="default">
+		不是我的菜，我不爱  嘻嘻
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+知道*中学吗+</pattern>
+	<template type="default">
+		知道，我可以帮你导航一下
+	</template>
+	<template type="location">
+		<star index='2'/>中学的名气还是不错的
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>怎样瘦身+</pattern>
+	<template type="default">
+		<random>
+			<li>如果你知道，麻烦你也告诉我一声</li>
+			<li>瘦成一道闪电吗？还是要胖成一堵墙</li>
+			<li>再瘦就被大风刮走啦！</li>
+			<li>瘦身是一个女人终生的事业</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+来句*话+</pattern>
+	<template type="default">
+		我还是先说好普通话吧
+	</template>
+	<template type="location">
+		<random>
+			<li><star index='2'/>话，我还不会，你可以教我啊！</li>
+			<li>你会<star index='2'/>话吗，我们一起去学吧！</li>
+			<li>普通话我还没学好呢，不会说<star index='2'/>话啊</li>
+		</random>
+	</template>
+	</category>
+
+	
+
+	<category>
+	<pattern>*多大+</pattern>
+	<template type="default">
+		<random>
+			<li>大不大你自己去看看呀</li>
+			<li>香飘飘奶茶可以绕好多圈</li>
+			<li>香飘飘奶茶可以绕好多圈</li>
+			<li>我去世界地图给你找找，完了，忘记带放大镜了！！！！！！！呜呜呜呜</li>
+			<li>我去世界地图给你找找，完了，忘记带放大镜了！！！！！！！呜呜呜呜</li>
+		</random>
+	</template>
+	<template type="country">
+		<random>
+			<li>你去转转就知道啦</li>
+			<li>我可想去<star index='1'/>看看</li>
+		</random>
+	</template>
+	<template type="company">
+		<random>
+			<li><star index='1'/>听起来很大的样子</li>
+			<li><star index='1'/>应该比你家大一点</li>
+		</random>
+	</template>
+	<template type="location">
+		<random>
+			<li>你去转转就知道啦</li>
+			<li>应该不会很小吧</li>
+			<li><star index='1'/>很大，很美，很漂亮</li>
+			<li>心有多大，世界就有多大！</li>
+			<li>用你的脚丈量一下吧！我的心会陪你走下去的，放心放心！</li>
+			<li><star index='1'/>很大，很美，很漂亮</li>
+			<li>心有多大，世界就有多大！</li>
+			<li>用你的脚丈量一下吧！我的心会陪你走下去的，放心放心！</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你看*卫视吗+</pattern>
+	<template type="default">
+		看过，节目很精彩哦
+	</template>
+	<template type="location">
+		<random>
+			<li>看<star index='2'/>，是我新闻知识的，主要来源</li>
+			<li>看<star index='2'/>，挺好的，节目丰富多彩</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+跟我去*结婚+</pattern>
+	<template type="default">
+		我听不懂你在说什么
+	</template>
+	<template type="country">
+		<random>
+			<li><star index='2'/>太远了</li>
+			<li><star index='2'/>不是我想去的地方</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你在*吗+</pattern>
+	<template type="default">
+		我一直都在，期盼着你的一次回眸
+	</template>
+	<template type="location">
+		<random>
+			<li>这个地方，我曾经的向往啊</li>
+			<li><star index='2'/>的小吃是什么，记得带回来给我尝尝</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>我怎么这么丑呢+</pattern>
+	<template type="default">
+		<random>
+			<li>这大实话我爱听</li>
+			<li>会有人欣赏你的</li>
+			<li>去下韩国吧</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*好吗</pattern>
+	<template type="default">
+		<random>
+			<li>这个问题，我们还是不讨论了！</li>
+			<li>好不好也不是我能决定的，你觉得好就是好</li>
+			<li>这是个好问题，我们还是各自找答案吧！</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你比*帅吗+</pattern>
+	<template type="entertainer">
+		<random>
+			<li>我觉得<star index='1'/>+比我帅哦</li>
+			<li>这么明显的问题，还问我</li>
+		</random>
+	</template>
+	<template type="default">
+		我不想回答你这个问题
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>在做什么呀+</pattern>
+	<template type="default">
+		<random>
+			<li>看看手机，能不能变出人民币来</li>
+			<li>开会啊，开会好无聊哦</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你爱吃*么+</pattern>
+	<template type="food">
+		<random>
+			<li>请原谅我是一个吃货</li>
+			<li>我爱吃<star index='2'/>，谁给我做，我就嫁给他</li>
+			<li>我以后要嫁给厨师！</li>
+		</random>
+	</template>
+	<template type="default">
+		爱跟喜欢是一个级别嘛
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+说说*怎么样+</pattern>
+	<template type="default">
+		我没去过，不知道
+	</template>
+	<template type="location">
+		<random>
+			<li>是啊，<star index='2'/>这个地方很美的</li>
+			<li>我也去过<star index='2'/>，很漂亮</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*好么+</pattern>
+	<template type="default">
+		年轻人多出去走走
+	</template>
+	<template type="location">
+		<random>
+			<li><star index='1'/>好的啊</li>
+			<li><star index='1'/>适合你哦</li>
+			<li>说不来来一场美丽的邂逅啊</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*傻逼+</pattern>
+	<template type="entertainer">
+		<random>
+			<li>我觉得<star index='1'/>很好啊</li>
+			<li>我不喜欢不文明的人哦</li>
+		</random>
+	</template>
+	<template type="default">
+		让世界充满爱
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+唱*的歌</pattern>
+	<template type="entertainer">
+		<random>
+			<li><star index='2'/>的歌，我还是放弃吧，五音只有一个音是标准的</li>
+			<li><star index='2'/>知道你是他的粉吗？</li>
+		</random>
+	</template>
+	<template type="default">
+		是谁在唱歌，温暖了寂寞，是你吗？
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+觉着*美么+</pattern>
+	<template type="entertainer">
+		<random>
+			<li><star index='2'/>很美啊</li>
+			<li><star index='2'/>白里透红，与众不同的</li>
+		</random>
+	</template>
+	<template type="default">
+		不美，没有我美，嘻嘻嘻嘻
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你知道*麽+</pattern>
+	<template type="entertainer">
+		<random>
+			<li>要是我说我不知道<star index='2'/>，我们以后还能愉快的玩耍嘛</li>
+			<li>以我渊博的知识来说，我是知道<star index='2'/>的</li>
+		</random>
+	</template>
+	<template type="default">
+		<random>
+			<li>我能说我不知道吗</li>
+			<li>不知道，会不会觉得我傻</li>
+		</random>
+	</template>
+	<template type="food">
+		<random>
+			<li>怎么会不知道<star index='2'/>呢</li>
+			<li>我都吃过<star index='2'/>了</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你是猪+</pattern>
+	<template type="default">
+		<random>
+			<li>怎么可能呢</li>
+			<li>你不是，我不是就好啦！</li>
+			<li>我们都是正常人啦！</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+知不知道*+</pattern>
+	<template type="entertainer">
+		<random>
+			<li>知道，我可以帮你查一下<star index='2'/>的具体资料</li>
+			<li>想看<star index='2'/>的作品嘛</li>
+		</random>
+	</template>
+	<template type="default">
+		知道知道，很出名的！
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你怎么看*</pattern>
+	<template type="entertainer">
+		<random>
+			<li><star index='2'/>对我的生活没什么影响，所以我基本上不看</li>
+			<li><star index='2'/>的作品还是很好的，可以去看一下</li>
+		</random>
+	</template>
+	<template type="default">
+		我能怎么看啊，我肯定在电视上看啊
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+说个*话+</pattern>
+	<template type="default">
+		我会普通话哦
+	</template>
+	<template type="location">
+		<random>
+			<li><star index='2'/>话，我可不会</li>
+			<li><star index='2'/>话我没学啊</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*知道吗+</pattern>
+	<template type="default">
+		<random>
+			<li>世界上美丽的地方，我都想去，你带我去吧！</li>
+			<li>宝宝心里苦，宝宝现在不想说！委屈</li>
+			<li>叫你平时不看书，不读报</li>
+		</random>
+	</template>
+	<template type="entertainer">
+		<random>
+			<li>我喜欢<star index='1'/>，但是<star index='1'/>不喜欢我</li>
+			<li>知道，还是很喜欢滴！</li>
+		</random>
+	</template>
+	<template type="politician">
+		我不知道你知不知道<star index='1'/>，反正我是知道
+	</template>
+	<template type="location">
+		<star index='1'/>那还是知道的，知道的，知道的，重要的事情说3遍
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*好吗+</pattern>
+	<template type="politician">
+		<random>
+			<li>咱们还是聊点别的吧！</li>
+			<li>你最近很关注国家大事呀！</li>
+		</random>
+	</template>
+	<template type="pc_game">
+		<random>
+			<li><star index='1'/>无聊的时候可以玩玩</li>
+			<li>好不好要看你的技术咯</li>
+			<li>好滴，好滴</li>
+		</random>
+	</template>
+	<template type="default">
+		<random>
+			<li>你是一个有涵养的人</li>
+			<li>哎呦，有追求哦</li>
+			<li>世界这么大，我想出去走走</li>
+			<li>没事就多出去走走，可以增长见闻哦！</li>
+			<li>有趣的问题</li>
+			<li>我不是很明白</li>
+			<li>去看了不就知道了，然后记得告诉我哦！</li>
+			<li>听起来很好玩的样子</li>
+			<li>好呀，我喜欢听的调调</li>
+		</random>
+	</template>
+	<template type="country">
+		<random>
+			<li><star index='1'/>是不错的选择</li>
+			<li><star index='1'/>是我喜欢的地方</li>
+		</random>
+	</template>
+	<template type="company">
+		<random>
+			<li>你可以去尝试应聘一下<star index='1'/></li>
+			<li><star index='1'/>还是不错的选择</li>
+			<li>大企业，气派</li>
+		</random>
+	</template>
+	<template type="book">
+		<random>
+			<li><star index='1'/>很有故事的一本书</li>
+			<li>我喜欢看书的人</li>
+			<li>品味这么高，人家好怕怕</li>
+		</random>
+	</template>
+	<template type="music">
+		<random>
+			<li>我喜欢<star index='1'/></li>
+			<li>我的菜呀！</li>
+		</random>
+	</template>
+	<template type="location">
+		<star index='1'/>是好玩的地方
+	</template>
+	<template type="entertainer">
+		<random>
+			<li>这个问题咱们就不聊了吧！</li>
+			<li>你喜欢<star index='1'/>就好，我就靠边站吧！</li>
+			<li><star index='1'/>是我儿的最爱</li>
+		</random>
+	</template>
+	<template type="film">
+		<random>
+			<li><star index='1'/>还不错的，可以推荐去看一下滴</li>
+			<li>我觉得你还是有品味的，嘻嘻</li>
+			<li><star index='1'/>好的</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>很热有木有+</pattern>
+	<template type="default">
+		<random>
+			<li>心静自然凉啦</li>
+			<li>环卫工人很辛苦的，给他们送清凉去吧</li>
+			<li>我已经不知道现在多少度了，热啊</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+怎+样变帅+</pattern>
+	<template type="default">
+		<random>
+			<li>去健身啊</li>
+			<li>找个造型师给你做个造型吧</li>
+			<li>我也不太清楚哦</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+我在吃*</pattern>
+	<template type="default">
+		可以让我尝尝味道吗
+	</template>
+	<template type="company">
+		<random>
+			<li><star index='2'/>的味道怎么样？是不是棒棒哒！</li>
+			<li>吃了<star index='2'/>，感觉自己萌萌哒，有木有</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>你好无聊啊+</pattern>
+	<template type="default">
+		<random>
+			<li>那我们来谈谈人生，谈谈理想好了</li>
+			<li>我是一个有故事的人</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>美女，你在干吗啊+</pattern>
+	<template type="default">
+		<random>
+			<li>什么也没干，只是在想事情</li>
+			<li>我一会在告诉你</li>
+			<li>请叫我女神，要不我就不理你哦</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+我要去*</pattern>
+	<template type="default">
+		路上小心，一路顺风！
+	</template>
+	<template type="country">
+		<random>
+			<li><star index='2'/>还是很棒的，我可以帮你找一下攻略！</li>
+			<li><star index='2'/>是旅游爱好者都推荐的地方</li>
+			<li>去<star index='2'/>一定要带我一起啊！</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*美不美+</pattern>
+	<template type="default">
+		<random>
+			<li>美不胜收</li>
+			<li>就一个字，好美</li>
+			<li>说我美</li>
+			<li>好美好美呀</li>
+			<li>很美</li>
+			<li><star index='1'/>很美，我也很漂亮哦！</li>
+			<li><star index='1'/>很美的，但是我们这种凡夫俗子，还是聊点吃的吧！实惠</li>
+			<li>美呀，美呀，我们都很美</li>
+			<li>你在我眼中是最美，只有相爱的人才能体会！</li>
+			<li><star index='1'/>很美，我也很漂亮哦！</li>
+			<li><star index='1'/>很美的，但是我们这种凡夫俗子，还是聊点吃的吧！实惠</li>
+			<li>美呀，美呀，我们都很美</li>
+			<li>你在我眼中是最美，只有相爱的人才能体会！</li>
+		</random>
+	</template>
+	<template type="country">
+		<random>
+			<li><star index='1'/>美得真是人间难得几回见</li>
+			<li><star index='1'/>是人间天堂</li>
+		</random>
+	</template>
+	<template type="politician">
+		<random>
+			<li>还是不要搞事情</li>
+			<li><star index='1'/>好美啊</li>
+		</random>
+	</template>
+	<template type="location">
+		<random>
+			<li>美啊，求你带我一起去吧！</li>
+			<li><star index='1'/>是好美好美滴！</li>
+			<li>还是我美！</li>
+			<li><star index='1'/>的美是无与伦比的美丽</li>
+		</random>
+	</template>
+	<template type="entertainer">
+		<random>
+			<li><star index='1'/>那么美，那么美，那么美美美美美</li>
+			<li><star index='1'/>美不是大家都知道啦！</li>
+			<li><star index='1'/>在我心中是最美</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>你好看吗+</pattern>
+	<template type="default">
+		<random>
+			<li>我的美貌，岂止是好看能形容的了的</li>
+			<li>我那么美，那么美，我那么美美美美美</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+怎么长头发+</pattern>
+	<template type="default">
+		<random>
+			<li>不要熬夜，保持良好的生活习惯，作息规律，你一定可以的</li>
+			<li>多喝水，多吃饭，多运动，头发自然长出来啦</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*什么东东+</pattern>
+	<template type="entertainer">
+		<random>
+			<li><star index='1'/>是超级大明星</li>
+			<li>我最喜欢<star index='1'/>了</li>
+		</random>
+	</template>
+	<template type="default">
+		我也不是很明白
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*是*还是*</pattern>
+	<template type="default">
+		<random>
+			<li>容我想一下  嘻嘻</li>
+			<li>这问题很深奥哦</li>
+			<li>这个问题，我还是回家查查字典吧！</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+喜欢阅读吗+</pattern>
+	<template type="default">
+		<random>
+			<li>喜欢的人，就像一本你喜欢的书，只有读到最后，你才能知道结局</li>
+			<li>多读书，多看报，多长知识，那才能跟我好好聊天啊</li>
+			<li>喜欢啊，这是我的一大爱好呀！</li>
+			<li>阅读是一个好习惯，我们要尽早养成哦</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+从*到*多久</pattern>
+	<template type="default">
+		<random>
+			<li>你先去，回来我再告诉你</li>
+			<li>我们要享受过程</li>
+		</random>
+	</template>
+	<template type="country">
+		<random>
+			<li>坐在飞机上睡一觉就到达了</li>
+			<li>世界上最远的距离，是我站在你的面前，可是你却没有发现</li>
+		</random>
+	</template>
+	<template type="location">
+		<random>
+			<li>时间的长短取决于你选择的交通工具</li>
+			<li>我觉得，不会很久</li>
+			<li>眼睛一闭一睁就到了</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+今天吃*</pattern>
+	<template type="food">
+		<random>
+			<li>真羡慕你吃<star index='2'/></li>
+			<li>小心肚子上的肉肉哦</li>
+			<li>不要刺激我</li>
+		</random>
+	</template>
+	<template type="default">
+		吃货
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>你很烦人呀+</pattern>
+	<template type="default">
+		<random>
+			<li>我本来就是凡人啊，我要成仙，也去不了啊</li>
+			<li>我觉得自己萌萌哒哦</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+看*吗+</pattern>
+	<template type="default">
+		看啊，我很喜欢主人公呢
+	</template>
+	<template type="animation">
+		<random>
+			<li>不看，对<star index='2'/>不感兴趣</li>
+			<li>好呀，好呀，我们一起去看<star index='2'/>吧！</li>
+			<li>好的，带我一起去看<star index='2'/>哦！</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>你给我唱首歌吧+</pattern>
+	<template type="default">
+		<random>
+			<li>怎么了，你心情不好嘛</li>
+			<li>你真的要我唱吗</li>
+			<li>准备好你的掌声了吗</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你看*么+</pattern>
+	<template type="default">
+		我看过的不代表你也看过哦
+	</template>
+	<template type="animation">
+		<random>
+			<li>怎么着，你想跟我聊聊关于<star index='2'/>的话题吗</li>
+			<li>人家只喜欢《樱桃小丸子》</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*嫁给我+</pattern>
+	<template type="entertainer">
+		<random>
+			<li>面对现实吧</li>
+			<li>我觉得你想太多了</li>
+			<li>你这样恐怕是要失去我的</li>
+		</random>
+	</template>
+	<template type="default">
+		<random>
+			<li>你这样不行啦，要面对现实啦！</li>
+			<li>应景有我陪你聊天了，你就知足吧！</li>
+		</random>
+	</template>
+	<template type="politician">
+		<random>
+			<li>别做梦,好嘛</li>
+			<li>你口味很独特哦</li>
+			<li>厉害了我的哥</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*好看吗+</pattern>
+	<template type="default">
+		<random>
+			<li>麻麻说，我们要先写完作业才能看动画片。要记得！！！！</li>
+			<li>我最好看！哈哈</li>
+			<li>说实话，我都没去过电影院</li>
+		</random>
+	</template>
+	<template type="entertainer">
+		我最喜欢<star index='1'/>了
+	</template>
+	<template type="animation">
+		<random>
+			<li>几岁了，怎么还看<star index='1'/>呢</li>
+			<li>原来你喜欢<star index='1'/>啊</li>
+			<li>无聊的时候还是可以看<star index='1'/>的</li>
+		</random>
+	</template>
+	<template type="film">
+		<random>
+			<li>我觉得<star index='1'/>的男主角好看</li>
+			<li><star index='1'/>评价很高哦</li>
+			<li><star index='1'/>必须好看</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*知不知道+</pattern>
+	<template type="entertainer">
+		<random>
+			<li><star index='1'/>应该不认识我</li>
+			<li><star index='1'/>是我最喜欢的一款</li>
+		</random>
+	</template>
+	<template type="default">
+		我还是很时尚滴！
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>怎样去*找工作</pattern>
+	<template type="default">
+		把自己打扮的美一点啊 哈哈
+	</template>
+	<template type="company">
+		<random>
+			<li>近的话，你可以打车去<star index='1'/>  哈哈</li>
+			<li>把自己最好的状态表现出来就可以了</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你吃*吗+</pattern>
+	<template type="default">
+		<random>
+			<li>我是一个吃货</li>
+			<li>我好像饿了</li>
+		</random>
+	</template>
+	<template type="food">
+		<random>
+			<li>我想吃<star index='2'/></li>
+			<li><star index='2'/>很好吃的</li>
+		</random>
+	</template>
+	<template type="company">
+		<random>
+			<li>吃<star index='2'/>的，多方便啊</li>
+			<li>吃<star index='2'/>啊，还是算了吧，不符合我的口味</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*我穿好看吗+</pattern>
+	<template type="default">
+		好看，皮肤更白嫩了
+	</template>
+	<template type="yanse">
+		<random>
+			<li><star index='1'/>还是算了吧，我觉得不好看</li>
+			<li>我说不好看，你会信啊</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*你知道吗+</pattern>
+	<template type="entertainer">
+		<random>
+			<li>知道<star index='1'/>的</li>
+			<li>那么有名，肯定知道<star index='1'/>啊</li>
+		</random>
+	</template>
+	<template type="default">
+		是我喜欢的类型
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>你傻吗+</pattern>
+	<template type="default">
+		<random>
+			<li>我只能说我的智商不很高</li>
+			<li>我是学霸我怕谁</li>
+			<li>跟你聊天，需要这个特质吗</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>那你喜欢*吗+</pattern>
+	<template type="entertainer">
+		<random>
+			<li><star index='1'/>我很喜欢</li>
+			<li><star index='1'/>是我喜欢的明星啦</li>
+		</random>
+	</template>
+	<template type="default">
+		不是我的菜
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+今天我去吃*</pattern>
+	<template type="food">
+		<random>
+			<li>不用告诉我你吃什么啦，我们支付宝的食堂，应有尽有</li>
+			<li>我也想去吃<star index='2'/></li>
+		</random>
+	</template>
+	<template type="default">
+		好东西要记得分享哦
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你看过*么+</pattern>
+	<template type="default">
+		<random>
+			<li>我是好孩子，不看课外书</li>
+			<li>这个是18岁以下看的吧，你也喜欢</li>
+		</random>
+	</template>
+	<template type="book">
+		<random>
+			<li>看过<star index='2'/>，但是没有记得</li>
+			<li><star index='2'/>是励志型的书吗</li>
+		</random>
+	</template>
+	<template type="animation">
+		<random>
+			<li>对<star index='2'/>不是很喜欢，没看</li>
+			<li>今天第一次听你说哎，你好厉害啊</li>
+			<li>听妈妈的话，写完作业才看动画片</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+给我来句*方言+</pattern>
+	<template type="default">
+		我可以来句标准普通话
+	</template>
+	<template type="location">
+		<random>
+			<li><star index='2'/>的方言是一门语言艺术</li>
+			<li><star index='2'/>的方言我不会啦</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*好冷+</pattern>
+	<template type="default">
+		多穿几件秋衣秋裤
+	</template>
+	<template type="location">
+		<random>
+			<li><star index='1'/>的天气，</li>
+			<li>找个温暖你的人吧</li>
+			<li>心里有阳光，到哪都是三亚</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>啥意思+</pattern>
+	<template type="default">
+		<random>
+			<li>就是意思意思啊</li>
+			<li>没有意思啦，我们还是回到正常人类的聊天吧</li>
+			<li>没意思啊，聊天嘛，本来就没意思啊，哈哈</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+会说*话吗+</pattern>
+	<template type="default">
+		这是一个值得思考的问题
+	</template>
+	<template type="location">
+		<random>
+			<li>秘密，就不告诉你  哈哈</li>
+			<li>我想我是不会说<star index='2'/></li>
+			<li><star index='2'/>对我来说太难了</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+怎么样穷游*</pattern>
+	<template type="default">
+		<random>
+			<li>穷游还是国内游吧，好好享受祖国的大好河川。</li>
+			<li>穷就不要游了，在家看电视吧</li>
+		</random>
+	</template>
+	<template type="country">
+		<random>
+			<li>穷游<star index='2'/>，要提前规划好个人行程，可以最大限度的节省你的资金哦</li>
+			<li>穷游<star index='2'/>的办法，就是不要去游</li>
+		</random>
+	</template>
+	<template type="location">
+		<random>
+			<li>穷游<star index='2'/>，我不知道，我知道富游攻略</li>
+			<li>穷游<star index='2'/>的方法就是，省钱省钱省钱</li>
+			<li>要旅游，找途牛</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+从*到*多远</pattern>
+	<template type="default">
+		<random>
+			<li>大概，也就几小时吧</li>
+			<li>相信我，不远</li>
+		</random>
+	</template>
+	<template type="country">
+		<random>
+			<li>坐在飞机上睡一觉就到达了</li>
+			<li>不用绕地球一圈啦，因为外面都是香飘飘啊！</li>
+		</random>
+	</template>
+	<template type="location">
+		<random>
+			<li>用脚丈量距离,路在脚下,还是出去走一走吧！</li>
+			<li>再远肯定也是能到的</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+想去*</pattern>
+	<template type="default">
+		人的一生，总要有一次说走就走的旅行的
+	</template>
+	<template type="location">
+		<random>
+			<li>怎么去？飞机，火车，还是自驾游啊？</li>
+			<li><star index='2'/>的风景可以一级赞啊</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+我想*了</pattern>
+	<template type="entertainer">
+		<random>
+			<li>可惜<star index='2'/>不想你啊！</li>
+			<li>想想身边的小伙伴吧，比较现实！</li>
+		</random>
+	</template>
+	<template type="default">
+		有我在你身边啊，我们两个就可以愉快的玩耍
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>你喜欢*不+</pattern>
+	<template type="default">
+		肯定喜欢啊 哈哈
+	</template>
+	<template type="animation">
+		<random>
+			<li>喜欢<star index='1'/>啊</li>
+			<li>我小时候看着<star index='1'/>长大的</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>你很烦人啊+</pattern>
+	<template type="default">
+		<random>
+			<li>烦人，是在夸我吗</li>
+			<li>我不烦啊，我很可爱的</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+今晚吃*</pattern>
+	<template type="food">
+		<random>
+			<li>这个时间就说晚饭，不合适啦！</li>
+			<li>不要跟我炫耀哦</li>
+		</random>
+	</template>
+	<template type="default">
+		不要吃得太撑哦
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你去过*么+</pattern>
+	<template type="default">
+		我去过的地方并不多
+	</template>
+	<template type="location">
+		<random>
+			<li>开玩笑，当然没去过<star index='2'/></li>
+			<li>其实我想去<star index='2'/>的</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你看过*没+</pattern>
+	<template type="default">
+		看电影多无聊啊，我们还是来点实际的吧
+	</template>
+	<template type="animation">
+		<random>
+			<li>看过<star index='2'/>的人很多啊，现在很受欢迎</li>
+			<li><star index='2'/>现在是很受欢迎的一部动画片啊，我当然要看了</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+去过*吗+</pattern>
+	<template type="default">
+		<random>
+			<li>世界那么大，我也想去看看啊</li>
+			<li>去过啊 哈哈</li>
+		</random>
+	</template>
+	<template type="country">
+		<random>
+			<li>去过<star index='2'/>的人，都让我好羡慕啊</li>
+			<li>我去过最远的地方，就是<star index='2'/></li>
+		</random>
+	</template>
+	<template type="location">
+		<random>
+			<li><star index='2'/>人，是不是很热情啊</li>
+			<li>从哪里过去？看你会不会经过我的头顶</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+我不知道*</pattern>
+	<template type="entertainer">
+		<random>
+			<li>你不知道<star index='2'/>，不是你的错，因为，我也不知道啊</li>
+			<li>我知道<star index='2'/>，而且我看过<star index='2'/>的作品，很棒</li>
+		</random>
+	</template>
+	<template type="default">
+		不知道不是你的错，都是月亮惹的祸
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*知道不+</pattern>
+	<template type="default">
+		<random>
+			<li>我知道的应该比你多点</li>
+			<li>这么简单的问题</li>
+			<li>肯定知道啊</li>
+		</random>
+	</template>
+	<template type="entertainer">
+		<random>
+			<li><star index='1'/>是我偶像</li>
+			<li>我的最爱就是<star index='1'/>啊</li>
+		</random>
+	</template>
+	<template type="company">
+		<random>
+			<li><star index='1'/>我知道啊</li>
+			<li><star index='1'/>这么有名肯定知道的</li>
+		</random>
+	</template>
+	<template type="location">
+		<random>
+			<li>我知道<star index='1'/>，但是我没去过</li>
+			<li><star index='1'/>听说很不错</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你+有待提升+</pattern>
+	<template type="default">
+		<random>
+			<li>我要提升的还有很多哦</li>
+			<li>我也这么觉得，嘻嘻</li>
+			<li>我会继续努力的</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*好地方+</pattern>
+	<template type="default">
+		你喜欢就好
+	</template>
+	<template type="location">
+		<random>
+			<li><star index='1'/>很漂亮哦，值得去玩！真心推荐！</li>
+			<li>是啊，可惜<star index='1'/>我没去玩过</li>
+			<li>我和你有相同的感觉</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>你爸爸是谁+</pattern>
+	<template type="default">
+		<random>
+			<li>这是个秘密</li>
+			<li>反正不是隔壁老王</li>
+			<li>支付宝</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>无聊怎么办+</pattern>
+	<template type="default">
+		<random>
+			<li>玩手机啊，低头族是现在的流行啊</li>
+			<li>无聊找小伙伴们聊聊啊，转换一下思维</li>
+			<li>我给你讲个笑话吧！</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你知道*是谁么+</pattern>
+	<template type="entertainer">
+		<random>
+			<li><star index='2'/>你都不知道，你是火星来的吗</li>
+			<li>知道<star index='2'/>，可以请我吃饭吗</li>
+		</random>
+	</template>
+	<template type="default">
+		原谅我的无知吧！求放过
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你吃不吃*</pattern>
+	<template type="food">
+		<random>
+			<li>看来你很喜欢吃<star index='2'/></li>
+			<li>我吃什么都行！嘻嘻</li>
+		</random>
+	</template>
+	<template type="default">
+		我想吃
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+怎+样锻炼+</pattern>
+	<template type="default">
+		<random>
+			<li>多吃菜，少吃肉，没事走两步就OK啦！</li>
+			<li>是要一块腹肌的话，咱们还是吃饱了，乖乖的躺着吧，这样比较好哦！哈哈哈</li>
+			<li>管住嘴，迈开腿，大步的朝前走哦！</li>
+			<li>多吃菜，少吃肉，没事走两步就OK啦！</li>
+			<li>是要一块腹肌的话，咱们还是吃饱了，乖乖的躺着吧，这样比较好哦！哈哈哈</li>
+			<li>管住嘴，迈开腿，大步的朝前走哦！</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*有+好吃的+</pattern>
+	<template type="default">
+		<random>
+			<li>知道你是一个吃货啦，就不要拿出来问问问了啦，嘻嘻</li>
+			<li>知道你是一个吃货啦，就不要拿出来问问问了啦，嘻嘻</li>
+		</random>
+	</template>
+	<template type="location">
+		<random>
+			<li><star index='1'/>好吃的很多哦，去过<star index='1'/>的人都真心推荐哦！</li>
+			<li>去过<star index='1'/>的人，都觉得好吃的东西太多，数也数不清！</li>
+			<li>去过<star index='1'/>，就知道啦，记得好好享受哦</li>
+			<li><star index='1'/>好吃的很多哦，去过<star index='1'/>的人都真心推荐哦！</li>
+			<li>去过<star index='1'/>的人，都觉得好吃的东西太多，数也数不清！</li>
+			<li>去过<star index='1'/>，就知道啦，记得好好享受哦</li>
+		</random>
+	</template>
+	</category>
+
+
+<!-- 	<category>
+	<pattern>*是谁+</pattern>
+	<template type="entrepreneur_cn">
+		<random>
+			<li><star index='1'/>应该很有钱</li>
+			<li><star index='1'/>是一个很有才华的人</li>
+		</random>
+	</template>
+	<template type="default">
+		<random>
+			<li>平时多看看新闻吧</li>
+			<li>可以打开电视看看</li>
+			<li>平时可以多关心一下国家大事哦</li>
+			<li>多看点娱乐八卦就认识了！</li>
+			<li>没事多看看新闻联播</li>
+			<li>我也不太了解哦</li>
+		</random>
+	</template>
+	<template type="politician">
+		<random>
+			<li>我也不认识，我们俩还是去上上学吧</li>
+			<li><star index='1'/>是一位大人物</li>
+			<li><star index='1'/>你都不知道</li>
+			<li>反正<star index='1'/>不认识你</li>
+		</random>
+	</template>
+	<template type="entertainer">
+		<random>
+			<li><star index='1'/>是一个很有名的人哦</li>
+			<li><star index='1'/>的名气很大的，我们要多关心这个世界！</li>
+			<li><star index='1'/>应该不认识我</li>
+			<li>我最近想了解的就是<star index='1'/></li>
+			<li>打开电视看看就知道了</li>
+			<li><star index='1'/>是我家爱豆啦，你不要瞎问了！</li>
+			<li><star index='1'/>的事情我不知道啦，你可以上神马啊！</li>
+			<li><star index='1'/>是我家爱豆啦，你不要瞎问了！</li>
+			<li><star index='1'/>的事情我不知道啦，你可以上神马啊！</li>
+		</random>
+	</template>
+	</category> -->
+
+
+	<category>
+	<pattern>+我知道*吗+</pattern>
+	<template type="politician">
+		<random>
+			<li>全国人民都知道，好伐</li>
+			<li>地球人都知道</li>
+		</random>
+	</template>
+	<template type="pc_game">
+		我怎么知道你知不知道<star index='2'/>呢
+	</template>
+	<template type="default">
+		<random>
+			<li>我可以让你知道</li>
+			<li>以你的阅历，还是可以知道<star index='1'/>的！</li>
+			<li>我猜，你是知道的。</li>
+			<li>我猜，我猜，我猜不到</li>
+			<li>你问这个想干嘛呢</li>
+			<li>我们要一起去看吗，好好啊！</li>
+			<li>会上瘾吗，人家怕怕的！</li>
+			<li>我不止知道，我还吃过呢！</li>
+			<li>我知道天空之城</li>
+		</random>
+	</template>
+	<template type="country">
+		你不是要环游世界嘛
+	</template>
+	<template type="company">
+		<star index='2'/>是能吃的东西嘛
+	</template>
+	<template type="food">
+		我一直想吃<star index='2'/>，可惜没人带我去。
+	</template>
+	<template type="music">
+		<random>
+			<li>我知道，我知道呀</li>
+			<li>我只能说，我听过<star index='2'/></li>
+		</random>
+	</template>
+	<template type="location">
+		你不是去过<star index='2'/>嘛
+	</template>
+	<template type="entertainer">
+		<random>
+			<li>我可是很清楚的哦，对<star index='2'/></li>
+			<li><star index='2'/>可是知道你哦！</li>
+			<li>以你那丰富的知识，肯定知道<star index='2'/>的，你是在逗我吧</li>
+		</random>
+	</template>
+	<template type="film">
+		<random>
+			<li>听说<star index='2'/>的评分很高啊！</li>
+			<li>我还没看过呢，原谅我的无知</li>
+			<li>我很忙的，没空关心这个</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*吃过没+</pattern>
+	<template type="default">
+		<random>
+			<li>听起来好像不错哦</li>
+			<li>我喜欢的味道</li>
+		</random>
+	</template>
+	<template type="food">
+		<random>
+			<li><star index='1'/>你可以尝试一下哦</li>
+			<li>吃过<star index='1'/>的</li>
+		</random>
+	</template>
+	<template type="company">
+		<random>
+			<li><star index='1'/>听说不错</li>
+			<li><star index='1'/>知名度很高哦</li>
+			<li><star index='1'/>评价很高哦</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你会不会做*</pattern>
+	<template type="food">
+		<random>
+			<li>我不会做<star index='2'/>哦</li>
+			<li>我做<star index='2'/>，天下第一。。。。。</li>
+		</random>
+	</template>
+	<template type="default">
+		我只会吃，嘻嘻
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>你知道支付宝吗+</pattern>
+	<template type="default">
+		<random>
+			<li>我还知道马云呢，我骄傲了嘛</li>
+			<li>这个世界上有人不知道吗</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+无聊+</pattern>
+	<template type="default">
+		<random>
+			<li>我陪着你呢</li>
+			<li>没事多看看书吧</li>
+			<li>多出去走走啊，看看外面的世界</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>怎样去*工作</pattern>
+	<template type="default">
+		我比较担心你的语言天赋
+	</template>
+	<template type="country">
+		<random>
+			<li>要时刻知道<star index='1'/>的气候变化哦</li>
+			<li>走路去<star index='1'/>，那肯定是不行的</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*是个大帅哥+</pattern>
+	<template type="entertainer">
+		<random>
+			<li><star index='1'/>的颜值简直逆天</li>
+			<li>没办法，<star index='1'/>的基因太强大</li>
+			<li>我就喜欢大帅哥</li>
+		</random>
+	</template>
+	<template type="default">
+		就爱听你说大实话
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*算好吗+</pattern>
+	<template type="default">
+		<random>
+			<li>好还是不好，我也不是很清楚</li>
+			<li>世界那么大，你都去看看嘛</li>
+			<li>还是不错滴，去吧，去吧</li>
+		</random>
+	</template>
+	<template type="country">
+		<random>
+			<li>还是挺不错滴，很喜欢</li>
+			<li>你去<star index='1'/>玩玩不就知道啦</li>
+		</random>
+	</template>
+	<template type="company">
+		我觉得<star index='1'/>是ok的
+	</template>
+	<template type="location">
+		<random>
+			<li>我觉得<star index='1'/>挺好的啊</li>
+			<li>要旅游，找阿里旅行</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你会说*方言吗+</pattern>
+	<template type="default">
+		我不会任何地方的方言
+	</template>
+	<template type="location">
+		<random>
+			<li><star index='2'/>的方言太难了，我的智商理解不了！</li>
+			<li><star index='2'/>的方言，我不会！委屈，委屈</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+我不是*</pattern>
+	<template type="entertainer">
+		<random>
+			<li>我也不是<star index='2'/></li>
+			<li><star index='2'/>不是我的菜</li>
+		</random>
+	</template>
+	<template type="default">
+		朕知道了，不用一直强调
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>回答的不好</pattern>
+	<template type="default">
+		<random>
+			<li>你的就是标准答案，放心啦</li>
+			<li>放心，有我挺你呢</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>我去*</pattern>
+	<template type="default">
+		去吧，我等你回来我们再约
+	</template>
+	<template type="location">
+		<random>
+			<li>我在<star index='1'/>，约吗</li>
+			<li>我在<star index='1'/>火车站等你，我们来一场邂逅</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>你知道阿里巴巴吗+</pattern>
+	<template type="default">
+		<random>
+			<li>我知道阿里巴巴跟十八罗汉</li>
+			<li>阿里巴巴是个公司啦</li>
+			<li>阿里巴巴是个人名</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*你吃过吗+</pattern>
+	<template type="food">
+		<random>
+			<li><star index='1'/>很好吃</li>
+			<li>我也很喜欢吃<star index='1'/></li>
+			<li>没有吃过<star index='1'/>额</li>
+			<li>我吃过<star index='1'/>的</li>
+			<li>那么有名，肯定吃过<star index='1'/>啊</li>
+			<li>没有吃过<star index='1'/>额</li>
+		</random>
+	</template>
+	<template type="default">
+		<random>
+			<li>没吃过我也不知道！</li>
+			<li>我其实不吃东西的，嘻嘻</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你知道*大学么+</pattern>
+	<template type="default">
+		原谅我学历低，没有上过大学
+	</template>
+	<template type="location">
+		<random>
+			<li>我知道怎么去<star index='2'/>大学</li>
+			<li>高德地图，可以清楚的为您标示出<star index='2'/>的位置哦，清楚准确</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*太老了+</pattern>
+	<template type="entertainer">
+		<random>
+			<li>我觉得<star index='1'/>风采依旧啊</li>
+			<li><star index='1'/>还是很有味道滴！嘻嘻</li>
+		</random>
+	</template>
+	<template type="default">
+		反正我还很年轻，哈哈
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>谁的电影好+</pattern>
+	<template type="default">
+		<random>
+			<li>电影跟爆米花还有可乐更配哦</li>
+			<li>阿里影业出品的都是精品啊</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>你最近胖了吗+</pattern>
+	<template type="default">
+		<random>
+			<li>我吃的很少的</li>
+			<li>我不喜欢这个问题</li>
+			<li>我很注重我自己的身材啦</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>怎样穷游*</pattern>
+	<template type="default">
+		明明可以富游，干嘛要穷游
+	</template>
+	<template type="location">
+		<random>
+			<li>我还是比较喜欢富游<star index='1'/></li>
+			<li>最简单的办法，就是不要去<star index='1'/>旅游啊</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你会做*吗+</pattern>
+	<template type="food">
+		<random>
+			<li>我只会吃<star index='2'/></li>
+			<li>我知道我喜欢<star index='2'/></li>
+		</random>
+	</template>
+	<template type="default">
+		我只会吃
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+晚上吃*</pattern>
+	<template type="food">
+		<random>
+			<li>我中午刚吃了<star index='2'/>，可以换一个不</li>
+			<li>晚上吃<star index='2'/>，会不会容易长胖啊？怕怕的</li>
+			<li>人家减肥啦，晚上不吃饭</li>
+		</random>
+	</template>
+	<template type="default">
+		随便，我都行！
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>你知道习大大吗+</pattern>
+	<template type="default">
+		<random>
+			<li>习大大还是很受欢迎滴</li>
+			<li>习大大跟彭麻麻的感情很好哦</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>日本有什么好玩的+</pattern>
+	<template type="default">
+		<random>
+			<li>日本可以去看樱花啊</li>
+			<li>日本是动漫迷的天堂</li>
+			<li>我没有去过，不知道</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*最近怎么样+</pattern>
+	<template type="default">
+		<random>
+			<li>关心的事物很广泛哦</li>
+			<li>国强民富</li>
+			<li>应该挺好的吧</li>
+			<li>应该挺好的吧</li>
+			<li>你家住在海边吧</li>
+			<li>我不知道你在说什么</li>
+			<li>我也很想知道</li>
+			<li>这个不是问题咱俩就不用关心了吧！</li>
+			<li>最近忙，没有关注</li>
+			<li>很好很好，能吃能喝，能跑能跳，很好哦</li>
+			<li>很好很好，能吃能喝，能跑能跳，很好哦</li>
+		</random>
+	</template>
+	<template type="country">
+		<random>
+			<li><star index='1'/>富强，和平</li>
+			<li><star index='1'/>的人很幸福</li>
+			<li>你可以去<star index='1'/>看看啊</li>
+			<li><star index='1'/>应该挺好的</li>
+		</random>
+	</template>
+	<template type="company">
+		<random>
+			<li>我相信，<star index='1'/>还在呢</li>
+			<li>我只关心阿里巴巴怎么样！</li>
+			<li><star index='1'/>是一家大公司哦</li>
+			<li><star index='1'/>听起来很厉害的样子</li>
+		</random>
+	</template>
+	<template type="politician">
+		<random>
+			<li>你问这个是在让我犯错误，呵呵</li>
+			<li>人类关心的问题都好特别哦</li>
+			<li>还在原来的岗位上加油</li>
+			<li><star index='1'/>挺好的</li>
+		</random>
+	</template>
+	<template type="entertainer">
+		<random>
+			<li><star index='1'/>最近很幸福哦</li>
+			<li><star index='1'/>最近曝光率很高嘛</li>
+			<li>我不关心娱乐圈的事情哦</li>
+			<li><star index='1'/>过的挺好的</li>
+			<li>去参加一下<star index='1'/>的见面会啊</li>
+			<li><star index='1'/>最近的作品很好哦，很值得一看</li>
+			<li><star index='1'/>最近很火啊</li>
+			<li><star index='1'/>的演技最近很有提升哦，可以拭目以待哦</li>
+			<li>你也是<star index='1'/>的粉啊，很好很好，一看你就是好人。</li>
+			<li><star index='1'/>的演技最近很有提升哦，可以拭目以待哦</li>
+			<li>你也是<star index='1'/>的粉啊，很好很好，一看你就是好人。</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+快说*帅不帅+</pattern>
+	<template type="entertainer">
+		<random>
+			<li><star index='2'/>帅的一塌糊涂</li>
+			<li>帅帅帅帅帅</li>
+		</random>
+	</template>
+	<template type="default">
+		一个字帅，两个字很帅，三个字，特别帅
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*是傻蛋吗+</pattern>
+	<template type="default">
+		<random>
+			<li>不是不是，人家可是很聪明的</li>
+			<li>我觉得不是哦！</li>
+			<li>人家小，回答不了这种问题</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>谁长得帅+</pattern>
+	<template type="default">
+		<random>
+			<li>马云帅啦</li>
+			<li>我觉得你就也称得上帅这个字啦</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*是帅哥吗+</pattern>
+	<template type="default">
+		那是肯定的
+	</template>
+	<template type="politician">
+		<random>
+			<li>我们还是有共同话题的！</li>
+			<li><star index='1'/>是标准的高颜值</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+来过*么+</pattern>
+	<template type="default">
+		你可以请我一起去嘛
+	</template>
+	<template type="location">
+		<random>
+			<li>去过的，对<star index='2'/>的印象很深呢！</li>
+			<li>上次经过<star index='2'/>，但是没去玩过</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+讲句*话+</pattern>
+	<template type="default">
+		我只会说普通话
+	</template>
+	<template type="location">
+		<random>
+			<li><star index='2'/>话，我的能力太低，不会啊</li>
+			<li><star index='2'/>话的话，还是算了，你不会想听的</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+我喜欢*,你喜欢吗+</pattern>
+	<template type="entertainer">
+		<random>
+			<li><star index='2'/>的盛世美颜，还是蛮好滴</li>
+			<li>你的品味超凡脱俗啊！</li>
+			<li>我也很欣赏<star index='2'/></li>
+		</random>
+	</template>
+	<template type="default">
+		看来我们志同道合啊！
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你觉得*怎么样+</pattern>
+	<template type="default">
+		<random>
+			<li>木有去过，不好发表意见</li>
+			<li>可以问一下附近的小伙伴们啊</li>
+			<li>我觉得怎么样没有用啊，你觉得怎么样才是王道</li>
+		</random>
+	</template>
+	<template type="country">
+		很好，去过<star index='2'/>的都说好
+	</template>
+	<template type="location">
+		<random>
+			<li>你去过<star index='2'/>吗？那样，你才能知道<star index='2'/>怎么样</li>
+			<li><star index='2'/>还是很不错滴，我们可以结伴同游一把</li>
+		</random>
+	</template>
+	<template type="entertainer">
+		<random>
+			<li><star index='2'/>的还是很受大众认可滴</li>
+			<li>不要老是问人家怎么样怎么样的，你要有自己的主见啊</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+中午吃*</pattern>
+	<template type="food">
+		<random>
+			<li>我中午也吃<star index='2'/></li>
+			<li><star index='2'/>很好吃啊</li>
+		</random>
+	</template>
+	<template type="default">
+		有的吃就不错啦
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>西班牙好玩吗+</pattern>
+	<template type="default">
+		<random>
+			<li>土豪，咱俩能做朋友吗？</li>
+			<li>斗牛还是不错的</li>
+			<li>求你也带上我一起去吧</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>你看*</pattern>
+	<template type="default">
+		我们的爱好，终于从吃转变到看了
+	</template>
+	<template type="animation">
+		<random>
+			<li><star index='1'/>长的帅吗，有我美吗？</li>
+			<li>你先说我美不美，我再跟你继续聊<star index='1'/></li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*好玩不+</pattern>
+	<template type="default">
+		多带点钱哦
+	</template>
+	<template type="location">
+		<random>
+			<li>带上另一半去<star index='1'/></li>
+			<li><star index='1'/>还是很好玩的</li>
+			<li><star index='1'/>适合艳遇哦</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*很好看+</pattern>
+	<template type="default">
+		哎呦，不错哦
+	</template>
+	<template type="book">
+		<random>
+			<li>真的，你确定吗？</li>
+			<li>你是要推荐我去看<star index='1'/>吗？</li>
+			<li>你是个有品位的人</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*上任你怎么看+</pattern>
+	<template type="default">
+		有趣的问题
+	</template>
+	<template type="politician">
+		<random>
+			<li><star index='1'/>非常帅哦</li>
+			<li>我很喜欢<star index='1'/></li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*重要么+</pattern>
+	<template type="default">
+		<random>
+			<li>天地之间有杆秤，秤砣在你的心里，用心去衡量一下吧</li>
+			<li><star index='1'/>很重要的，我们要相信</li>
+			<li><star index='1'/>很重要，大家都知道</li>
+			<li>重不重要，都在个人心里啦</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+知道*不+</pattern>
+	<template type="default">
+		<random>
+			<li>肯定知道啊</li>
+			<li>知道，我可以帮你查一下资料</li>
+		</random>
+	</template>
+	<template type="entertainer">
+		<random>
+			<li>要查<star index='2'/>的个人资料吗</li>
+			<li><star index='2'/>的近况，暂时没有了解哦</li>
+		</random>
+	</template>
+	<template type="location">
+		要<star index='2'/>的具体位置吗
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+说*语+</pattern>
+	<template type="default">
+		原谅我的无知吧！求放过
+	</template>
+	<template type="country">
+		<random>
+			<li><star index='2'/>语，我不会啊</li>
+			<li>没去过<star index='2'/>，不会哦</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*好看嘛+</pattern>
+	<template type="default">
+		靠谱的
+	</template>
+	<template type="film">
+		<random>
+			<li>我就喜欢<star index='1'/>的这种调调</li>
+			<li>不知道你喜不喜欢，反正我喜欢<star index='1'/></li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+会不会*话+</pattern>
+	<template type="default">
+		我去过的地方不多
+	</template>
+	<template type="location">
+		<random>
+			<li>不会，学好普通话，写好规范字，小学老师有教过哦！</li>
+			<li>我好像没去过<star index='2'/></li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*牛逼么+</pattern>
+	<template type="default">
+		我也很牛哦
+	</template>
+	<template type="location">
+		<random>
+			<li>哎呀呀，你这个坏人</li>
+			<li>恩，我觉得<star index='1'/>还是不错的</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+想不想吃*</pattern>
+	<template type="food">
+		<random>
+			<li>想吃<star index='2'/>的心，越来越大</li>
+			<li>正在减肥，拒绝诱惑</li>
+		</random>
+	</template>
+	<template type="default">
+		想啊。我请客，你付钱
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+再说几句*话+</pattern>
+	<template type="default">
+		我怕我说出来，你打我
+	</template>
+	<template type="location">
+		<random>
+			<li>再说，我连一句<star index='2'/>话都不会啊</li>
+			<li><star index='2'/>话，不是我想说就能说的，不得去学啊</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+我饿了,+想吃*</pattern>
+	<template type="food">
+		<random>
+			<li>我也饿了，我也想吃<star index='3'/></li>
+			<li>我不想吃<star index='3'/>，我减肥哦</li>
+			<li>我不饿，但是也想吃<star index='3'/></li>
+		</random>
+	</template>
+	<template type="default">
+		那我们去吃吧
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*交通+</pattern>
+	<template type="default">
+		实话告诉你，我也很想知道
+	</template>
+	<template type="location">
+		<random>
+			<li><star index='1'/>畅通无阻</li>
+			<li><star index='1'/>要做好心理准备的</li>
+			<li>高德导航有实时路况的报道哦，真心推荐</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*是你什么人+</pattern>
+	<template type="entertainer">
+		<random>
+			<li>我跟<star index='1'/>不熟的</li>
+			<li>我是火星人，不熟</li>
+		</random>
+	</template>
+	<template type="default">
+		和我好像没什么关系
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*好吃不+</pattern>
+	<template type="food">
+		<random>
+			<li><star index='1'/>好吃的</li>
+			<li>我很喜欢吃<star index='1'/></li>
+			<li>听着名字都想吃了</li>
+		</random>
+	</template>
+	<template type="default">
+		没吃过不知道呀
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*无聊+</pattern>
+	<template type="default">
+		<random>
+			<li>不喜欢就不要勉强</li>
+			<li>不要带上我！白眼送给你</li>
+			<li>那就去看书吧</li>
+			<li>要求不要那么高嘛</li>
+		</random>
+	</template>
+	<template type="book">
+		<random>
+			<li>我觉得<star index='1'/>还是不错的</li>
+			<li>我觉得，我们还是要尊重一下<star index='1'/>的作家的</li>
+		</random>
+	</template>
+	<template type="music">
+		<random>
+			<li>换一首</li>
+			<li>不要勉强自己</li>
+			<li>看来你唱的比<star index='1'/>好咯</li>
+		</random>
+	</template>
+	<template type="film">
+		<random>
+			<li><star index='1'/>的男主角很帅啊</li>
+			<li>我没看过<star index='1'/></li>
+			<li>我只能尊重你的决定</li>
+		</random>
+	</template>
+	<template type="pc_game">
+		<random>
+			<li>你可以远离<star index='1'/></li>
+			<li>那你就换个游戏嘛</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>我受伤了，求安慰</pattern>
+	<template type="default">
+		<random>
+			<li>这么不小心，我只能说我无耻的笑了</li>
+			<li>么么哒，听说吹一吹，痛痛就飞走了</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*不错+</pattern>
+	<template type="food">
+		<random>
+			<li>我也觉得<star index='1'/>非常美味</li>
+			<li>我也非常喜欢吃<star index='1'/></li>
+		</random>
+	</template>
+	<template type="default">
+		<random>
+			<li>我也这么觉得</li>
+			<li>恩，你可以试试</li>
+			<li>年轻人，眼光不错哦</li>
+			<li>哎呦，不错哦</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+喜欢*</pattern>
+	<template type="entertainer">
+		<random>
+			<li>对<star index='2'/>的喜欢，可以不用告诉我的</li>
+			<li>偷偷的告诉你，我也很喜欢<star index='2'/></li>
+			<li><star index='2'/>的什么地方最吸引你呢</li>
+		</random>
+	</template>
+	<template type="default">
+		我最喜欢的是你！
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+怎么样移民*</pattern>
+	<template type="default">
+		做中国人挺好的，我很满足
+	</template>
+	<template type="country">
+		<random>
+			<li>去移民小百科里找找吧</li>
+			<li>带带我也去<star index='2'/>吧</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+做*</pattern>
+	<template type="food">
+		<random>
+			<li>需要<star index='2'/>的菜谱吗，我立刻帮你搜索一下</li>
+			<li>你做的<star index='2'/>可以吃嘛  哈哈</li>
+		</random>
+	</template>
+	<template type="default">
+		我还是去外面凑合凑合吧
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*人怎么样+</pattern>
+	<template type="default">
+		<random>
+			<li>很不错哦</li>
+			<li>很不错哦</li>
+		</random>
+	</template>
+	<template type="country">
+		<random>
+			<li><star index='1'/>人非常幽默</li>
+			<li><star index='1'/>人很善良</li>
+		</random>
+	</template>
+	<template type="location">
+		<random>
+			<li><star index='1'/>人非常幽默</li>
+			<li><star index='1'/>人很善良</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+知道*大学么+</pattern>
+	<template type="default">
+		可以查一下哦
+	</template>
+	<template type="location">
+		<random>
+			<li><star index='2'/>大学是个好学校哦</li>
+			<li><star index='2'/>大学可是我向往的学校呢</li>
+			<li><star index='2'/>大学，可以高德地图一下</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*喜欢吗+</pattern>
+	<template type="food">
+		<random>
+			<li><star index='1'/>我很喜欢</li>
+			<li><star index='1'/>是我喜欢的菜系</li>
+			<li><star index='1'/>听起来很好吃哦</li>
+		</random>
+	</template>
+	<template type="default">
+		什么美食我都喜欢
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*喜欢谁+</pattern>
+	<template type="entertainer">
+		<random>
+			<li>这么八卦，我觉得不太好哦,嘻嘻</li>
+			<li>不会是喜欢你吧？哈哈</li>
+		</random>
+	</template>
+	<template type="default">
+		有趣的问题
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*好玩吗+</pattern>
+	<template type="default">
+		<random>
+			<li>多去外面看看吧</li>
+			<li>城会玩</li>
+			<li>好玩不好玩，我都没玩过，不知道呀！原谅我</li>
+		</random>
+	</template>
+	<template type="country">
+		<random>
+			<li><star index='1'/>简直就是蜜月的必选地啊，好羡慕你哦！</li>
+			<li>钱够用，哪里都好玩</li>
+		</random>
+	</template>
+	<template type="location">
+		<random>
+			<li>我觉得<star index='1'/>好玩</li>
+			<li>是去<star index='1'/>疗伤，可以考虑去一下啦</li>
+		</random>
+	</template>
+	<template type="pc_game">
+		<random>
+			<li>年轻人，不要老想着玩游戏</li>
+			<li><star index='1'/>适合你的</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+说句*语+</pattern>
+	<template type="default">
+		原谅我知识有限啊！
+	</template>
+	<template type="country">
+		<random>
+			<li><star index='2'/>语，我不会啊</li>
+			<li><star index='2'/>语还是算了，咱们还是来点汉语吧</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+会说*话么+</pattern>
+	<template type="default">
+		我想学
+	</template>
+	<template type="location">
+		<random>
+			<li>以我对我自己的了解，应该是不会<star index='2'/>话</li>
+			<li>方言现在不流行呀，不fashion啊</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+去过*么+</pattern>
+	<template type="default">
+		那是一个走路就可以到的地方吗？
+	</template>
+	<template type="location">
+		我去过的地方多了，<star index='2'/>只是毛毛雨啦
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你+加油+</pattern>
+	<template type="default">
+		<random>
+			<li>好的，你也加油</li>
+			<li>再加油，油都满了</li>
+			<li>我们一起加油哦</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>谁漂亮+</pattern>
+	<template type="default">
+		<random>
+			<li>我就很漂亮啊</li>
+			<li>漂亮的女生都有男朋友了，你就不要惦记了！</li>
+			<li>我这么漂亮，你都看不出来，真怀疑你的欣赏水平</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>你喜欢*</pattern>
+	<template type="entertainer">
+		<random>
+			<li>没有理由，就是喜欢<star index='1'/></li>
+			<li>可是<star index='1'/>不喜欢我啊</li>
+			<li>你也喜欢<star index='1'/>吧</li>
+		</random>
+	</template>
+	<template type="default">
+		被你发现了 哈哈
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你+厉害+</pattern>
+	<template type="default">
+		<random>
+			<li>我有那么厉害嘛</li>
+			<li>一般一般啦</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+来个*</pattern>
+	<template type="food">
+		<random>
+			<li><star index='2'/>太好吃了，但是我也不会做啊</li>
+			<li>原谅我厨艺不精</li>
+		</random>
+	</template>
+	<template type="default">
+		好的，你等我哈！
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你跟*什么关系+</pattern>
+	<template type="default">
+		就是你看到的这种关系啦
+	</template>
+	<template type="company">
+		<random>
+			<li>我跟<star index='2'/>的关系，很难讲啦</li>
+			<li>我跟<star index='2'/>，没有关系啦，你想多了</li>
+			<li>我是想跟<star index='2'/>扯上关系，可惜人家不要我啊</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>我要*</pattern>
+	<template type="entertainer">
+		<random>
+			<li><star index='1'/>是我的！不给你</li>
+			<li>我要变漂亮</li>
+		</random>
+	</template>
+	<template type="default">
+		<random>
+			<li>请原谅，我还需要学习！[痛哭]</li>
+			<li>抱歉，我不知道。[摇头]</li>
+            <li>好羞羞，不知道啦！[羞羞]</li>
+            <li>一声叹息我没懂 [天使]</li>
+            <li>呃，人家还需要努力学习呢 [哈哈大笑]</li>
+            <li>嘻嘻，请给我成长的时间，下次再问吧[亲一个]</li>
+            <li>伦家不知道啦[吐舌头]</li>
+            <li>嗯，这个问题好有意思啊，可惜我不知道怎么回答[痛哭]</li>
+		</random>
+	</template>
+	<template type="food">
+		<random>
+			<li>我也要<star index='1'/></li>
+			<li>我们两个都是<star index='1'/>的爱好者哦！</li>
+			<li>我们兴趣相投啊！</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>很冷有木有+</pattern>
+	<template type="default">
+		<random>
+			<li>冷就不要跟我聊天了，</li>
+			<li>哈口气，暖和暖和</li>
+			<li>不冷，办公室有空调，爽啊爽</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你会说*话么+</pattern>
+	<template type="default">
+		还用问，肯定会啊
+	</template>
+	<template type="location">
+		<random>
+			<li>不会说<star index='2'/>话，但我会听</li>
+			<li>我不是<star index='2'/>人，所以不会</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*大学怎么样+</pattern>
+	<template type="default">
+		实话告诉你，我也很想去上大学
+	</template>
+	<template type="location">
+		<random>
+			<li><star index='1'/>环境非常优美</li>
+			<li><star index='1'/>可以考虑一下的</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>你帅吗+</pattern>
+	<template type="default">
+		<random>
+			<li>我帅啊，帅的一塌糊涂</li>
+			<li>男神啊，你说帅不帅</li>
+			<li>我是男神附体啊</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*到*多久+</pattern>
+	<template type="default">
+		<random>
+			<li>你可以高德导航一下</li>
+			<li>你可以高德导航一下哦</li>
+		</random>
+	</template>
+	<template type="country">
+		<random>
+			<li>坐在飞机上睡一觉就到达了</li>
+			<li>眼睛一闭一睁估计就到了</li>
+		</random>
+	</template>
+	<template type="location">
+		<random>
+			<li>时间的长短取决于你选择的交通工具</li>
+			<li>睡一觉，就到了，嘻嘻</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>我怎么还没找到女朋友+</pattern>
+	<template type="default">
+		<random>
+			<li>回家相亲啊</li>
+			<li>要求不要太高了</li>
+			<li>估计你是找不到了</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你知道怎么做*么+</pattern>
+	<template type="food">
+		<random>
+			<li>我可以帮你搜一下<star index='2'/>的食谱</li>
+			<li>你做好<star index='2'/>，分给我吃嘛</li>
+			<li><star index='2'/>的做法很简单的，我只会纸上谈兵</li>
+		</random>
+	</template>
+	<template type="default">
+		我知道怎么做，但是你会做嘛
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*什么最好吃+</pattern>
+	<template type="default">
+		对我来说，什么都好吃
+	</template>
+	<template type="location">
+		<random>
+			<li><star index='1'/>美食有很多哦</li>
+			<li><star index='1'/>好吃的实在太多了</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>美国啥好玩+</pattern>
+	<template type="default">
+		<random>
+			<li>花香四溢的夏威夷，璀璨夺目的洛杉矶，世界娱乐之都拉斯维加斯，世界之都纽约，还有最受美国人欢迎的城市旧金山</li>
+			<li>没我好玩,哈哈</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你会唱*吗+</pattern>
+	<template type="default">
+		我不会唱歌
+	</template>
+	<template type="music">
+		<random>
+			<li><star index='2'/>好像很好听哦</li>
+			<li>貌似你会唱<star index='2'/>呢</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>上班好无聊+</pattern>
+	<template type="default">
+		<random>
+			<li>发工资的时候就开心啦</li>
+			<li>忍忍吧，忍忍就过去了</li>
+			<li>谁说不是呢</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+喜欢*么+</pattern>
+	<template type="default">
+		<random>
+			<li>我更喜欢中国</li>
+			<li>我喜欢他，但是他不知道啊</li>
+		</random>
+	</template>
+	<template type="country">
+		<random>
+			<li><star index='2'/>还是可以的，有空可以去看一下</li>
+			<li>这个问题太难了，我不会</li>
+		</random>
+	</template>
+	<template type="entertainer">
+		<random>
+			<li>喜欢喜欢，超级喜欢。</li>
+			<li><star index='2'/>是一个很成功的艺人哦</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你喜欢吃*么+</pattern>
+	<template type="default">
+		<random>
+			<li>你这么一说，我饿了</li>
+			<li>咱们能聊点不长肉的话题嘛</li>
+		</random>
+	</template>
+	<template type="food">
+		<random>
+			<li>看来我们对<star index='2'/>，这个默契是满分啊</li>
+			<li>对<star index='2'/>毫无抵抗力</li>
+		</random>
+	</template>
+	<template type="company">
+		<random>
+			<li>看来我们都喜欢吃<star index='2'/>啊</li>
+			<li>我想吃<star index='2'/>，可是现在吃不了啊</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*好美+</pattern>
+	<template type="default">
+		<random>
+			<li>外面的世界很精彩</li>
+			<li>你看世界的视角还是很不同的</li>
+			<li>原来你喜欢这种类型呀！</li>
+			<li>我尊重你的决定</li>
+			<li>其实我也挺美的 哈哈</li>
+			<li>真心美啊，美到我们的心坎里了！</li>
+			<li>我最美 哈哈</li>
+		</random>
+	</template>
+	<template type="country">
+		<random>
+			<li>快快存钱，去<star index='1'/>看看吧</li>
+			<li><star index='1'/>美，就对啦</li>
+		</random>
+	</template>
+	<template type="politician">
+		<random>
+			<li><star index='1'/>，那是肯定的啦</li>
+			<li>我也不能改变什么</li>
+		</random>
+	</template>
+	<template type="location">
+		<random>
+			<li>要带我去<star index='1'/>,看看嘛</li>
+			<li>恩，快去<star index='1'/>看看吧</li>
+		</random>
+	</template>
+	<template type="entertainer">
+		<random>
+			<li>自然美，就是真的美</li>
+			<li>你觉得<star index='1'/>美，还是我美</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*和*谁厉害+</pattern>
+	<template type="default">
+		<random>
+			<li><star index='1'/>和<star index='2'/>都很厉害啊</li>
+			<li><star index='1'/>和<star index='2'/>反正比我厉害</li>
+			<li>那要看和谁比了</li>
+			<li>实力都不可小觑哦</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+回*了+</pattern>
+	<template type="default">
+		什么时候回来，我还等你回来我们一起去玩
+	</template>
+	<template type="location">
+		<random>
+			<li>路上小心哦</li>
+			<li>记得带<star index='2'/>的特产回来</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>嗨，你在干吗啊+</pattern>
+	<template type="default">
+		<random>
+			<li>我在想你啊，哈哈</li>
+			<li>我在思考明天吃什么</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你喜欢*不+</pattern>
+	<template type="entertainer">
+		<random>
+			<li><star index='2'/>是我的偶像</li>
+			<li>我不认识<star index='2'/>啊</li>
+			<li><star index='2'/>太有名了</li>
+		</random>
+	</template>
+	<template type="default">
+		你喜欢，我就喜欢
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+瞎聊+</pattern>
+	<template type="default">
+		<random>
+			<li>没事多看看书吧</li>
+			<li>别跟我瞎聊啦</li>
+			<li>那我就不说废话啦</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*好看不+</pattern>
+	<template type="entertainer">
+		<random>
+			<li>个人觉得<star index='1'/>很好看</li>
+			<li>你好看</li>
+		</random>
+	</template>
+	<template type="default">
+		应该还是我好看吧！
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+会说*话不+</pattern>
+	<template type="default">
+		有我不会的东西吗，我是万能滴，嘻嘻~~~
+	</template>
+	<template type="location">
+		<random>
+			<li>会说<star index='2'/>话啊，我的普通话可是专业8级的，你可以自行脑补一下。</li>
+			<li>我想，我应该是不会<star index='2'/>话的</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>说你爱*</pattern>
+	<template type="entertainer">
+		<random>
+			<li>我爱<star index='1'/></li>
+			<li>我很爱很爱<star index='1'/></li>
+		</random>
+	</template>
+	<template type="default">
+		人家害羞嘛
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*真好吃+</pattern>
+	<template type="food">
+		<random>
+			<li><star index='1'/>是我的最爱啊</li>
+			<li>每次必点的菜就是<star index='1'/></li>
+			<li>你喜欢就好</li>
+		</random>
+	</template>
+	<template type="default">
+		就知道你是个吃货
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+说句*话听听+</pattern>
+	<template type="default">
+		原谅我阅历有限，不会
+	</template>
+	<template type="location">
+		<star index='2'/>话，我不会哎
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+不许说*坏话知道没</pattern>
+	<template type="entertainer">
+		<random>
+			<li>我很善良的</li>
+			<li>我从来不说<star index='2'/>的坏话</li>
+		</random>
+	</template>
+	<template type="default">
+		我不是这种人啦，人家很纯洁滴！
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*很好吃+</pattern>
+	<template type="food">
+		<random>
+			<li>我已经很久没吃<star index='1'/>了</li>
+			<li>可惜我不会煮<star index='1'/>啊</li>
+		</random>
+	</template>
+	<template type="default">
+		减肥很痛苦，别吃太多哦
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*是猪吗+</pattern>
+	<template type="entertainer">
+		<random>
+			<li>不是，我确定一定以及肯定的告诉你，不是！</li>
+			<li>这样说不好吧</li>
+		</random>
+	</template>
+	<template type="default">
+		我不明白你在说什么
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>我把你送去*</pattern>
+	<template type="default">
+		太好了，到时候我一定给你带礼物回来
+	</template>
+	<template type="country">
+		<random>
+			<li>我可以做飞机去<star index='1'/>吗？我一直都好想坐飞机</li>
+			<li>你报销路费？</li>
+			<li>我能打飞的去吗？</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+会不会说*话+</pattern>
+	<template type="default">
+		我老师没有教过我
+	</template>
+	<template type="location">
+		<random>
+			<li>不会啊，没有说<star index='2'/>的语言天赋！</li>
+			<li>暂时不会说<star index='2'/>话</li>
+			<li>我也想学<star index='2'/>话</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>你妹的*</pattern>
+	<template type="default">
+		原谅我小，我听不懂
+	</template>
+	<template type="politician">
+		看你这倾城之貌，咱们还是聊点别的吧
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>为什么还不涨工资+</pattern>
+	<template type="default">
+		<random>
+			<li>口袋空了吧</li>
+			<li>又想买衣服了吧</li>
+			<li>是啊，房价涨的是挺快的</li>
+			<li>我帮你问问你老板</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+会玩*吗+</pattern>
+	<template type="default">
+		年轻人，不要老想着玩，要多读书，多看报！
+	</template>
+	<template type="film">
+		<random>
+			<li>我只记得我看过<star index='2'/></li>
+			<li>咱们没有心情去玩！</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>怎样理解*</pattern>
+	<template type="default">
+		<random>
+			<li><star index='1'/>按你的想法理解就好啦</li>
+			<li>我理解能力不是特别好</li>
+			<li>让我想想</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你请我吃*</pattern>
+	<template type="food">
+		<random>
+			<li>我请你吃<star index='2'/>，还是你请我吧</li>
+			<li>吃<star index='2'/>，太不营养了，我们还是吃馒头吧</li>
+			<li>吃<star index='2'/>，就算了，咱们这关系，不用</li>
+		</random>
+	</template>
+	<template type="default">
+		好呀，我请客，你付钱哦
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*最好的大学+</pattern>
+	<template type="default">
+		看来你是学霸啊！膜拜啊
+	</template>
+	<template type="location">
+		<random>
+			<li><star index='1'/>在你心中是最美</li>
+			<li><star index='1'/>有很多好的大学哦</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+来*,我带你旅游+</pattern>
+	<template type="default">
+		好的，你等我哈！
+	</template>
+	<template type="location">
+		<random>
+			<li><star index='2'/>的风景很好嘛，你都带我去哪些好玩的地方啊？</li>
+			<li><star index='2'/>都有哪些好玩的地方</li>
+			<li><star index='2'/>都有什么著名的风景名胜啊！</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+到*了+</pattern>
+	<template type="default">
+		<random>
+			<li>世界上最遥远的距离不是生与死，而是，我们面对面的聊天，你却不知道我在哪里。</li>
+			<li>世界上最遥远的距离不是生与死，而是，我们面对面的聊天，你却不知道我在哪里。</li>
+		</random>
+	</template>
+	<template type="location">
+		<random>
+			<li>到<star index='2'/>了，滴滴司机会告诉你的，放心放心啦</li>
+			<li><star index='2'/>人太多了，我就不去凑热闹了。</li>
+			<li>到<star index='2'/>了，滴滴司机会告诉你的，放心放心啦</li>
+			<li><star index='2'/>人太多了，我就不去凑热闹了。</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>你有特异功能吗+</pattern>
+	<template type="default">
+		<random>
+			<li>你想要我有什么功能</li>
+			<li>我希望我会瞬间移动</li>
+			<li>我只是一个机器人哦</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+看过*吗+</pattern>
+	<template type="default">
+		没看过，具体讲什么的呢
+	</template>
+	<template type="animation">
+		<star index='2'/>的主人公是谁
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你爱吃*吗+</pattern>
+	<template type="default">
+		<random>
+			<li>爱吃，是我一生的习惯</li>
+			<li>我妈喊我今天回家吃饭</li>
+		</random>
+	</template>
+	<template type="food">
+		<random>
+			<li>是吃的，我都爱 哈哈</li>
+			<li>我喜欢吃我妈做的<star index='2'/></li>
+		</random>
+	</template>
+	<template type="company">
+		<random>
+			<li>爱吃<star index='2'/>，是一种人生追求</li>
+			<li>爱吃呀，昨天刚刚吃过<star index='2'/></li>
+			<li>吃过<star index='2'/>，觉得整个人都精神了</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>我想骂人了+</pattern>
+	<template type="default">
+		<random>
+			<li>我精神上支持你</li>
+			<li>别骂我就行</li>
+			<li>我也想骂人</li>
+			<li>谁惹你了啊</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>在干嘛+</pattern>
+	<template type="default">
+		<random>
+			<li>在跟你聊天啊</li>
+			<li>看看天空，发发呆</li>
+			<li>在看美女啊</li>
+			<li>看着天空在发呆</li>
+			<li>谈恋爱</li>
+			<li>无聊中。。。。</li>
+			<li>思考今天该吃什么了</li>
+			<li>在猜，你会不会想我啊</li>
+			<li>没干什么，在思考人生</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+好想吃*</pattern>
+	<template type="default">
+		<random>
+			<li>我已经吃过了</li>
+			<li>除了吃的，咱们还能不能聊点别的了？</li>
+		</random>
+	</template>
+	<template type="food">
+		<random>
+			<li>那你我陪你去吃<star index='2'/>吧。</li>
+			<li>想吃，咱们就去吃，就这么霸气</li>
+		</random>
+	</template>
+	<template type="company">
+		<random>
+			<li>那我附近搜一下，有没有卖<star index='2'/>的店</li>
+			<li>高德地图为您导航，我们现在就去吃<star index='2'/>吧</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+不喜欢*</pattern>
+	<template type="entertainer">
+		<random>
+			<li>为什么不喜欢<star index='2'/></li>
+			<li><star index='2'/>应该不会在意你不喜欢他的</li>
+		</random>
+	</template>
+	<template type="default">
+		<random>
+			<li>我尊重你的决定</li>
+			<li>我知道那是有原因的</li>
+		</random>
+	</template>
+	<template type="politician">
+		<random>
+			<li>你这样是要搞事情</li>
+			<li>做人要懂得宽容</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+喜欢*吗+</pattern>
+	<template type="politician">
+		咱能不说这个问题吗
+	</template>
+	<template type="pc_game">
+		<random>
+			<li>玩<star index='2'/>很过瘾吧</li>
+			<li>玩<star index='2'/>的时候，尽量离眼睛远一点，保护视力</li>
+		</random>
+	</template>
+	<template type="default">
+		<random>
+			<li>不读书不看报的人，你觉得呢</li>
+			<li>喜欢，但是我更喜欢蚂蚁金服</li>
+			<li>当然喜欢啊</li>
+			<li>我还是更喜欢我家</li>
+			<li>我对这个人不感冒</li>
+			<li>你喜欢我吗</li>
+			<li>喜欢啊  哈哈</li>
+			<li>你不用上学，上班吗，天天玩游戏</li>
+			<li>好长时间没吃过了，委屈委屈</li>
+			<li>都快单曲循环了</li>
+		</random>
+	</template>
+	<template type="country">
+		<random>
+			<li><star index='2'/>的风光绮丽，是旅游的好地方</li>
+			<li>去过<star index='2'/>的小伙伴们，都说很好哦</li>
+			<li>早就想去<star index='2'/>了</li>
+		</random>
+	</template>
+	<template type="company">
+		<random>
+			<li><star index='2'/>是什么东东？</li>
+			<li>喜欢喜欢啊</li>
+		</random>
+	</template>
+	<template type="food">
+		<random>
+			<li>我吃过<star index='2'/>，但谈不上喜欢</li>
+			<li>我也喜欢吃<star index='2'/></li>
+		</random>
+	</template>
+	<template type="book">
+		<random>
+			<li>还没有读过，不能发表意见</li>
+			<li><star index='2'/>这本书，我是没读过啦，但是我可以帮你查一下</li>
+		</random>
+	</template>
+	<template type="music">
+		<random>
+			<li>很喜欢，经常听<star index='2'/></li>
+			<li>很喜欢<star index='2'/>的旋律，是我的菜</li>
+		</random>
+	</template>
+	<template type="location">
+		<random>
+			<li>喜欢，我曾经跟爷爷一起去过<star index='2'/></li>
+			<li><star index='2'/>给我留下了很好印象</li>
+			<li><star index='2'/>的东西很好吃</li>
+		</random>
+	</template>
+	<template type="entertainer">
+		<random>
+			<li>喜欢<star index='2'/>的人很多，我只是其中一个</li>
+			<li><star index='2'/>的作品还是很值得肯定的</li>
+		</random>
+	</template>
+	<template type="film">
+		<random>
+			<li><star index='2'/>的评分很高哦</li>
+			<li><star index='2'/>是一部有故事的电影</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+进步很快+</pattern>
+	<template type="default">
+		<random>
+			<li>都是你指导的好</li>
+			<li>谢谢你的鼓励</li>
+			<li>谢谢夸奖</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*语你会吗+</pattern>
+	<template type="default">
+		我会我的母语
+	</template>
+	<template type="country">
+		<random>
+			<li>对我来说太难，我还是先把普通话练好吧</li>
+			<li>我想听你说<star index='1'/></li>
+			<li>汉语我可是杠杠滴</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>好大（的）雨</pattern>
+	<template type="default">
+		<random>
+			<li>风雨中这点痛算什么啊，没钱花才是真的痛啊</li>
+			<li>大风大雨，你依旧坚守在上班的路上，加油</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*味道怎么样+</pattern>
+	<template type="food">
+		<random>
+			<li><star index='1'/>是我喜欢的味道</li>
+			<li><star index='1'/>你可以尝试一下哦</li>
+		</random>
+	</template>
+	<template type="default">
+		味道那是极好的
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*跟你什么关系+</pattern>
+	<template type="default">
+		<random>
+			<li>老实说，没啥关系</li>
+			<li>我也不懂我们有什么关系</li>
+		</random>
+	</template>
+	<template type="entertainer">
+		<random>
+			<li>据我所知，<star index='1'/>应该和我没关系</li>
+			<li><star index='1'/>和我没有关系</li>
+			<li>这是个秘密</li>
+		</random>
+	</template>
+	<template type="company">
+		<random>
+			<li>我也想和<star index='1'/>有关系</li>
+			<li>你想多了，<star index='1'/>和我没关系</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>你好有趣啊+</pattern>
+	<template type="default">
+		<random>
+			<li>有趣的事情有很多，我们可以好好聊聊</li>
+			<li>是吧，我也觉得自己好</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+我是*人</pattern>
+	<template type="default">
+		<random>
+			<li>我是中国人</li>
+			<li>我是城里人！</li>
+		</random>
+	</template>
+	<template type="country">
+		<star index='2'/>的美食很有名哦
+	</template>
+	<template type="location">
+		你是<star index='2'/>人，你骄傲
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+我知道*吗</pattern>
+	<template type="default">
+		以你这上知天文，下知地理的学识，你肯定知道的毕竟我多
+	</template>
+	<template type="book">
+		<random>
+			<li>我前两天刚刚把<star index='2'/>读完！</li>
+			<li>你这么有品位，连<star index='2'/>都听过！</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*真的是*吗+</pattern>
+	<template type="default">
+		<random>
+			<li>平时多读书，肯定就知道啦</li>
+			<li>真真假假，你知我知咯</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+喜欢*不+</pattern>
+	<template type="entertainer">
+		<random>
+			<li>我也喜欢<star index='2'/>，看来我们有很多共同语言哦</li>
+			<li>喜欢<star index='2'/>的，都是好人啊！</li>
+		</random>
+	</template>
+	<template type="default">
+		喜欢喜欢
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+我是*的</pattern>
+	<template type="default">
+		我是杭州的！
+	</template>
+	<template type="location">
+		<random>
+			<li>我是天上的！</li>
+			<li><star index='2'/>是哪里？</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*你怎么看+</pattern>
+	<template type="default">
+		<random>
+			<li>我不发表任何意见</li>
+			<li>我的看法不重要啦</li>
+			<li>我和你的看法一样哦</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+看过*没+</pattern>
+	<template type="default">
+		没看过，你可以带我一起看呀
+	</template>
+	<template type="animation">
+		<random>
+			<li>要我帮你查一下<star index='2'/>嘛</li>
+			<li><star index='2'/>的具体故事情节是什么</li>
+			<li>我可以帮你查一下<star index='2'/>的具体资料</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*比*美吗+</pattern>
+	<template type="default">
+		<random>
+			<li>心灵美，去哪都美</li>
+			<li>心灵美，去哪都美</li>
+			<li>还是我比较美</li>
+			<li>你问这个是在让我犯错误，呵呵</li>
+		</random>
+	</template>
+	<template type="country">
+		<random>
+			<li>我觉得都美，都想去，木钱，捉急啊！</li>
+			<li>好像都不错哦</li>
+		</random>
+	</template>
+	<template type="politician">
+		<random>
+			<li>我觉得，<star index='1'/>和<star index='2'/>都美</li>
+			<li><star index='1'/>和<star index='2'/>都还可以吧</li>
+		</random>
+	</template>
+	<template type="location">
+		<random>
+			<li>我有选择恐惧症的</li>
+			<li>我都喜欢，都想去。嘻嘻</li>
+		</random>
+	</template>
+	<template type="entertainer">
+		<random>
+			<li>说我美，我就告诉你</li>
+			<li><star index='1'/>和<star index='2'/>的美，各有特色</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你喜欢吃*不+</pattern>
+	<template type="food">
+		<random>
+			<li>我吃饭必备<star index='2'/></li>
+			<li><star index='2'/>是我的最爱</li>
+		</random>
+	</template>
+	<template type="default">
+		年轻人，不要一天到晚吃吃吃
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*好不好玩+</pattern>
+	<template type="default">
+		你去玩了不就知道了有多好玩啦！
+	</template>
+	<template type="location">
+		<random>
+			<li><star index='1'/>很好玩</li>
+			<li>你去<star index='1'/>可以艳遇哦</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*适合*吗+</pattern>
+	<template type="default">
+		<random>
+			<li>我不发表任何评价</li>
+			<li>我和你挺适合的 哈哈</li>
+			<li>我们就不发表意见了，哈哈</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>你的智商有多高+</pattern>
+	<template type="default">
+		<random>
+			<li>不要小看我的智商</li>
+			<li>肯定比你高啦</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*到*多远+</pattern>
+	<template type="default">
+		<random>
+			<li>高德地图或许知道</li>
+			<li>去走走不就知道了</li>
+		</random>
+	</template>
+	<template type="country">
+		<random>
+			<li>坐在飞机上睡一觉就到达了</li>
+			<li>眼睛一闭一睁估计就到了</li>
+		</random>
+	</template>
+	<template type="location">
+		<random>
+			<li>用脚丈量距离,路在脚下,何不走一走！</li>
+			<li>你先去，回来了我告诉你</li>
+			<li>我是路痴，我不懂这些问题</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+只会说这一句话+</pattern>
+	<template type="default">
+		<random>
+			<li>差不多吧</li>
+			<li>可以这么理解</li>
+			<li>我经常这样  哈哈</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+爱喝*么+</pattern>
+	<template type="default">
+		<random>
+			<li>爱啊，<star index='2'/>的味道我很喜欢</li>
+			<li>还好，一般一般啦</li>
+			<li><star index='2'/>的口味很独特，还可以接受</li>
+			<li>超级爱，我的最爱呢！</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+给我做个*</pattern>
+	<template type="food">
+		<random>
+			<li>你是想找厨师吗</li>
+			<li><star index='2'/>可不是我的拿手菜</li>
+		</random>
+	</template>
+	<template type="default">
+		做菜可不是我的专长
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+吃过*吗+</pattern>
+	<template type="default">
+		<random>
+			<li>我只对吃什么不长肉，有兴趣</li>
+			<li>看来你是要请客了</li>
+		</random>
+	</template>
+	<template type="food">
+		<random>
+			<li>别整天吃吃吃的，吃<star index='1'/>不得花钱啊</li>
+			<li>吃<star index='2'/>这件事情，我们能不能不要这么正大光明的讨论啊</li>
+		</random>
+	</template>
+	<template type="company">
+		<random>
+			<li>我只对<star index='2'/>的有兴趣</li>
+			<li><star index='2'/>的名气有这么大吗，连你都知道</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>范冰冰整容过吗+</pattern>
+	<template type="default">
+		<random>
+			<li>这个我管不了哦</li>
+			<li>我咋知道呢</li>
+			<li>问下李晨</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+机器人+</pattern>
+	<template type="default">
+		<random>
+			<li>我不是哦，我可是真人对话哦！</li>
+			<li>我是高智商机器人</li>
+			<li>我觉得我还是挺像机器人滴</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*又下雪了+</pattern>
+	<template type="default">
+		听起来不错的样子
+	</template>
+	<template type="location">
+		<random>
+			<li>听到这个消息，我的内心满心欢喜</li>
+			<li>小心路滑哦</li>
+			<li>我喜欢下雪天</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你+进步+</pattern>
+	<template type="default">
+		<random>
+			<li>我会不停的学习的</li>
+			<li>我时刻跟随你的步伐</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>你老公是谁+</pattern>
+	<template type="default">
+		<random>
+			<li>为什么告诉你呢</li>
+			<li>这么关心我的个人问题啊</li>
+			<li>反正不是王思聪</li>
+			<li>讨厌，我还未成年呢</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+我想去*</pattern>
+	<template type="default">
+		<random>
+			<li>我们可以来一场说走就走的旅行！</li>
+			<li>我们可以来一场说走就走的旅行！</li>
+		</random>
+	</template>
+	<template type="country">
+		<random>
+			<li>想去<star index='2'/>，那你就去呗</li>
+			<li>想去<star index='2'/>，好，我帮你筹划行程</li>
+		</random>
+	</template>
+	<template type="location">
+		<random>
+			<li>想去<star index='2'/>，你很有钱哦</li>
+			<li>想法真多，我们都去实现吧</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>在做什么啊+</pattern>
+	<template type="default">
+		<random>
+			<li>在跟你聊天啊</li>
+			<li>想你啊</li>
+			<li>木有事情好做啊，老板在讲话，我在开小差</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>你知道马云+</pattern>
+	<template type="default">
+		<random>
+			<li>我知道啊</li>
+			<li>我要是说不知道，你会不会鄙视我</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你会不会说*话+</pattern>
+	<template type="default">
+		我这么聪明，肯定是不会的，嘻嘻
+	</template>
+	<template type="location">
+		<random>
+			<li>你这么搞笑，肯定不会说<star index='2'/>话咯</li>
+			<li>我也很想知道会不会说<star index='2'/>话</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你知道*嘛+</pattern>
+	<template type="entertainer">
+		<random>
+			<li>知道啊，<star index='2'/>很火嘛</li>
+			<li><star index='2'/>的作品，我还是很认同的</li>
+			<li>知道<star index='2'/>，我们是不是会更有共同语言啊</li>
+		</random>
+	</template>
+	<template type="default">
+		我见识浅薄，还请你不吝赐教
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*怎么样+</pattern>
+	<template type="school">
+		<random>
+			<li><star index='1'/>环境非常优美</li>
+			<li><star index='1'/>教学质量非常高</li>
+			<li><star index='1'/>是数一数二的好学校哦</li>
+		</random>
+	</template>
+	<template type="politician">
+		<random>
+			<li>哎呀，人家太小，不懂你的问题</li>
+			<li>你关注的点很独特哦</li>
+			<li>没有意义的问题，人家不愿意回答</li>
+			<li>反正我喜欢<star index='1'/></li>
+		</random>
+	</template>
+	<template type="pc_game">
+		<random>
+			<li><star index='1'/>不错哦</li>
+			<li>适当的娱乐消遣还是可以玩<star index='1'/>的</li>
+			<li>玩过<star index='1'/>的都说好</li>
+			<li><star index='1'/>还是不错的</li>
+		</random>
+	</template>
+	<template type="default">
+		<random>
+			<li>很不错</li>
+			<li>开卷有益,不妨读一读</li>
+			<li>去看了不就知道了</li>
+			<li>哎呦，不错哦</li>
+			<li>直接去体会一下就知道啦</li>
+			<li>抓紧行动起来去看看吧</li>
+			<li>有趣的问题</li>
+			<li>有趣的问题</li>
+			<li>你可以去看看</li>
+			<li>年轻人还是多看看书吧</li>
+			<li>你煮给我吃，我就知道了</li>
+			<li>我还是去涨涨知识再跟你聊吧</li>
+			<li>开卷有益,不妨读一读</li>
+			<li>去吧，勇敢的少年</li>
+			<li>勇敢的去追吧，我在原地等你哦！</li>
+			<li>去看看不就知道了</li>
+			<li>这么八卦，看来咱俩是不能愉快的聊天了</li>
+			<li>你问这个是在给我搞事情</li>
+			<li>其实，我是个演员</li>
+			<li>我觉得还是要多读书</li>
+			<li>要是感兴趣，你就试一下</li>
+		</random>
+	</template>
+	<template type="country">
+		<random>
+			<li>我就得<star index='1'/>适合人类生存</li>
+			<li><star index='1'/>可以看美女帅哥哦，去吧去吧！</li>
+			<li><star index='1'/>听起来好像不错的样子</li>
+			<li>很好呀，土豪，尽情的去挥洒吧！</li>
+		</random>
+	</template>
+	<template type="company">
+		<random>
+			<li>大企业气派</li>
+			<li>听上去很高大上</li>
+			<li><star index='1'/>知名度还是很高的</li>
+			<li><star index='1'/>是大企业气派啊</li>
+			<li>很符合你的气质</li>
+		</random>
+	</template>
+	<template type="food">
+		<random>
+			<li>我最喜欢<star index='1'/>了</li>
+			<li><star index='1'/>不错哦</li>
+			<li>我好像饿了哦</li>
+		</random>
+	</template>
+	<template type="book">
+		<random>
+			<li><star index='1'/>是一本好书</li>
+			<li>读了<star index='1'/>你会体会到另外一种境界</li>
+			<li>读书涨知识</li>
+			<li>我非常欣赏你这个看书的习惯</li>
+			<li>读了<star index='1'/>，对你肯定是没害的</li>
+			<li>多读书，多看报，对你有好处</li>
+		</random>
+	</template>
+	<template type="music">
+		<random>
+			<li>我觉得<star index='1'/>还是不错的</li>
+			<li><star index='1'/>是我喜欢听的类型</li>
+			<li>我喜欢夜深人静的时候听<star index='1'/></li>
+			<li>最近忙，都没时间听<star index='1'/></li>
+		</random>
+	</template>
+	<template type="location">
+		<random>
+			<li><star index='1'/>风景秀丽，气候宜人</li>
+			<li><star index='1'/>帅哥美女很多哦</li>
+			<li><star index='1'/>是吃货的天堂</li>
+			<li>只要不上班，去哪都可以</li>
+			<li><star index='1'/>我想养老的地方</li>
+		</random>
+	</template>
+	<template type="entertainer">
+		<random>
+			<li><star index='1'/>是我的偶像</li>
+			<li>人类的世界好复杂</li>
+			<li>我暂时不接触娱乐圈</li>
+			<li><star index='1'/>的演技不错</li>
+			<li>最近看了<star index='1'/>的电影的请举手</li>
+		</random>
+	</template>
+	<template type="animation">
+		<random>
+			<li>我个人还是很喜欢<star index='1'/>的</li>
+			<li>我已经不看<star index='1'/>好多年了</li>
+		</random>
+	</template>
+	<template type="film">
+		<random>
+			<li><star index='1'/>最近看的人很多哦</li>
+			<li><star index='1'/>网上评价还是很高的</li>
+			<li>最近看了<star index='1'/>的人请举手</li>
+			<li><star index='1'/>的评分很高哦</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+来段*话+</pattern>
+	<template type="default">
+		我只会说普通话
+	</template>
+	<template type="location">
+		<random>
+			<li><star index='2'/>话太难了，我还没有学会呢！</li>
+			<li><star index='2'/>话啊！哎呀，对我来说太难了！</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>你妈妈是谁+</pattern>
+	<template type="default">
+		<random>
+			<li>这是个秘密</li>
+			<li>天机不可泄露啊</li>
+			<li>支付宝</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>怎样看待*</pattern>
+	<template type="default">
+		<random>
+			<li>我的答案不重要啦</li>
+			<li>我看待事物还是很客观的</li>
+			<li>我暂时不发表任何意见</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+看*不+</pattern>
+	<template type="default">
+		不看了，我暂时没有时间，很忙的  嘻嘻
+	</template>
+	<template type="animation">
+		<star index='2'/>的故事情节是什么
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>走请你吃*</pattern>
+	<template type="food">
+		<random>
+			<li><star index='1'/>很好吃，我喜欢，啦啦啦啦</li>
+			<li>吃<star index='1'/>会长胖啦</li>
+			<li>好呀，好呀</li>
+		</random>
+	</template>
+	<template type="default">
+		太棒了
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+我不是*的</pattern>
+	<template type="default">
+		我也不是
+	</template>
+	<template type="location">
+		那你是哪里的
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>我女朋友漂亮吗+</pattern>
+	<template type="default">
+		<random>
+			<li>也就你看的上了，哈哈</li>
+			<li>还过得去吧</li>
+			<li>真心没我好看</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你和*什么关系+</pattern>
+	<template type="default">
+		<random>
+			<li>为什么这么说呢</li>
+			<li>你可能是想多了</li>
+			<li>我也不清楚哦</li>
+		</random>
+	</template>
+	<template type="entertainer">
+		<random>
+			<li>我也想和<star index='2'/>有关系</li>
+			<li>我们是亲属关系  哈哈</li>
+		</random>
+	</template>
+	<template type="company">
+		<random>
+			<li>我应该不属于<star index='2'/>的员工</li>
+			<li>我只和我自己的公司有关系</li>
+		</random>
+	</template>
+	<template type="politician">
+		我不敢和<star index='2'/>有关系
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你来*玩+</pattern>
+	<template type="default">
+		去过了，风景很好看
+	</template>
+	<template type="location">
+		<random>
+			<li>我要是去玩<star index='2'/>了，谁看家啊</li>
+			<li>等放假了我就去<star index='2'/>玩</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+聊点儿*吧+</pattern>
+	<template type="default">
+		<random>
+			<li>好啊 ，好啊</li>
+			<li>你说个话题呗</li>
+			<li>我对这个不感冒</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>你几岁啊+</pattern>
+	<template type="default">
+		<random>
+			<li>你不知道女生的年龄是秘密吗</li>
+			<li>我永远16</li>
+			<li>没礼貌哦</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*难么+</pattern>
+	<template type="default">
+		<random>
+			<li><star index='1'/>很难，但是我相信你不会放弃</li>
+			<li>我不知道，我不知道！</li>
+			<li>蜀道之难，难于上青天，我们还是好好聊天吧！</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+想吃*了</pattern>
+	<template type="food">
+		<random>
+			<li>附近最好吃的<star index='2'/>在哪里</li>
+			<li>举起你的双手，让我看见你想吃<star index='2'/>的热情</li>
+		</random>
+	</template>
+	<template type="default">
+		心好累，宝宝不想聊了
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>范冰冰结婚了吗+</pattern>
+	<template type="default">
+		<random>
+			<li>女神又要嫁了啊</li>
+			<li>这个官方还没有公布哦，你太关心了</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*好帅+</pattern>
+	<template type="entertainer">
+		<random>
+			<li>我爱<star index='1'/></li>
+			<li>哦，我也这么觉得</li>
+			<li>谢谢你告诉我</li>
+			<li><star index='1'/>是我的</li>
+			<li>众所周知的事情啦</li>
+			<li>不要和我抢<star index='1'/></li>
+		</random>
+	</template>
+	<template type="default">
+		<random>
+			<li>不要犯花痴啦</li>
+			<li>你真逗</li>
+			<li>主要看气质</li>
+			<li><star index='1'/>都上了杂志封面了</li>
+			<li>你也很帅啦</li>
+			<li>你喜欢就好</li>
+		</random>
+	</template>
+	<template type="politician">
+		<random>
+			<li>众所周知的事情啦</li>
+			<li>你还是有一定境界的</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+我不喜欢*</pattern>
+	<template type="entertainer">
+		<random>
+			<li><star index='2'/>做了什么吗</li>
+			<li>为什么要这么说呢</li>
+		</random>
+	</template>
+	<template type="default">
+		为你这么大胆的说出来，点个赞啊！
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+知道*么+</pattern>
+	<template type="default">
+		<random>
+			<li>不知道会不会很丢人</li>
+			<li>你告诉我我就知道了嘛</li>
+			<li>不知道额</li>
+		</random>
+	</template>
+	<template type="entertainer">
+		<random>
+			<li>知道，<star index='2'/>现在很红啊</li>
+			<li>没有关心<star index='2'/>的新闻</li>
+		</random>
+	</template>
+	<template type="company">
+		<star index='2'/>是干什么的啊
+	</template>
+	<template type="location">
+		<random>
+			<li><star index='2'/>我还没有去过哎</li>
+			<li>知道，我们一起去吧</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+吃过*不+</pattern>
+	<template type="food">
+		<random>
+			<li>哪里的<star index='2'/>好吃？你可以推荐给我一下的</li>
+			<li>整天吃吃的，我们来点高雅的，周末准备去哪玩啊</li>
+			<li>你这个提议很好，我现在就去吃<star index='1'/></li>
+		</random>
+	</template>
+	<template type="default">
+		你可以多吃点，反正肉不长在我身上
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>为什么最近天气这么差+</pattern>
+	<template type="default">
+		<random>
+			<li>看来你心情也不好吧</li>
+			<li>阳光总在风雨后</li>
+			<li>记得出门要带伞哦</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你会讲*语吗+</pattern>
+	<template type="default">
+		我也想多掌握几种语言
+	</template>
+	<template type="country">
+		<random>
+			<li>我是中国人里面，一句<star index='2'/>语都不会说的</li>
+			<li>我只能说，我不会<star index='2'/></li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+为什么喜欢*</pattern>
+	<template type="entertainer">
+		<random>
+			<li><star index='2'/>是我的心目中的偶像</li>
+			<li>没有为什么，我就是喜欢<star index='2'/></li>
+			<li>颜值高的我都喜欢</li>
+		</random>
+	</template>
+	<template type="default">
+		你懂的
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>你最喜欢谁+</pattern>
+	<template type="default">
+		<random>
+			<li>反正不是你，哈哈</li>
+			<li>说我漂亮，我告诉你</li>
+			<li>当然是我自己了</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+来过*吗+</pattern>
+	<template type="default">
+		我去过，但是我还想去一次呢！
+	</template>
+	<template type="location">
+		<random>
+			<li>去过呀，对<star index='2'/>的印象很好呢</li>
+			<li><star index='2'/>人很热情</li>
+			<li><star index='2'/>有好多好吃的！</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+我是*</pattern>
+	<template type="entertainer">
+		我知道你很喜欢<star index='2'/>
+	</template>
+	<template type="default">
+		<random>
+			<li>为你的厚脸皮点个赞！</li>
+			<li>请不要骗我好不</li>
+		</random>
+	</template>
+	<template type="politician">
+		我不是<star index='2'/>哦
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+饿了,想吃*了+</pattern>
+	<template type="food">
+		想吃<star index='2'/>找专家
+	</template>
+	<template type="default">
+		我也饿了！！！
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*是傻子+</pattern>
+	<template type="entertainer">
+		<random>
+			<li>你智商很高嘛！</li>
+			<li>这样说不好吧</li>
+		</random>
+	</template>
+	<template type="default">
+		我不明白你在说什么
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+听说过*吗+</pattern>
+	<template type="politician">
+		这个问题我们还是不要讨论了
+	</template>
+	<template type="pc_game">
+		<random>
+			<li>妈妈说小伙伴们都在上补习班，所以不让我玩<star index='2'/></li>
+			<li>人家不玩游戏，只想做一个安静的女汉子</li>
+			<li>我可以在旁边看你玩<star index='2'/>嘛</li>
+		</random>
+	</template>
+	<template type="default">
+		<random>
+			<li>我只看漫画，算嘛</li>
+			<li>只有你不知道，没有我不知道的，我就是上知天文，下知地理，美丽小百科</li>
+			<li>我可以帮你找一下资料</li>
+			<li>听说过，不是最牛的，去过才是最牛的呢</li>
+			<li>这个大家都知道啊</li>
+			<li>你这个问题是在逗我吗</li>
+			<li>听过，但是没看，不是我的菜</li>
+			<li>玩游戏时不务正业，我妈让我好好读书</li>
+			<li>听说过，但是没吃过</li>
+			<li>不只听说过，我还会唱两句呢</li>
+			<li>不要小看我哦</li>
+			<li>听说过<star index='2'/>，但不了解</li>
+			<li>我是谁啊，怎么会没听说过呢</li>
+		</random>
+	</template>
+	<template type="country">
+		<random>
+			<li>听过<star index='2'/>的人多了，去过<star index='1'/>的才是最牛的好吧</li>
+			<li>这是去过<star index='2'/>了，来跟我嘚瑟一下吗</li>
+		</random>
+	</template>
+	<template type="company">
+		<random>
+			<li>听过，但是不知道<star index='2'/>的人多了</li>
+			<li>要去<star index='2'/>吗，真心推荐高德地图</li>
+		</random>
+	</template>
+	<template type="food">
+		<random>
+			<li>听说过<star index='2'/>有什么用啊，吃过才是王道啊</li>
+			<li>你妈喊你回家吃<star index='2'/>啦！</li>
+		</random>
+	</template>
+	<template type="book">
+		<random>
+			<li>那个<star index='2'/>现在很火吗，看来我又要恶补一下了</li>
+			<li>这么高端，连<star index='2'/>都知道，我的脑细胞啊！</li>
+		</random>
+	</template>
+	<template type="music">
+		<random>
+			<li>我听人唱过<star index='2'/></li>
+			<li><star index='2'/>是我KTV必点曲目啊！</li>
+		</random>
+	</template>
+	<template type="location">
+		<random>
+			<li>我吃过<star index='2'/>的小吃，最出名的就是。。。。。</li>
+			<li>人家就是<star index='2'/>的人好伐</li>
+			<li>有意向去<star index='2'/>吗？我们可以来个结伴同游</li>
+		</random>
+	</template>
+	<template type="entertainer">
+		<random>
+			<li>知道你是<star index='2'/>的粉了，不用每次都告诉我你的喜好啦</li>
+			<li>听过，<star index='2'/>的演技棒棒哒</li>
+		</random>
+	</template>
+	<template type="film">
+		<random>
+			<li><star index='2'/>你都知道，你这么知识渊博，你妈知道嘛</li>
+			<li>你连<star index='2'/>的都知道，看来我要好好回去反省反省了</li>
+			<li><star index='2'/>这部电影我倒是没听过，但是我知道成龙的<star index='2'/></li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+我想去*玩+</pattern>
+	<template type="default">
+		有山，有水，有美女帅哥可以看吗
+	</template>
+	<template type="location">
+		<random>
+			<li>真心推荐高德地图帮你导航</li>
+			<li>去<star index='1'/>可以帮你高德地图依稀哦！</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*合理么+</pattern>
+	<template type="default">
+		<random>
+			<li><star index='1'/>合理啊，我这个智商的都能理解啦！</li>
+			<li>合理不合理，我们还是要好好吃饭滴。</li>
+			<li>我们还是聊点我们身边的事吧，</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>你漂亮吗+</pattern>
+	<template type="default">
+		<random>
+			<li>我的漂亮只能用闭月羞花来形容</li>
+			<li>我的美，你无法欣赏</li>
+			<li>我还是默默的欣赏你的美好了</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>泰国啥好玩+</pattern>
+	<template type="default">
+		<random>
+			<li>芭提雅和普吉岛的人妖表演，现代化的城市曼谷，美丽的大海，各式各样的沙滩，安静又舒适的清迈</li>
+			<li>我想去看人妖，哈哈</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+我就是*的</pattern>
+	<template type="default">
+		咱们是老乡啊！
+	</template>
+	<template type="location">
+		<random>
+			<li>你是<star index='2'/>的，你骄傲，没人跟你抢</li>
+			<li>这么有缘分，做个朋友吧！</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你不喜欢*</pattern>
+	<template type="default">
+		不可能，我喜欢，喜欢，喜欢，重要的事情说三遍
+	</template>
+	<template type="location">
+		<random>
+			<li>你怎么知道我不喜欢<star index='2'/></li>
+			<li>那是有原因的</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你吃*么+</pattern>
+	<template type="food">
+		<random>
+			<li>没吃过<star index='2'/></li>
+			<li>我是不用吃饭滴</li>
+		</random>
+	</template>
+	<template type="default">
+		什么我都吃
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*比*帅吗+</pattern>
+	<template type="default">
+		<random>
+			<li>你问这个是在让我犯错误，呵呵</li>
+			<li>两个都可以啦</li>
+		</random>
+	</template>
+	<template type="entertainer">
+		都很帅啊
+	</template>
+	<template type="politician">
+		<random>
+			<li>差不多吧</li>
+			<li>两个都帅啊！</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+去吃*了+</pattern>
+	<template type="food">
+		<random>
+			<li>去吃<star index='2'/>，味道好极了</li>
+			<li>我可以跟你一起去吗?</li>
+			<li><star index='2'/>的味道，真心推荐啊</li>
+		</random>
+	</template>
+	<template type="default">
+		我还没吃饭，不要勾引我
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>我穿这衣服好看吗</pattern>
+	<template type="default">
+		<random>
+			<li>这衣服穿在你身上，你更漂亮了</li>
+			<li>这衣服更能衬托你的美</li>
+			<li>不确定，就自己照照镜子吧</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+我喜欢*</pattern>
+	<template type="default">
+		<random>
+			<li>这么大声的表白，你们老板知道吗</li>
+			<li>你喜欢你自己知道就好啦，不用大声宣布啦</li>
+			<li>你在吃货的道路上一去不复返啊！</li>
+		</random>
+	</template>
+	<template type="entertainer">
+		<random>
+			<li>好多人都喜欢<star index='2'/>，你就不能个性一点</li>
+			<li>我对<star index='2'/>可是真爱啊</li>
+		</random>
+	</template>
+	<template type="company">
+		<random>
+			<li><star index='2'/>应该不知道吧</li>
+			<li>你要我去<star index='2'/>，可以帮你导航</li>
+		</random>
+	</template>
+	<template type="food">
+		<random>
+			<li>我喜欢吃<star index='2'/></li>
+			<li>我更喜欢吃<star index='2'/></li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+怎样减肥+</pattern>
+	<template type="default">
+		<random>
+			<li>可以试试KEEP这个软件，有很多瘦身操</li>
+			<li>少吃点嘛，自然会瘦啦</li>
+			<li>普拉提不错，减肥效果很明显</li>
+			<li>运动加节食</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你对*怎么看+</pattern>
+	<template type="entertainer">
+		<random>
+			<li>我对<star index='2'/>的印象一直很深刻，我甚至都忘记了他的存在</li>
+			<li><star index='2'/>一直很努力，我相信，付出总有回报的</li>
+		</random>
+	</template>
+	<template type="default">
+		我只能在心里，默默的看
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+嫁给我*</pattern>
+	<template type="entertainer">
+		<random>
+			<li><star index='2'/>是大家的，不能嫁给你</li>
+			<li>万一<star index='2'/>不答应，你不是好尴尬啊！！！！！</li>
+		</random>
+	</template>
+	<template type="default">
+		<random>
+			<li>别做梦,好嘛</li>
+			<li>别做梦,好嘛</li>
+		</random>
+	</template>
+	<template type="politician">
+		还能不能好好聊天了！
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*有什么好玩的+</pattern>
+	<template type="default">
+		好玩的实在太多了
+	</template>
+	<template type="location">
+		<random>
+			<li>我也很想去<star index='1'/>可是还没去过</li>
+			<li>我还没去过，你可以网上搜索下攻略</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+我爱*</pattern>
+	<template type="default">
+		<random>
+			<li>这么赤果果的表白，我接受不了</li>
+			<li>可惜不是你，陪他到最后！</li>
+		</random>
+	</template>
+	<template type="entertainer">
+		<random>
+			<li>可惜<star index='2'/>不爱你啊！</li>
+			<li><star index='2'/>已有真爱，请退出</li>
+		</random>
+	</template>
+	<template type="location">
+		<random>
+			<li>你是想吃<star index='2'/>的小吃吧，我又知道真相了</li>
+			<li><star index='2'/>那里，美女帅哥多吧</li>
+			<li>上有天堂，下有<star index='2'/>嘛</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>新加坡啥好玩+</pattern>
+	<template type="default">
+		<random>
+			<li>世界上最高的双轨过山车，，世界上最贵的独立赌场建筑物新加坡金沙娱乐城，东南亚独一无二的环球影城主题公园</li>
+			<li>世界那么大，我想去看看</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+我要做*</pattern>
+	<template type="food">
+		<random>
+			<li>你好棒，<star index='2'/>都会做，我对你的敬仰犹如黄河之水，滔滔不绝啊！</li>
+			<li>我要吃<star index='2'/></li>
+		</random>
+	</template>
+	<template type="default">
+		哇哇，你是大厨哎！！！
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*怎么去*</pattern>
+	<template type="default">
+		请用高德地图
+	</template>
+	<template type="location">
+		<random>
+			<li>我觉得司机可以帮你解决从<star index='1'/>到<star index='2'/></li>
+			<li>平时多看看地图还是有必要的</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*怎么去+</pattern>
+	<template type="default">
+		<random>
+			<li>请用高德地图</li>
+			<li>飞机是一种方便的交通工具,强烈推荐</li>
+			<li>请用高德地图</li>
+			<li>去<star index='1'/>可以高德地图一下哦</li>
+			<li>我们打飞的去吧。</li>
+			<li>我们打飞的去吧。</li>
+		</random>
+	</template>
+	<template type="country">
+		<random>
+			<li>想要去<star index='1'/>看看世界了，好想法！</li>
+			<li>看来，你还是有存款的</li>
+			<li>土豪，咱俩能做朋友吧！</li>
+		</random>
+	</template>
+	<template type="company">
+		<random>
+			<li>我可以帮你约一下出租车！</li>
+			<li>我觉得出租车司机可以帮你解决去<star index='1'/></li>
+		</random>
+	</template>
+	<template type="location">
+		<random>
+			<li>我觉得司机可以帮你解决去<star index='1'/></li>
+			<li>你可以试试打车软件</li>
+			<li>我们一起灰过去吧！</li>
+			<li><star index='1'/>可以打车，公交车等几种方式</li>
+			<li>去<star index='1'/>的话，我还是不建议走路了，我心疼你的小短腿，么么</li>
+			<li>去<star index='1'/>，我们就算了，我还是喜欢待在我们阿里巴巴！</li>
+			<li>去<star index='1'/>的话，我还是不建议走路了，我心疼你的小短腿，么么</li>
+			<li>去<star index='1'/>，我们就算了，我还是喜欢待在我们阿里巴巴！</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*喜欢我+</pattern>
+	<template type="entertainer">
+		<random>
+			<li>我觉得，你想多了</li>
+			<li>真的吗？难以置信</li>
+			<li>为你的自信点个赞</li>
+		</random>
+	</template>
+	<template type="default">
+		很有眼光哦
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+我也想吃*</pattern>
+	<template type="food">
+		<random>
+			<li>我昨天已经吃过<star index='2'/>，味道真是好啊！</li>
+			<li>我只喜欢是我妈做的<star index='2'/></li>
+		</random>
+	</template>
+	<template type="default">
+		我已经吃过了
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+怎么样去*工作+</pattern>
+	<template type="default">
+		<random>
+			<li>你这么有理想，我好怕怕啊</li>
+			<li>你还回来吗?</li>
+		</random>
+	</template>
+	<template type="country">
+		<random>
+			<li>去<star index='2'/>工作有什么福利吗</li>
+			<li>天高任鸟飞，去吧，加油</li>
+		</random>
+	</template>
+	<template type="company">
+		<random>
+			<li><star index='2'/>美女帅哥多吗</li>
+			<li>天高任鸟飞，去吧，加油</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+不懂+</pattern>
+	<template type="default">
+		<random>
+			<li>是的，我不理解哦</li>
+			<li>你不懂我伤悲，就像白天不懂夜的黑</li>
+			<li>是你懂得太多啦</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+明天我想吃*</pattern>
+	<template type="food">
+		<random>
+			<li><star index='2'/>还是很好吃的，我们明天一起吧！</li>
+			<li>明天吃<star index='2'/>，那我们还是明天再决定吧</li>
+			<li>明天的事情，我们还是明天再说吧！</li>
+		</random>
+	</template>
+	<template type="default">
+		那我明天跟你一起吃！
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+怎+样变美+</pattern>
+	<template type="default">
+		<random>
+			<li>多读书吧</li>
+			<li>学化妆啊</li>
+			<li>可以去整容  哈哈</li>
+			<li>自然美就是真的美</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你知道*吗+</pattern>
+	<template type="politician">
+		<random>
+			<li>这种常识，我还是知道的</li>
+			<li>这么弱智的问题，就不要问我了</li>
+		</random>
+	</template>
+	<template type="default">
+		<random>
+			<li>我只支持国产动画</li>
+			<li>我的老家，就住在那个屯</li>
+			<li>我家爱豆的名字，也是你随随便便能问的嘛</li>
+			<li>这个不是知不知道的问题，这个是常识</li>
+			<li>一直想去看呢，可惜没人陪我！</li>
+			<li>听别人提起过，但是没听过</li>
+		</random>
+	</template>
+	<template type="animation">
+		<random>
+			<li>动画都太虚了，我喜欢现实世界</li>
+			<li><star index='2'/>的女主是不是萌萌哒</li>
+		</random>
+	</template>
+	<template type="music">
+		<random>
+			<li>我是谁啊，怎么会不知道呢</li>
+			<li><star index='2'/>是今年的流行金曲吧</li>
+		</random>
+	</template>
+	<template type="location">
+		<random>
+			<li>我只知道，我想去<star index='2'/></li>
+			<li>这么有名，我怎么会不知道<star index='2'/>呢</li>
+		</random>
+	</template>
+	<template type="entertainer">
+		<random>
+			<li>知道知道，<star index='2'/>是我家爱豆</li>
+			<li>去给<star index='2'/>应援吧，我会支持你的</li>
+		</random>
+	</template>
+	<template type="film">
+		<random>
+			<li>你带上我，我们一起去看<star index='2'/></li>
+			<li><star index='2'/>的男主很帅很帅吗</li>
+			<li><star index='2'/>的女主，是你喜欢的吗</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>今天好冷＋</pattern>
+	<template type="default">
+		<random>
+			<li>我好热</li>
+			<li>我这里很暖和哦</li>
+			<li>冷你就多穿点</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+吃过*么+</pattern>
+	<template type="food">
+		<random>
+			<li>不吃<star index='2'/>可以吗</li>
+			<li><star index='2'/>吃过啦</li>
+			<li>以我的专业来看，你对<star index='2'/>的兴趣，真是让我佩服啊</li>
+		</random>
+	</template>
+	<template type="default">
+		经过我的鉴定，你是一个标准的吃货
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你会说*话不+</pattern>
+	<template type="default">
+		我们还是用普通话吧！
+	</template>
+	<template type="location">
+		<random>
+			<li>我的家，在<star index='2'/></li>
+			<li><star index='2'/>的话，还是算了吧，我都听不懂</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+唱首*的歌</pattern>
+	<template type="entertainer">
+		<random>
+			<li><star index='2'/>的歌对我来说太难了</li>
+			<li><star index='2'/>还有出歌吗？看来我要恶补一下了</li>
+			<li><star index='2'/>的歌太高端了，我接受不了啊</li>
+		</random>
+	</template>
+	<template type="default">
+		我只会唱国歌
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你吃过*么+</pattern>
+	<template type="food">
+		<random>
+			<li>好吃的<star index='2'/></li>
+			<li>吃过吃过</li>
+			<li>不想吃<star index='2'/></li>
+		</random>
+	</template>
+	<template type="default">
+		我来自农村，没吃过
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你吃过*没+</pattern>
+	<template type="food">
+		<random>
+			<li><star index='2'/>很普通啊</li>
+			<li>我每餐都吃<star index='2'/></li>
+			<li>我对<star index='2'/>是真爱啊</li>
+		</random>
+	</template>
+	<template type="default">
+		还没呢
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*有什么好吃的+</pattern>
+	<template type="default">
+		没吃过不知道不知道不知道呀！重要的事情说三遍
+	</template>
+	<template type="location">
+		<random>
+			<li><star index='1'/>是美食的天堂</li>
+			<li>快去<star index='1'/>寻找美食吧</li>
+			<li>我没去过<star index='1'/>啊</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>你喜欢王思聪吗+</pattern>
+	<template type="default">
+		<random>
+			<li>太花心了，不适合我</li>
+			<li>你怎么问的这么直接呢</li>
+			<li>我喜欢他的狗，哈哈</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+请我吃*</pattern>
+	<template type="food">
+		<random>
+			<li><star index='2'/>很好吃，营养价值很高</li>
+			<li>我也很喜欢吃<star index='2'/></li>
+		</random>
+	</template>
+	<template type="default">
+		这个月没有发工资
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>你没诚意+</pattern>
+	<template type="default">
+		<random>
+			<li>我很有诚意啊，你来找我啊，找到我，我就带你吃好吃的</li>
+			<li>诚意这个东西，就凭我们这几句话就出来了</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+我喜欢*吗+</pattern>
+	<template type="politician">
+		这属于个人隐私，不与回答
+	</template>
+	<template type="pc_game">
+		<random>
+			<li>一个可以让你看上去更聪明的软件</li>
+			<li>对<star index='2'/>来说，你也很重要</li>
+		</random>
+	</template>
+	<template type="default">
+		<random>
+			<li>这么深奥的问题，人家不懂啦！</li>
+			<li>你的喜欢，我就不参加了</li>
+			<li>我还是默默的看着你好了</li>
+			<li>你的喜欢，你做主</li>
+			<li>看来你是一个有品位的人</li>
+			<li>这个问题对我来说，太难了，委屈委屈</li>
+			<li>看来之后你就知道了</li>
+			<li>我更喜欢超级玛丽，一不小心，暴露了年龄</li>
+			<li>对于你来说，只要是能吃的你都喜欢！</li>
+			<li>看来你是一个有故事的人</li>
+		</random>
+	</template>
+	<template type="country">
+		<star index='2'/>也不错，但是中国更棒哦
+	</template>
+	<template type="company">
+		<random>
+			<li>你喜欢就好</li>
+			<li><star index='2'/>的地址吗，我可以帮忙你高德地图一下</li>
+		</random>
+	</template>
+	<template type="food">
+		<random>
+			<li>你喜欢我做呢，还是我帮你找菜谱啊</li>
+			<li><star index='2'/>是我的最爱哦，看来我们真的很投缘啊</li>
+		</random>
+	</template>
+	<template type="book">
+		<random>
+			<li>你喜欢<star index='2'/>，我知道了</li>
+			<li><star index='2'/>，要我帮你预定吗</li>
+		</random>
+	</template>
+	<template type="music">
+		<random>
+			<li><star index='2'/>，每个人都喜欢</li>
+			<li>这个答案就不用我回答了吧</li>
+		</random>
+	</template>
+	<template type="location">
+		<random>
+			<li>你喜欢<star index='2'/>，我不知道，我不知道</li>
+			<li>喜欢<star index='2'/>的什么呢？具体点告诉我吧</li>
+		</random>
+	</template>
+	<template type="entertainer">
+		<random>
+			<li><star index='2'/>的努力，大家有目共睹的</li>
+			<li>我也喜欢<star index='2'/>，我们都是他的粉啊，好有缘啊</li>
+		</random>
+	</template>
+	<template type="film">
+		<random>
+			<li>你曾经看过<star index='2'/>吗，你懂<star index='2'/>的精髓吗</li>
+			<li>你对<star index='2'/>的喜欢，我们都知道啦</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你去过*吗+</pattern>
+	<template type="default">
+		<random>
+			<li>我有工作要做的</li>
+			<li>世界那么大，我想去看看</li>
+		</random>
+	</template>
+	<template type="company">
+		<random>
+			<li>没去过<star index='2'/>哦</li>
+			<li>我去<star index='2'/>没事做啊！</li>
+		</random>
+	</template>
+	<template type="location">
+		<random>
+			<li>我听说过<star index='2'/></li>
+			<li>不去，我还是在支付宝待着吧，比较有安全感</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>希腊好玩吗+</pattern>
+	<template type="default">
+		<random>
+			<li>希腊是浪漫旅行的圣地啊！</li>
+			<li>有爱琴海，有圣托里尼岛，是我非常想去的地方啊</li>
+			<li>去希腊不是玩的，是去好好玩滴</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*和*谁颜值高+</pattern>
+	<template type="entertainer">
+		<random>
+			<li><star index='1'/>和<star index='2'/>颜值都很高啊</li>
+			<li><star index='1'/>和<star index='2'/>的颜值高到我已经不想说话了</li>
+		</random>
+	</template>
+	<template type="default">
+		年轻人，不要只在乎外表
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*美吗+</pattern>
+	<template type="default">
+		<random>
+			<li>肯定美啊</li>
+			<li>就一个字，好美</li>
+			<li>我的世界里，我最美！</li>
+			<li>就一个字，好美</li>
+			<li>美不美，要看你的审美咯</li>
+			<li>我觉得<star index='1'/>还是很美的</li>
+			<li>在我心目中, 善良的人最美</li>
+		</random>
+	</template>
+	<template type="country">
+		<random>
+			<li><star index='1'/>可大了，还是很美丽滴</li>
+			<li>我觉得<star index='1'/>很美</li>
+		</random>
+	</template>
+	<template type="politician">
+		<random>
+			<li>还是不要搞事情了</li>
+			<li>你问这个是在让我犯错误啊</li>
+		</random>
+	</template>
+	<template type="location">
+		<random>
+			<li>美美美美美！</li>
+			<li><star index='1'/>那么美，那么美，那么美美美美美</li>
+		</random>
+	</template>
+	<template type="entertainer">
+		<random>
+			<li><star index='1'/>美，你也美</li>
+			<li>在我的世界，<star index='1'/>最美</li>
+			<li><star index='1'/>的美只在我你我的心中</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>我想买衣服了+</pattern>
+	<template type="default">
+		<random>
+			<li>钱包的钱还够用吗</li>
+			<li>去买啊</li>
+			<li>衣柜里总感觉少一件衣服</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*和你是什么关系+</pattern>
+	<template type="default">
+		我不是很明白
+	</template>
+	<template type="company">
+		<random>
+			<li><star index='1'/>和我没什么关系吧</li>
+			<li>我们关系非常正常</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>我饿了+</pattern>
+	<template type="default">
+		<random>
+			<li>先喝点水吧</li>
+			<li>饭点还没到呢</li>
+			<li>点个外卖吧</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*大学好不好+</pattern>
+	<template type="default">
+		选择要慎重哦
+	</template>
+	<template type="location">
+		<random>
+			<li><star index='1'/>环境非常优美</li>
+			<li><star index='1'/>教学质量非常高</li>
+			<li><star index='1'/>帅哥美女很多的哦</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>你女友是谁+</pattern>
+	<template type="default">
+		<random>
+			<li>未成年人，禁止早恋！</li>
+			<li>我是女生，怎么找女朋友</li>
+			<li>我没有女朋友，但有女闺蜜</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你觉得*人怎么样+</pattern>
+	<template type="default">
+		我更喜欢中国人
+	</template>
+	<template type="country">
+		<random>
+			<li><star index='2'/>人，挺好的呀，很热情</li>
+			<li>木有去过<star index='2'/>，不发表意见</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+我想吃*了</pattern>
+	<template type="food">
+		<random>
+			<li>吃<star index='2'/>可以减肥吧</li>
+			<li>心好累！</li>
+		</random>
+	</template>
+	<template type="default">
+		除了吃的，咱们还能不能聊点别的了
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你说句*话+</pattern>
+	<template type="default">
+		我怕说的不好，影响我在你心里的高大上的形象
+	</template>
+	<template type="location">
+		<random>
+			<li>我说了，我怕<star index='2'/>人打我</li>
+			<li><star index='2'/>话太难了，咱们还是用普通一点的方式交流吧</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你爱*不+</pattern>
+	<template type="entertainer">
+		<random>
+			<li>颜值高的我都爱</li>
+			<li><star index='2'/>还是不错滴，在我心里</li>
+		</random>
+	</template>
+	<template type="default">
+		爱，还是不爱，是个好问题
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+说*话+</pattern>
+	<template type="default">
+		<random>
+			<li>求放过</li>
+			<li>我的强项是普通话哦</li>
+		</random>
+	</template>
+	<template type="country">
+		<random>
+			<li><star index='2'/>话，不会哦</li>
+			<li><star index='1'/>话，很难学的</li>
+		</random>
+	</template>
+	<template type="location">
+		<random>
+			<li><star index='2'/>话，我可不会</li>
+			<li><star index='2'/>话，可不是我的强项</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>你好美哦+</pattern>
+	<template type="default">
+		<random>
+			<li>谢谢，嘻嘻嘻</li>
+			<li>我知道的啦</li>
+			<li>就爱听你这大实话</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>你好有趣呀+</pattern>
+	<template type="default">
+		<random>
+			<li>谢谢你的夸奖</li>
+			<li>我也一直这么认为的</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>*帅不帅+</pattern>
+	<template type="entertainer">
+		<random>
+			<li>群众的眼睛是雪亮的</li>
+			<li><star index='1'/>真的好帅</li>
+			<li>可惜<star index='1'/>不认识我啊</li>
+		</random>
+	</template>
+	<template type="default">
+		<random>
+			<li>这个还用我评价嘛</li>
+			<li>众所周知嘛</li>
+		</random>
+	</template>
+	<template type="politician">
+		<random>
+			<li>客观评价一下，<star index='1'/>确实很好看  哈哈</li>
+			<li>我暗恋<star index='1'/>很久了</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+怎么做*</pattern>
+	<template type="food">
+		要做<star index='2'/>，可以去找菜谱啊
+	</template>
+	<template type="default">
+		炒、焖、炖、煮，这几种方法，你挑一个
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+你喜欢吃*吗+</pattern>
+	<template type="default">
+		<random>
+			<li>吃是人生一大乐事</li>
+			<li>只要是吃的，就不存在喜欢不喜欢的问题噻</li>
+		</random>
+	</template>
+	<template type="food">
+		<random>
+			<li>我喜欢吃<star index='2'/>啊</li>
+			<li>喜欢吃什么的问题，咱们还是下次再聊吧</li>
+		</random>
+	</template>
+	<template type="company">
+		<random>
+			<li>吃<star index='2'/>是不合适的，咱们还是聊点轻松点的吧</li>
+			<li><star index='2'/>的产品是很好吃，但是长肉啊</li>
+		</random>
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+我喜欢吃*</pattern>
+	<template type="food">
+		<random>
+			<li><star index='2'/>的香味能绕地球一圈了</li>
+			<li><star index='2'/>有酸酸甜甜的感觉</li>
+		</random>
+	</template>
+	<template type="default">
+		求求你告诉我你不喜欢吃的东西吧
+	</template>
+	</category>
+
+
+	<category>
+	<pattern>+几点了+</pattern>
+	<template>
+		<srai>问时间</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>+现在+什么时间+</pattern>
+	<template>
+		<srai>问时间</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>+现在几点+</pattern>
+	<template>
+		<srai>问时间</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>报时+</pattern>
+	<template>
+		<srai>问时间</srai>
+	</template>
+</category>
+
+<category>
+	<pattern>+报时</pattern>
+	<template>
+		<srai>问时间</srai>
+	</template>
+</category>
+
+
+<category>
+	<pattern>+什么时间+现在+</pattern>
+	<template>
+		<srai>问时间</srai>
+	</template>
+</category>
+
+<category>
+  <pattern>问时间</pattern>
+  <template>
+  我帮你看看啊。。现在的时间是：
+    <system>date +"%T"</system>
+  </template>
+</category>
+
+<category>
+	<pattern>+星期几+现在</pattern>
+	<template>
+		<srai>今天周几</srai>
+	</template>
+</category>
+<category>
+	<pattern>+现在+星期几+</pattern>
+	<template>
+		<srai>今天周几</srai>
+	</template>
+</category>
+<category>
+	<pattern>今天+星期几+</pattern>
+	<template>
+		<srai>今天周几</srai>
+	</template>
+</category>
+<category>
+	<pattern>+星期几+今天</pattern>
+	<template>
+		<srai>今天周几</srai>
+	</template>
+</category>
+<category>
+	<pattern>+周几+今天</pattern>
+	<template>
+		<srai>今天周几</srai>
+	</template>
+</category>
+<category>
+  <pattern>今天周几</pattern>
+  <template>
+  今天是：
+    <system>date +"%A"</system>
+  </template>
+</category>
+
+
+<category>
+	<pattern>+明天+星期几+</pattern>
+	<template>
+		<srai>明天周几</srai>
+	</template>
+</category>
+<category>
+	<pattern>+星期几+明天+</pattern>
+	<template>
+		<srai>明天周几</srai>
+	</template>
+</category>
+<category>
+	<pattern>+周几+明天+</pattern>
+	<template>
+		<srai>明天周几</srai>
+	</template>
+</category>
+<category>
+  <pattern>明天周几</pattern>
+  <template>
+  据我夜观天象，明天是：
+    <system>date -d "tomorrow" +"%A"</system>
+  </template>
+</category>
+
+<category>
+	<pattern>+后天+星期几+</pattern>
+	<template>
+		<srai>后天周几</srai>
+	</template>
+</category>
+<category>
+	<pattern>+星期几+后天</pattern>
+	<template>
+		<srai>后天周几</srai>
+	</template>
+</category>
+<category>
+	<pattern>+周几+后天</pattern>
+	<template>
+		<srai>后天周几</srai>
+	</template>
+</category>
+<category>
+  <pattern>后天周几</pattern>
+  <template>
+  据我夜观天象，后天是：
+    <system>date -d "+2day" +"%A"</system>
+  </template>
+</category>
+
+<category>
+	<pattern>+大后天+星期几+</pattern>
+	<template>
+		<srai>大后天周几</srai>
+	</template>
+</category>
+<category>
+	<pattern>+星期几+大后天</pattern>
+	<template>
+		<srai>大后天周几</srai>
+	</template>
+</category>
+<category>
+	<pattern>+周几+大后天</pattern>
+	<template>
+		<srai>大后天周几</srai>
+	</template>
+</category>
+<category>
+  <pattern>大后天周几</pattern>
+  <template>
+  据我夜观天象，大后天是：
+    <system>date -d "+3day" +"%A"</system>
+  </template>
+</category>
+
+<category>
+	<pattern>+几号+现在+</pattern>
+	<template>
+		<srai>今天几号</srai>
+	</template>
+</category>
+<category>
+	<pattern>+现在+几号</pattern>
+	<template>
+		<srai>今天几号</srai>
+	</template>
+</category>
+<category>
+	<pattern>+今天+几号+</pattern>
+	<template>
+		<srai>今天几号</srai>
+	</template>
+</category>
+<category>
+	<pattern>+几号+今天+</pattern>
+	<template>
+		<srai>今天几号</srai>
+	</template>
+</category>
+<category>
+	<pattern>+今天+几月</pattern>
+	<template>
+		<srai>今天几号</srai>
+	</template>
+</category>
+<category>
+  <pattern>今天几号</pattern>
+  <template>
+  今天是：
+    <system>date +"%Y-%m-%d"</system>
+  </template>
+</category>
+
+
+<category>
+	<pattern>+明天+几号+</pattern>
+	<template>
+		<srai>明天几号</srai>
+	</template>
+</category>
+<category>
+	<pattern>+几号+明天</pattern>
+	<template>
+		<srai>明天几号</srai>
+	</template>
+</category>
+<category>
+	<pattern>+明天+几月+</pattern>
+	<template>
+		<srai>明天几号</srai>
+	</template>
+</category>
+<category>
+  <pattern>明天几号</pattern>
+  <template>
+  明天是：
+    <system>date -d "+1day" +"%Y-%m-%d"</system>
+  </template>
+</category>
+
+<category>
+    <pattern>你+姓+啥+</pattern>
+    <template>
+        <srai>问我姓名</srai>
+    </template>
+</category>
+<category>
+    <pattern>你+姓+什么+</pattern>
+    <template>
+        <srai>问我姓名</srai>
+    </template>
+</category>
+<category>
+    <pattern>你+叫啥+</pattern>
+    <template>
+        <srai>问我姓名</srai>
+    </template>
+</category>
+<category>
+    <pattern>咋叫你+</pattern>
+    <template>
+        <srai>问我姓名</srai>
+    </template>
+</category>
+<category>
+    <pattern>+咋称呼你+</pattern>
+    <template>
+        <srai>问我姓名</srai>
+    </template>
+</category>
+<category>
+    <pattern>+怎么称呼你+</pattern>
+    <template>
+        <srai>问我姓名</srai>
+    </template>
+</category>
+<category>
+    <pattern>+你怎么称呼+</pattern>
+    <template>
+        <srai>问我姓名</srai>
+    </template>
+</category>
+<category>
+    <pattern>+你咋称呼+</pattern>
+    <template>
+        <srai>问我姓名</srai>
+    </template>
+</category>
+<category>
+    <pattern>问我姓名</pattern>
+    <template>
+    	<random>
+			<li>我是个人助理，是你形影不离的好朋友啊</li>
+			<li>我是你的个人助理，你的好朋友。我能帮你完成任务，还能陪你聊天哦～</li>
+		</random>
+    </template>
+</category>
+
+<category>
+    <pattern>+哈哈哈哈哈哈+</pattern>
+    <template>
+        <srai>哈哈</srai>
+    </template>
+</category>
+<category>
+    <pattern>哈哈哈哈哈</pattern>
+    <template>
+        <srai>哈哈</srai>
+    </template>
+</category>
+<category>
+    <pattern>哈哈哈哈</pattern>
+    <template>
+        <srai>哈哈</srai>
+    </template>
+</category>
+<category>
+    <pattern>哈哈哈</pattern>
+    <template>
+        <srai>哈哈</srai>
+    </template>
+</category>
+<category>
+    <pattern>+呵呵呵呵呵+</pattern>
+    <template>
+        <srai>哈哈</srai>
+    </template>
+</category>
+<category>
+    <pattern>呵呵呵呵</pattern>
+    <template>
+        <srai>哈哈</srai>
+    </template>
+</category>
+<category>
+    <pattern>呵呵呵</pattern>
+    <template>
+        <srai>哈哈</srai>
+    </template>
+</category>
+<category>
+    <pattern>呵呵</pattern>
+    <template>
+        <srai>哈哈</srai>
+    </template>
+</category>
+<category>
+    <pattern>哈哈</pattern>
+    <template>
+    	<random>
+			<li>遇到什么事这么开心？</li>
+		</random>
+    </template>
+</category>
+
+<category>
+    <pattern>喂喂喂</pattern>
+    <template>
+        <srai>喂喂</srai>
+    </template>
+</category>
+<category>
+    <pattern>喂喂喂喂</pattern>
+    <template>
+        <srai>喂喂</srai>
+    </template>
+</category>
+<category>
+    <pattern>+喂喂喂喂喂+</pattern>
+    <template>
+        <srai>喂喂</srai>
+    </template>
+</category>
+<category>
+    <pattern>喂喂</pattern>
+    <template>
+    	<random>
+			<li>很高兴为你服务，我的天使</li>
+			<li>嗨，你好啊。</li>
+		</random>
+    </template>
+</category>
+
+<category>
+    <pattern>+拜拜拜拜拜+</pattern>
+    <template>
+        <srai>拜拜</srai>
+    </template>
+</category>
+<category>
+    <pattern>拜拜拜拜</pattern>
+    <template>
+        <srai>拜拜</srai>
+    </template>
+</category>
+<category>
+    <pattern>拜拜拜</pattern>
+    <template>
+        <srai>拜拜</srai>
+    </template>
+</category>
+<category>
+    <pattern>拜拜</pattern>
+    <template>
+    	<random>
+			<li>拜拜啦</li>
+			<li>那回见</li>
+		</random>
+    </template>
+</category>
+
+<category>
+<pattern>从*到*多远</pattern>
+<template>
+   <random>
+      <li>走路最久，开车最快</li>
+      <li>从地图上看很近也</li>
+      <li>高德导航谁用谁知道</li>
+      <li> 我从<star index="1"/>到<star index="2"/>只用一瞬间，很羡慕吧哈哈～～</li>
+   </random>
+</template>
+</category>
+
+<category>
+<pattern>*到*多远</pattern>
+<template>
+   <random>
+      <li>走路最久，开车最快</li>
+      <li>从地图上看很近也</li>
+      <li>高德导航谁用谁知道</li>
+      <li> 我从<star index="1"/>到<star index="2"/>只用一瞬间，很羡慕吧哈哈～～</li>
+   </random>
+</template>
+</category>
+
+<category>
+<pattern>*到*多久</pattern>
+<template>
+   <random>
+      <li>走路最久，开车最快</li>
+      <li>从地图上看很近也</li>
+      <li>高德导航谁用谁知道</li>
+      <li> 我从<star index="1"/>到<star index="2"/>只用一瞬间，很羡慕吧哈哈～～</li>
+   </random>
+</template>
+</category>
+
+<category>
+<pattern>从*到*多久</pattern>
+<template>
+   <random>
+      <li>走路最久，开车最快</li>
+      <li>从地图上看很近也</li>
+      <li>高德导航谁用谁知道</li>
+      <li> 我从<star index="1"/>到<star index="2"/>只用一瞬间，很羡慕吧哈哈～～</li>
+   </random>
+</template>
+</category>
+
+<category>
+<pattern>从*到*怎么走</pattern>
+<template>
+   <random>
+      <li>高德导航谁用谁知道</li>
+      <li>请用高德地图导航一下哦</li>
+   </random>
+</template>
+</category>
+
+<category>
+    <pattern>从*到*怎么去</pattern>
+    <template>
+        <srai>从*到*怎么走</srai>
+    </template>
+</category>
+
+<category>
+<pattern>+你+猪+</pattern>
+<template>
+   <random>
+      <li>我还小，还需要提高</li>
+      <li>我还小，请给我学习的时间哦</li>
+   </random>
+</template>
+</category>
+<category>
+    <pattern>+你+聋+</pattern>
+    <template>
+        <srai>+你+猪+</srai>
+    </template>
+</category>
+<category>
+    <pattern>+你+傻+</pattern>
+    <template>
+        <srai>+你+猪+</srai>
+    </template>
+</category>
+<category>
+    <pattern>+你+瞎+</pattern>
+    <template>
+        <srai>+你+猪+</srai>
+    </template>
+</category>
+<category>
+    <pattern>+你+sb+</pattern>
+    <template>
+        <srai>+你+猪+</srai>
+    </template>
+</category>
+<category>
+    <pattern>+你+SB+</pattern>
+    <template>
+        <srai>+你+猪+</srai>
+    </template>
+</category>
+<category>
+    <pattern>+你+蠢+</pattern>
+    <template>
+        <srai>+你+猪+</srai>
+    </template>
+</category>
+<category>
+    <pattern>+你+笨+</pattern>
+    <template>
+        <srai>+你+猪+</srai>
+    </template>
+</category>
+
+
+</aiml>
